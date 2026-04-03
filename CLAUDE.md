@@ -33,3 +33,16 @@ Freemium — free limited access / 9.99 EUR one-shot full access (Stripe)
 - [ ] Phase 3: Auth + user profile
 - [ ] Phase 4: Stripe monetization
 - [ ] Phase 5: Polish + tests + prod
+
+## Development best practices
+- Validate and handle all error states (loading, empty, error)
+- No magic numbers — use named constants
+- Custom hooks must clean up effects (clearTimeout, clearInterval)
+- Never use `any` — prefer `unknown` with type guards
+- Keep components under 150 lines — split if larger
+
+## Testing (Phase 5)
+- Unit tests: Vitest for utils (calculateScore, shuffleArray, buildExamSession)
+- Component tests: React Testing Library for QuestionCard, ScoreBoard, Timer
+- E2E: Playwright for critical paths (exam flow, auth, payment)
+- Coverage target: 80% on lib/utils
