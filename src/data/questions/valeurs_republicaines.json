@@ -1,0 +1,39 @@
+[
+  {
+    "id": "vr_001",
+    "theme": "valeurs_republicaines",
+    "question": "Quelle est la devise de la République française ?",
+    "options": [
+      "Liberté, Égalité, Fraternité",
+      "Unité, Justice, Paix",
+      "Travail, Famille, Patrie",
+      "Liberté, Justice, Solidarité"
+    ],
+    "correct_index": 0,
+    "explanation": "La devise 'Liberté, Égalité, Fraternité' est inscrite dans la Constitution de 1958.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vr_002",
+    "theme": "valeurs_republicaines",
+    "question": "Quel principe fondamental garantit la séparation de l'Église et de l'État en France ?",
+    "options": [
+      "Le fédéralisme",
+      "La laïcité",
+      "Le républicanisme",
+      "L'égalitarisme"
+    ],
+    "correct_index": 1,
+    "explanation": "La laïcité, consacrée par la loi de 1905, garantit la séparation des Églises et de l'État.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vr_003",
+    "theme": "valeurs_republicaines",
+    "question": "En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?",
+    "options": ["1789", "1792", "1804", "1848"],
+    "correct_index": 0,
+    "explanation": "La DDHC a été adoptée le 26 août 1789 par l'Assemblée nationale constituante.",
+    "difficulty": "medium"
+  }
+]
