@@ -1,12 +1,18 @@
-export default function ExamSessionPage({
-  params,
-}: {
-  params: { sessionId: string };
-}) {
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+export default function ExamSessionPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/dashboard");
+  }, [router]);
+
   return (
-    <main className="flex flex-1 flex-col items-center justify-center px-6">
-      <h1 className="text-3xl font-bold">Session d&apos;examen</h1>
-      <p className="mt-2 text-foreground/70">Session : {params.sessionId}</p>
+    <main className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
+      <p className="text-sm text-muted">Redirection...</p>
     </main>
   );
 }

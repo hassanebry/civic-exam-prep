@@ -30,10 +30,8 @@ export default function ExamPage() {
   if (isLoading || profileLoading) {
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-zinc-200 border-t-foreground" />
-        <p className="text-sm text-foreground/60">
-          Chargement des questions...
-        </p>
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-border border-t-primary" />
+        <p className="text-sm text-muted">Chargement des questions...</p>
       </main>
     );
   }
@@ -62,12 +60,12 @@ export default function ExamPage() {
             onTimeUp={finishExam}
           />
           <div className="flex flex-1 flex-col items-end gap-1">
-            <span className="text-xs text-foreground/60">
+            <span className="text-xs text-muted">
               {currentIndex + 1} / {questions.length}
             </span>
-            <div className="h-2 w-full max-w-xs overflow-hidden rounded-full bg-zinc-200">
+            <div className="h-2 w-full max-w-xs overflow-hidden rounded-full bg-border">
               <div
-                className="h-full rounded-full bg-foreground transition-all duration-300"
+                className="h-full rounded-full bg-primary transition-all duration-300"
                 style={{ width: `${progress}%` }}
               />
             </div>
@@ -94,14 +92,14 @@ export default function ExamPage() {
             type="button"
             onClick={previousQuestion}
             disabled={currentIndex === 0}
-            className="inline-flex h-10 items-center justify-center rounded-lg border border-zinc-200 px-4 text-sm font-medium transition-colors hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-40"
+            className="inline-flex h-10 items-center justify-center rounded-lg border border-border px-4 text-sm font-medium text-foreground transition-colors hover:bg-card disabled:cursor-not-allowed disabled:opacity-40"
           >
             Question précédente
           </button>
           <button
             type="button"
             onClick={finishExam}
-            className="inline-flex h-10 items-center justify-center rounded-lg bg-red-600 px-4 text-sm font-medium text-white transition-colors hover:bg-red-700"
+            className="inline-flex h-10 items-center justify-center rounded-lg bg-accent px-4 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
             Terminer l&apos;examen
           </button>

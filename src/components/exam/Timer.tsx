@@ -34,8 +34,10 @@ export function Timer({ durationSeconds, onTimeUp }: TimerProps) {
 
   return (
     <div
-      className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-lg font-mono font-bold tabular-nums ${
-        isUrgent ? "bg-red-50 text-red-600" : "bg-zinc-100 text-zinc-900"
+      className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2 font-mono text-lg font-bold tabular-nums ${
+        isUrgent
+          ? "border-accent bg-[#FFF5F5] text-accent"
+          : "border-border bg-card text-foreground"
       }`}
     >
       <svg

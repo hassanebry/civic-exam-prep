@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 interface ScoreBoardProps {
   score: number;
   totalQuestions: number;
@@ -21,54 +23,77 @@ export function ScoreBoard({
 
   return (
     <div className="mx-auto flex w-full max-w-md flex-col items-center gap-6 text-center">
-      <div
-        className={`flex h-32 w-32 items-center justify-center rounded-full text-4xl font-bold ${
-          passed
-            ? "bg-green-100 text-green-700"
-            : "bg-red-100 text-red-700"
-        }`}
-      >
-        {score}%
+      {/* Score circle */}
+      <div className="relative flex h-36 w-36 items-center justify-center rounded-full border-4 border-border bg-card shadow-[var(--shadow-sm)]">
+        <span
+          className={`font-serif text-5xl ${
+            passed ? "text-success" : "text-accent"
+          }`}
+        >
+          {score}
+        </span>
+        <span
+          className={`absolute -bottom-0.5 text-lg font-medium ${
+            passed ? "text-success" : "text-accent"
+          }`}
+        >
+          %
+        </span>
       </div>
 
-      <h2
-        className={`text-2xl font-bold ${
-          passed ? "text-green-700" : "text-red-700"
+      {/* Pass / fail badge */}
+      <span
+        className={`rounded-full px-4 py-1 text-sm font-bold tracking-wide ${
+          passed
+            ? "bg-[#E8F5EE] text-success"
+            : "bg-[#FFF5F5] text-accent"
         }`}
       >
-        {passed ? "Félicitations, vous avez réussi !" : "Dommage, essayez encore"}
+        {passed ? "REÇU" : "NON REÇU"}
+      </span>
+
+      <h2 className="font-serif text-xl text-foreground">
+        {passed
+          ? "Félicitations, vous avez réussi !"
+          : "Dommage, essayez encore"}
       </h2>
 
-      <p className="text-foreground/60">
+      <p className="text-sm text-muted">
         Seuil de réussite : {PASS_THRESHOLD}%
       </p>
 
-      <div className="w-full rounded-lg border border-zinc-200 p-4">
-        <dl className="flex flex-col gap-3 text-sm">
-          <div className="flex justify-between">
-            <dt className="text-foreground/60">Thème</dt>
-            <dd className="font-medium">{theme}</dd>
-          </div>
-          <div className="flex justify-between">
-            <dt className="text-foreground/60">Bonnes réponses</dt>
-            <dd className="font-medium">
-              {correctAnswers} / {totalQuestions}
-            </dd>
-          </div>
-          <div className="flex justify-between">
-            <dt className="text-foreground/60">Score</dt>
-            <dd className="font-medium">{score}%</dd>
-          </div>
-        </dl>
+      {/* Stats row */}
+      <div className="grid w-full grid-cols-3 gap-3">
+        <div className="rounded-xl border border-border bg-card p-3">
+          <p className="font-serif text-lg text-foreground">{totalQuestions}</p>
+          <p className="text-xs text-muted">Questions</p>
+        </div>
+        <div className="rounded-xl border border-border bg-card p-3">
+          <p className="font-serif text-lg text-foreground">{correctAnswers}</p>
+          <p className="text-xs text-muted">Bonnes réponses</p>
+        </div>
+        <div className="rounded-xl border border-border bg-card p-3">
+          <p className="font-serif text-lg text-foreground">{theme}</p>
+          <p className="text-xs text-muted">Thème</p>
+        </div>
       </div>
 
-      <button
-        type="button"
-        onClick={onRestart}
-        className="inline-flex h-12 items-center justify-center rounded-full bg-foreground px-8 font-medium text-background transition-colors hover:bg-foreground/90"
-      >
-        Recommencer
-      </button>
+      {/* Actions */}
+      <div className="flex flex-col gap-3 w-full">
+        <button
+          type="button"
+          onClick={onRestart}
+          className="inline-flex h-12 w-full items-center justify-center rounded-lg bg-primary font-medium text-white transition-opacity hover:opacity-90"
+        >
+          Recommencer
+        </button>
+        <Link
+          href="/dashboard"
+          className="inline-flex h-10 w-full items-center justify-center rounded-lg border border-border text-sm font-medium text-muted transition-colors hover:text-foreground"
+        >
+          Retour au tableau de bord
+        </Link>
+      </div>
     </div>
   );
 }
