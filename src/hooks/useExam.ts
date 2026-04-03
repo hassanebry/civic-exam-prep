@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import type { Question, Theme } from "@/types";
 import {
   getAllQuestions,
@@ -42,6 +43,7 @@ interface UseExamReturn {
 }
 
 export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamReturn {
+  const router = useRouter();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -168,7 +170,12 @@ export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamRe
         updateUserProgress(user.id, t, correct, total),
       ),
     );
-  }, [questions, answers, mode, theme]);
+
+    // Redirect to results page if session was saved
+    if (id) {
+      router.push(`/results/${id}`);
+    }
+  }, [questions, answers, mode, theme, router]);
 
   const restartExam = useCallback(() => {
     if (autoAdvanceTimer.current) {
