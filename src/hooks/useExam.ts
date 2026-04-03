@@ -20,6 +20,7 @@ const AUTO_ADVANCE_DELAY_MS = 1000;
 interface UseExamParams {
   mode: "thematic" | "blanc" | "review";
   theme?: Theme;
+  maxQuestions?: number;
 }
 
 interface UseExamReturn {
@@ -40,7 +41,7 @@ interface UseExamReturn {
   restartExam: () => void;
 }
 
-export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
+export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamReturn {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,15 +63,19 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
           : await getAllQuestions();
 
       const shuffled = shuffleArray(raw);
-      const selected =
+      let selected =
         mode === "blanc" ? shuffled.slice(0, BLANC_QUESTION_COUNT) : shuffled;
+
+      if (maxQuestions !== undefined && selected.length > maxQuestions) {
+        selected = selected.slice(0, maxQuestions);
+      }
 
       setQuestions(selected);
       setAnswers(new Array<number | null>(selected.length).fill(null));
     } finally {
       setIsLoading(false);
     }
-  }, [mode, theme]);
+  }, [mode, theme, maxQuestions]);
 
   useEffect(() => {
     loadQuestions();

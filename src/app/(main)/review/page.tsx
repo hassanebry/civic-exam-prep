@@ -4,8 +4,10 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useExam } from "@/hooks/useExam";
+import { useProfile } from "@/hooks/useProfile";
 import { QuestionCard } from "@/components/exam/QuestionCard";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
+import { FREE_QUESTIONS_LIMIT } from "@/lib/utils/questions";
 import type { Theme } from "@/types";
 
 const THEME_LABELS: Record<Theme, string> = {
@@ -41,6 +43,7 @@ function LoadingFallback() {
 function ReviewContent() {
   const searchParams = useSearchParams();
   const theme = parseTheme(searchParams.get("theme"));
+  const { isPremium } = useProfile();
 
   const {
     questions,
@@ -55,7 +58,11 @@ function ReviewContent() {
     nextQuestion,
     previousQuestion,
     restartExam,
-  } = useExam({ mode: "review", theme });
+  } = useExam({
+    mode: "review",
+    theme,
+    maxQuestions: isPremium ? undefined : FREE_QUESTIONS_LIMIT,
+  });
 
   const isLastQuestion = currentIndex === questions.length - 1;
   const allAnswered = isLastQuestion && answers[currentIndex] !== null;

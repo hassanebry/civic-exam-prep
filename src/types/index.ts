@@ -34,3 +34,10 @@ export interface UserProgress {
     correct_answers: number;
     last_attempt: Date;
 }
+
+export interface UserProfile {
+    id: string;
+    is_premium: boolean;
+    stripe_customer_id: string | null;
+    purchased_at: Date | null;
+}

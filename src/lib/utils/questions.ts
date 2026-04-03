@@ -35,3 +35,10 @@ export function calculateScore(questions: Question[], answers: (number | null)[]
   const correct = questions.filter((q, i) => answers[i] === q.correct_index).length;
   return Math.round((correct / questions.length) * 100);
 }
+
+export const FREE_QUESTIONS_LIMIT = 10;
+
+export function applyFreeLimit(questions: Question[], isPremium: boolean): Question[] {
+  if (isPremium) return questions;
+  return questions.slice(0, FREE_QUESTIONS_LIMIT);
+}
