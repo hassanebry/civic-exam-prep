@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "Bash(npm init:*)",
+      "Bash(1:*)",
+      "Bash(npx playwright:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

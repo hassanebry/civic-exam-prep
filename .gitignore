@@ -46,3 +46,10 @@ node_modules/
 .next/
 .DS_Store
 ecc/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
