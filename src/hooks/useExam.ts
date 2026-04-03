@@ -8,6 +8,11 @@ import {
   shuffleArray,
   calculateScore,
 } from "@/lib/utils/questions";
+import { supabase } from "@/lib/supabase/client";
+import {
+  saveExamSession,
+  updateUserProgress,
+} from "@/lib/supabase/sessions";
 
 const BLANC_QUESTION_COUNT = 40;
 const AUTO_ADVANCE_DELAY_MS = 1000;
@@ -27,6 +32,7 @@ interface UseExamReturn {
   score: number;
   correctAnswers: number;
   progress: number;
+  sessionId: string | null;
   answerQuestion: (index: number) => void;
   nextQuestion: () => void;
   previousQuestion: () => void;
@@ -40,6 +46,7 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [sessionId, setSessionId] = useState<string | null>(null);
 
   const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -115,17 +122,54 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
     setCurrentIndex((prev) => Math.max(prev - 1, 0));
   }, []);
 
-  const finishExam = useCallback(() => {
+  const finishExam = useCallback(async () => {
     if (autoAdvanceTimer.current) {
       clearTimeout(autoAdvanceTimer.current);
     }
     setIsFinished(true);
-  }, []);
+
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user || questions.length === 0) return;
+
+    const finalScore = calculateScore(questions, answers);
+    const finalCorrect = questions.filter(
+      (q, i) => answers[i] === q.correct_index,
+    ).length;
+
+    const id = await saveExamSession({
+      userId: user.id,
+      mode,
+      theme,
+      score: finalScore,
+      totalQuestions: questions.length,
+      correctAnswers: finalCorrect,
+      answers,
+    });
+
+    if (id) setSessionId(id);
+
+    // Update progress per theme
+    const byTheme = new Map<string, { correct: number; total: number }>();
+    for (let i = 0; i < questions.length; i++) {
+      const t = questions[i].theme;
+      const entry = byTheme.get(t) ?? { correct: 0, total: 0 };
+      entry.total += 1;
+      if (answers[i] === questions[i].correct_index) entry.correct += 1;
+      byTheme.set(t, entry);
+    }
+
+    await Promise.all(
+      Array.from(byTheme.entries()).map(([t, { correct, total }]) =>
+        updateUserProgress(user.id, t, correct, total),
+      ),
+    );
+  }, [questions, answers, mode, theme]);
 
   const restartExam = useCallback(() => {
     if (autoAdvanceTimer.current) {
       clearTimeout(autoAdvanceTimer.current);
     }
+    setSessionId(null);
     loadQuestions();
   }, [loadQuestions]);
 
@@ -156,6 +200,7 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
     score,
     correctAnswers,
     progress,
+    sessionId,
     answerQuestion,
     nextQuestion,
     previousQuestion,
