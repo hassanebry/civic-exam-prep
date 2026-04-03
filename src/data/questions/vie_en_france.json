@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vf_001",
+    "theme": "vie_en_france",
+    "question": "Comment s'appelle le système de protection sociale en France ?",
+    "options": [
+      "La Caisse d'épargne",
+      "La Sécurité sociale",
+      "La Banque de France",
+      "Le Trésor public"
+    ],
+    "correct_index": 1,
+    "explanation": "La Sécurité sociale, créée en 1945, couvre les risques maladie, vieillesse, famille et accidents du travail.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vf_002",
+    "theme": "vie_en_france",
+    "question": "Quel est l'ordre des étapes du système éducatif français ?",
+    "options": [
+      "Collège, école primaire, lycée, université",
+      "École primaire, lycée, collège, université",
+      "École maternelle, école élémentaire, collège, lycée",
+      "École élémentaire, école maternelle, lycée, collège"
+    ],
+    "correct_index": 2,
+    "explanation": "Le parcours scolaire suit l'ordre : maternelle (3-6 ans), élémentaire (6-11 ans), collège (11-15 ans), lycée (15-18 ans).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vf_003",
+    "theme": "vie_en_france",
+    "question": "Quelle institution permet aux citoyens d'effectuer des démarches administratives au niveau local ?",
+    "options": [
+      "Le Parlement",
+      "La préfecture ou la mairie",
+      "Le Conseil constitutionnel",
+      "La Cour de cassation"
+    ],
+    "correct_index": 1,
+    "explanation": "La mairie et la préfecture sont les principales institutions locales pour les démarches administratives (état civil, carte d'identité, etc.).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vf_004",
+    "theme": "vie_en_france",
+    "question": "Combien de jours fériés légaux y a-t-il en France métropolitaine ?",
+    "options": [
+      "8",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct_index": 2,
+    "explanation": "La France métropolitaine compte 11 jours fériés légaux, dont le 1er janvier, le 14 juillet, le 25 décembre et le 11 novembre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vf_005",
+    "theme": "vie_en_france",
+    "question": "En combien de régions la France métropolitaine est-elle divisée depuis 2016 ?",
+    "options": [
+      "10",
+      "13",
+      "18",
+      "22"
+    ],
+    "correct_index": 1,
+    "explanation": "Depuis la réforme territoriale de 2016, la France métropolitaine est divisée en 13 régions (contre 22 auparavant).",
+    "difficulty": "medium"
+  }
+]

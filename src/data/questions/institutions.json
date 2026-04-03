@@ -1,0 +1,72 @@
+[
+  {
+    "id": "inst_001",
+    "theme": "institutions",
+    "question": "Pour combien d'années le président de la République française est-il élu ?",
+    "options": [
+      "4 ans",
+      "5 ans",
+      "6 ans",
+      "7 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "Depuis le référendum de 2000, le mandat présidentiel est de 5 ans (quinquennat), contre 7 ans (septennat) auparavant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "inst_002",
+    "theme": "institutions",
+    "question": "Quelles sont les deux chambres qui composent le Parlement français ?",
+    "options": [
+      "Le Sénat et le Conseil constitutionnel",
+      "L'Assemblée nationale et le Sénat",
+      "L'Assemblée nationale et le Conseil d'État",
+      "Le Sénat et la Cour des comptes"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Parlement français est bicaméral : il comprend l'Assemblée nationale (députés) et le Sénat (sénateurs).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "inst_003",
+    "theme": "institutions",
+    "question": "En quelle année la Constitution de la Ve République a-t-elle été adoptée ?",
+    "options": [
+      "1946",
+      "1954",
+      "1958",
+      "1962"
+    ],
+    "correct_index": 2,
+    "explanation": "La Constitution de la Ve République a été adoptée par référendum le 28 septembre 1958 et promulguée le 4 octobre 1958.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "inst_004",
+    "theme": "institutions",
+    "question": "La France est une République indivisible, laïque, démocratique et sociale. Où cette définition est-elle inscrite ?",
+    "options": [
+      "Dans le Code civil",
+      "Dans la Déclaration des droits de l'homme de 1789",
+      "Dans l'article 1er de la Constitution de 1958",
+      "Dans le préambule de la Constitution de 1946"
+    ],
+    "correct_index": 2,
+    "explanation": "L'article 1er de la Constitution de 1958 définit la France comme « une République indivisible, laïque, démocratique et sociale ».",
+    "difficulty": "medium"
+  },
+  {
+    "id": "inst_005",
+    "theme": "institutions",
+    "question": "Quel principe organise la répartition du pouvoir entre législatif, exécutif et judiciaire ?",
+    "options": [
+      "Le principe de subsidiarité",
+      "Le principe de souveraineté nationale",
+      "La séparation des pouvoirs",
+      "Le principe de laïcité"
+    ],
+    "correct_index": 2,
+    "explanation": "La séparation des pouvoirs (législatif, exécutif, judiciaire), théorisée par Montesquieu, est un pilier de la démocratie française.",
+    "difficulty": "medium"
+  }
+]

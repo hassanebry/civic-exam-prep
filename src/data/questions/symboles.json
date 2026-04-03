@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sym_001",
+    "theme": "symboles",
+    "question": "Quelles sont les trois couleurs du drapeau français, de gauche à droite ?",
+    "options": [
+      "Bleu, blanc, rouge",
+      "Rouge, blanc, bleu",
+      "Bleu, rouge, blanc",
+      "Blanc, bleu, rouge"
+    ],
+    "correct_index": 0,
+    "explanation": "Le drapeau tricolore bleu, blanc, rouge est l'emblème national de la République française, inscrit à l'article 2 de la Constitution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sym_002",
+    "theme": "symboles",
+    "question": "Quel est l'hymne national de la France ?",
+    "options": [
+      "Le Chant du départ",
+      "La Marseillaise",
+      "L'Internationale",
+      "La Parisienne"
+    ],
+    "correct_index": 1,
+    "explanation": "La Marseillaise, composée par Rouget de Lisle en 1792, est l'hymne national depuis 1879.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sym_003",
+    "theme": "symboles",
+    "question": "Que représente Marianne, figure allégorique de la République française ?",
+    "options": [
+      "La monarchie constitutionnelle",
+      "La liberté et la République",
+      "La justice pénale",
+      "L'armée française"
+    ],
+    "correct_index": 1,
+    "explanation": "Marianne incarne la République française et ses valeurs de liberté et de démocratie. Son buste est présent dans toutes les mairies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sym_004",
+    "theme": "symboles",
+    "question": "Quelle est la fête nationale française et que commémore-t-elle ?",
+    "options": [
+      "Le 11 novembre, l'armistice de 1918",
+      "Le 8 mai, la victoire de 1945",
+      "Le 14 juillet, la prise de la Bastille en 1789",
+      "Le 1er mai, la fête du travail"
+    ],
+    "correct_index": 2,
+    "explanation": "Le 14 juillet est la fête nationale. Elle commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sym_005",
+    "theme": "symboles",
+    "question": "Quelle est la signification de la devise « Liberté, Égalité, Fraternité » ?",
+    "options": [
+      "Un slogan politique du parti au pouvoir",
+      "Les trois valeurs fondamentales de la République française",
+      "Le titre de la Constitution de 1958",
+      "Le nom des trois pouvoirs de l'État"
+    ],
+    "correct_index": 1,
+    "explanation": "La devise « Liberté, Égalité, Fraternité » exprime les trois valeurs fondamentales de la République, inscrites dans la Constitution.",
+    "difficulty": "medium"
+  }
+]

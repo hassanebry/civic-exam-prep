@@ -1,0 +1,72 @@
+[
+  {
+    "id": "dd_001",
+    "theme": "droits_devoirs",
+    "question": "À partir de quel âge le droit de vote est-il accordé en France ?",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "20 ans",
+      "21 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, le droit de vote est accordé à tous les citoyens français âgés de 18 ans ou plus.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dd_002",
+    "theme": "droits_devoirs",
+    "question": "Le paiement de l'impôt est-il un devoir du citoyen en France ?",
+    "options": [
+      "Non, c'est facultatif",
+      "Oui, c'est une obligation prévue par la loi",
+      "Seulement pour les revenus supérieurs à 50 000 €",
+      "Seulement pour les citoyens de naissance"
+    ],
+    "correct_index": 1,
+    "explanation": "L'article 13 de la Déclaration des droits de l'homme de 1789 prévoit que chaque citoyen contribue aux charges publiques selon ses capacités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dd_003",
+    "theme": "droits_devoirs",
+    "question": "Depuis quelle année le service militaire obligatoire a-t-il été suspendu en France ?",
+    "options": [
+      "1992",
+      "1997",
+      "2001",
+      "2005"
+    ],
+    "correct_index": 1,
+    "explanation": "Le service national obligatoire a été suspendu en 1997 par le président Jacques Chirac. Il a été remplacé par la Journée défense et citoyenneté (JDC).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dd_004",
+    "theme": "droits_devoirs",
+    "question": "L'instruction est obligatoire en France pour les enfants de quel âge ?",
+    "options": [
+      "De 3 à 16 ans",
+      "De 6 à 16 ans",
+      "De 3 à 18 ans",
+      "De 6 à 18 ans"
+    ],
+    "correct_index": 0,
+    "explanation": "Depuis 2019, l'instruction est obligatoire de 3 à 16 ans. La formation est obligatoire de 16 à 18 ans (formation, emploi ou service civique).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dd_005",
+    "theme": "droits_devoirs",
+    "question": "Quel article de la Déclaration des droits de l'homme et du citoyen affirme que les hommes naissent libres et égaux en droits ?",
+    "options": [
+      "L'article 1er",
+      "L'article 3",
+      "L'article 6",
+      "L'article 10"
+    ],
+    "correct_index": 0,
+    "explanation": "L'article 1er de la DDHC de 1789 dispose : « Les hommes naissent et demeurent libres et égaux en droits. »",
+    "difficulty": "medium"
+  }
+]
