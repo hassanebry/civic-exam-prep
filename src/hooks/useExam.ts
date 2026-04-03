@@ -88,6 +88,9 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
         return next;
       });
 
+      // In review mode, user navigates manually — no auto-advance
+      if (mode === "review") return;
+
       // Clear any existing timer before setting a new one
       if (autoAdvanceTimer.current) {
         clearTimeout(autoAdvanceTimer.current);
@@ -101,7 +104,7 @@ export function useExam({ mode, theme }: UseExamParams): UseExamReturn {
         });
       }, AUTO_ADVANCE_DELAY_MS);
     },
-    [isFinished, currentIndex, questions.length],
+    [isFinished, currentIndex, questions.length, mode],
   );
 
   const nextQuestion = useCallback(() => {
