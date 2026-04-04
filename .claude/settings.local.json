@@ -6,7 +6,12 @@
       "Bash(1:*)",
       "Bash(npx playwright:*)",
       "Bash(npm install:*)",
-      "Bash(npx vitest:*)"
+      "Bash(npx vitest:*)",
+      "Bash(mv valeurs_republicaines.json naturalisation/)",
+      "Bash(mv symboles.json naturalisation/)",
+      "Bash(mv institutions.json naturalisation/)",
+      "Bash(mv droits_devoirs.json naturalisation/)",
+      "Bash(mv vie_en_france.json naturalisation/)"
     ]
   }
 }

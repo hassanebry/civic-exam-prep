@@ -1,20 +1,47 @@
-import { Question, Theme } from "@/types";
+import { Level, Question, Theme } from "@/types";
 
-export async function getQuestionsByTheme(theme: Theme): Promise<Question[]> {
-  const data = await import(`@/data/questions/${theme}.json`);
+const NATURALISATION_THEMES: Theme[] = [
+  "valeurs_republicaines",
+  "symboles",
+  "institutions",
+  "droits_devoirs",
+  "vie_en_france",
+];
+
+const CSP_THEMES: Theme[] = [
+  "valeurs_republicaines",
+  "institutions",
+  "droits_devoirs",
+  "histoire_geo_culture",
+  "vie_en_france",
+];
+
+function getThemesForLevel(level: Level): Theme[] {
+  switch (level) {
+    case "csp":
+      return CSP_THEMES;
+    case "naturalisation":
+    default:
+      return NATURALISATION_THEMES;
+  }
+}
+
+export async function getQuestionsByTheme(
+  theme: Theme,
+  level: Level = "naturalisation",
+): Promise<Question[]> {
+  const data = await import(`@/data/questions/${level}/${theme}.json`);
   return data.default as Question[];
 }
 
-export async function getAllQuestions(): Promise<Question[]> {
-  const themes: Theme[] = [
-    "valeurs_republicaines",
-    "symboles",
-    "institutions",
-    "droits_devoirs",
-    "vie_en_france",
-  ];
+export async function getAllQuestions(
+  level: Level = "naturalisation",
+): Promise<Question[]> {
+  const themes = getThemesForLevel(level);
 
-  const all = await Promise.all(themes.map((t) => getQuestionsByTheme(t).catch(() => [])));
+  const all = await Promise.all(
+    themes.map((t) => getQuestionsByTheme(t, level).catch(() => [])),
+  );
   return all.flat();
 }
 

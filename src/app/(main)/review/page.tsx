@@ -16,6 +16,7 @@ const THEME_LABELS: Record<Theme, string> = {
   institutions: "Les institutions",
   droits_devoirs: "Droits et devoirs",
   vie_en_france: "Vie en France",
+  histoire_geo_culture: "Histoire, géographie et culture",
 };
 
 const VALID_THEMES: ReadonlySet<string> = new Set<string>([
@@ -24,6 +25,7 @@ const VALID_THEMES: ReadonlySet<string> = new Set<string>([
   "institutions",
   "droits_devoirs",
   "vie_en_france",
+  "histoire_geo_culture",
 ]);
 
 function parseTheme(value: string | null): Theme | undefined {

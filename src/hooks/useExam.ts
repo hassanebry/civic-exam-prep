@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Question, Theme } from "@/types";
+import type { Level, Question, Theme } from "@/types";
 import {
   getAllQuestions,
   getQuestionsByTheme,
@@ -21,6 +21,7 @@ const AUTO_ADVANCE_DELAY_MS = 1000;
 interface UseExamParams {
   mode: "thematic" | "blanc" | "review";
   theme?: Theme;
+  level?: Level;
   maxQuestions?: number;
 }
 
@@ -42,7 +43,7 @@ interface UseExamReturn {
   restartExam: () => void;
 }
 
-export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamReturn {
+export function useExam({ mode, theme, level = "naturalisation", maxQuestions }: UseExamParams): UseExamReturn {
   const router = useRouter();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
@@ -61,8 +62,8 @@ export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamRe
     try {
       const raw =
         mode === "thematic" && theme
-          ? await getQuestionsByTheme(theme)
-          : await getAllQuestions();
+          ? await getQuestionsByTheme(theme, level)
+          : await getAllQuestions(level);
 
       const shuffled = shuffleArray(raw);
       let selected =
@@ -77,7 +78,7 @@ export function useExam({ mode, theme, maxQuestions }: UseExamParams): UseExamRe
     } finally {
       setIsLoading(false);
     }
-  }, [mode, theme, maxQuestions]);
+  }, [mode, theme, level, maxQuestions]);
 
   useEffect(() => {
     loadQuestions();

@@ -17,6 +17,7 @@ const THEME_LABELS: Record<Theme, string> = {
   institutions: "Les institutions",
   droits_devoirs: "Droits et devoirs",
   vie_en_france: "Vie en France",
+  histoire_geo_culture: "Histoire, géographie et culture",
 };
 
 const VALID_THEMES = new Set<string>(Object.keys(THEME_LABELS));

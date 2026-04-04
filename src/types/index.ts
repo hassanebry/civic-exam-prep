@@ -1,9 +1,12 @@
+export type Level = "naturalisation" | "csp" | "cr";
+
 export type Theme =
     | "valeurs_republicaines"
     | "symboles"
     | "institutions"
     | "droits_devoirs"
-    | "vie_en_france";
+    | "vie_en_france"
+    | "histoire_geo_culture";
 
 export interface Question {
     id: string;
@@ -13,6 +16,7 @@ export interface Question {
     correct_index: number;
     explanation?: string;
     difficulty: "easy" | "medium" | "hard";
+    level?: Level;
 }
 
 export interface ExamSession {
