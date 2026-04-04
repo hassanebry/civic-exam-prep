@@ -1,15 +1,31 @@
 "use client";
 
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { useExam } from "@/hooks/useExam";
 import { useProfile } from "@/hooks/useProfile";
 import { QuestionCard } from "@/components/exam/QuestionCard";
 import { Timer } from "@/components/exam/Timer";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
 import { PremiumGate } from "@/components/ui/PremiumGate";
+import { parseLevel, getLevelInfo } from "@/lib/utils/levels";
 
 const EXAM_DURATION_SECONDS = 2700; // 45 minutes
 
-export default function ExamPage() {
+function LoadingFallback() {
+  return (
+    <main className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
+      <div className="h-8 w-8 animate-spin rounded-full border-4 border-border border-t-primary" />
+      <p className="text-sm text-muted">Chargement des questions...</p>
+    </main>
+  );
+}
+
+function ExamContent() {
+  const searchParams = useSearchParams();
+  const level = parseLevel(searchParams.get("level"));
+  const levelInfo = getLevelInfo(level);
+
   const { isPremium, isLoading: profileLoading } = useProfile();
   const {
     questions,
@@ -25,15 +41,10 @@ export default function ExamPage() {
     previousQuestion,
     finishExam,
     restartExam,
-  } = useExam({ mode: "blanc" });
+  } = useExam({ mode: "blanc", level });
 
   if (isLoading || profileLoading) {
-    return (
-      <main className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-border border-t-primary" />
-        <p className="text-sm text-muted">Chargement des questions...</p>
-      </main>
-    );
+    return <LoadingFallback />;
   }
 
   if (isFinished) {
@@ -43,7 +54,7 @@ export default function ExamPage() {
           score={score}
           totalQuestions={questions.length}
           correctAnswers={correctAnswers}
-          theme="Examen blanc"
+          theme={`Examen blanc — ${levelInfo.label}`}
           onRestart={restartExam}
         />
       </main>
@@ -106,5 +117,13 @@ export default function ExamPage() {
         </div>
       </main>
     </PremiumGate>
+  );
+}
+
+export default function ExamPage() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <ExamContent />
+    </Suspense>
   );
 }

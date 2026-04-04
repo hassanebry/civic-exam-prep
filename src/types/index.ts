@@ -45,3 +45,11 @@ export interface UserProfile {
     stripe_customer_id: string | null;
     purchased_at: Date | null;
 }
+
+export interface LevelInfo {
+    id: Level;
+    label: string;
+    description: string;
+    emoji: string;
+    isPremium: boolean;
+}

@@ -2,23 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { Theme } from "@/types";
+import type { Level } from "@/types";
 import { useProfile } from "@/hooks/useProfile";
 import { useStats } from "@/hooks/useStats";
-
-interface ThemeInfo {
-  value: Theme;
-  label: string;
-  emoji: string;
-}
-
-const THEMES: ThemeInfo[] = [
-  { value: "valeurs_republicaines", label: "Valeurs républicaines", emoji: "🏛️" },
-  { value: "symboles", label: "Symboles de la République", emoji: "🇫🇷" },
-  { value: "institutions", label: "Les institutions", emoji: "🏗️" },
-  { value: "droits_devoirs", label: "Droits et devoirs", emoji: "⚖️" },
-  { value: "vie_en_france", label: "Vie en France", emoji: "🗼" },
-];
+import { LEVELS, getThemesForLevel } from "@/lib/utils/levels";
 
 const STAT_COLORS = [
   "border-t-primary",
@@ -74,6 +61,9 @@ function UpgradeBanner() {
 export default function DashboardPage() {
   const { isPremium, isLoading: profileLoading } = useProfile();
   const { stats, isLoading: statsLoading } = useStats();
+  const [selectedLevel, setSelectedLevel] = useState<Level>("csp");
+
+  const themes = getThemesForLevel(selectedLevel);
 
   const statItems = stats
     ? [
@@ -83,6 +73,11 @@ export default function DashboardPage() {
         { value: `${stats.passRate}%`, label: "Taux de réussite" },
       ]
     : [];
+
+  function handleLevelClick(level: Level, levelIsPremium: boolean) {
+    if (levelIsPremium && !isPremium) return;
+    setSelectedLevel(level);
+  }
 
   return (
     <main className="flex flex-1 flex-col px-6 py-10">
@@ -99,8 +94,43 @@ export default function DashboardPage() {
           )}
         </div>
         <p className="mt-1 text-sm text-muted">
-          Choisissez un thème ou lancez un examen blanc.
+          Choisissez votre objectif puis entraînez-vous par thème.
         </p>
+
+        {/* Level selector */}
+        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {LEVELS.map((lvl) => {
+            const isSelected = selectedLevel === lvl.id;
+            const isLocked = lvl.isPremium && !isPremium && !profileLoading;
+
+            return (
+              <button
+                key={lvl.id}
+                type="button"
+                onClick={() => handleLevelClick(lvl.id, lvl.isPremium)}
+                className={`relative flex flex-col items-center gap-1.5 rounded-xl border-2 p-4 text-center transition-all ${
+                  isSelected
+                    ? "border-primary bg-[#EEF2FF] shadow-[var(--shadow-sm)]"
+                    : "border-border bg-card hover:border-primary/40"
+                } ${isLocked ? "cursor-not-allowed opacity-60" : "cursor-pointer"}`}
+              >
+                {isLocked && (
+                  <span className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-[#FFFBF0] px-2 py-0.5 text-[10px] font-bold text-warning">
+                    <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                    </svg>
+                    Premium
+                  </span>
+                )}
+                <span className="text-2xl">{lvl.emoji}</span>
+                <span className="text-sm font-semibold text-foreground">
+                  {lvl.label}
+                </span>
+                <span className="text-xs text-muted">{lvl.description}</span>
+              </button>
+            );
+          })}
+        </div>
 
         {/* Upgrade banner */}
         {!profileLoading && !isPremium && (
@@ -138,7 +168,7 @@ export default function DashboardPage() {
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Examen blanc CTA */}
           <Link
-            href="/exam"
+            href={`/exam?level=${selectedLevel}`}
             className="flex flex-col items-center gap-3 rounded-xl bg-primary p-8 text-white shadow-[var(--shadow-sm)] transition-opacity hover:opacity-95 sm:col-span-2 lg:col-span-3"
           >
             <svg className="h-10 w-10" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -151,7 +181,7 @@ export default function DashboardPage() {
           </Link>
 
           {/* Theme cards */}
-          {THEMES.map(({ value, label, emoji }) => (
+          {themes.map(({ value, label, emoji }) => (
             <div
               key={value}
               className="flex flex-col items-center gap-3 rounded-xl border border-border bg-card p-6 text-center shadow-[var(--shadow-sm)] transition-all hover:-translate-y-0.5 hover:shadow-md"
@@ -159,7 +189,7 @@ export default function DashboardPage() {
               <span className="text-[2rem]">{emoji}</span>
               <span className="font-semibold text-foreground">{label}</span>
               <Link
-                href={`/exam/thematic?theme=${value}`}
+                href={`/exam/thematic?theme=${value}&level=${selectedLevel}`}
                 className="mt-auto inline-flex h-10 items-center justify-center rounded-lg border border-primary px-5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
               >
                 S&apos;entraîner
@@ -169,7 +199,7 @@ export default function DashboardPage() {
 
           {/* Mode révision */}
           <Link
-            href="/review"
+            href={`/review?level=${selectedLevel}`}
             className="flex flex-col items-center gap-3 rounded-xl border border-dashed border-border bg-card p-6 text-center transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-md"
           >
             <svg className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">

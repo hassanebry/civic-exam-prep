@@ -8,6 +8,7 @@ import { useProfile } from "@/hooks/useProfile";
 import { QuestionCard } from "@/components/exam/QuestionCard";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
 import { FREE_QUESTIONS_LIMIT } from "@/lib/utils/questions";
+import { parseLevel } from "@/lib/utils/levels";
 import type { Theme } from "@/types";
 
 const THEME_LABELS: Record<Theme, string> = {
@@ -45,6 +46,7 @@ function LoadingFallback() {
 function ReviewContent() {
   const searchParams = useSearchParams();
   const theme = parseTheme(searchParams.get("theme"));
+  const level = parseLevel(searchParams.get("level"));
   const { isPremium } = useProfile();
 
   const {
@@ -63,6 +65,7 @@ function ReviewContent() {
   } = useExam({
     mode: "review",
     theme,
+    level,
     maxQuestions: isPremium ? undefined : FREE_QUESTIONS_LIMIT,
   });
 

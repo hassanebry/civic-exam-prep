@@ -8,6 +8,7 @@ import type { Theme } from "@/types";
 import { useExam } from "@/hooks/useExam";
 import { useProfile } from "@/hooks/useProfile";
 import { FREE_QUESTIONS_LIMIT } from "@/lib/utils/questions";
+import { parseLevel } from "@/lib/utils/levels";
 import { QuestionCard } from "@/components/exam/QuestionCard";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
 
@@ -40,6 +41,7 @@ function ThematicContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const theme = parseTheme(searchParams.get("theme"));
+  const level = parseLevel(searchParams.get("level"));
   const { isPremium, isLoading: profileLoading } = useProfile();
 
   const {
@@ -59,6 +61,7 @@ function ThematicContent() {
   } = useExam({
     mode: "thematic",
     theme: theme ?? undefined,
+    level,
     maxQuestions: isPremium ? undefined : FREE_QUESTIONS_LIMIT,
   });
 
