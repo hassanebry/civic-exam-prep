@@ -2,71 +2,120 @@
   {
     "id": "vf_001",
     "theme": "vie_en_france",
-    "question": "Comment s'appelle le système de protection sociale en France ?",
+    "question": "Quelle est la plus haute montagne d'Europe et où se situe-t-elle ?",
     "options": [
-      "La Caisse d'épargne",
-      "La Sécurité sociale",
-      "La Banque de France",
-      "Le Trésor public"
+      "Le Mont Ventoux, dans le Vaucluse (1 912 m)",
+      "Le Mont-Blanc, dans les Alpes (4 810 m)",
+      "Le Puy de Dôme, en Auvergne (1 465 m)",
+      "Le Grand Ballon, dans les Vosges (1 424 m)"
     ],
     "correct_index": 1,
-    "explanation": "La Sécurité sociale, créée en 1945, couvre les risques maladie, vieillesse, famille et accidents du travail.",
+    "explanation": "Le Mont-Blanc, sommet de la chaîne des Alpes, est la plus haute montagne d'Europe avec 4 810 mètres d'altitude.",
     "difficulty": "easy"
   },
   {
     "id": "vf_002",
     "theme": "vie_en_france",
-    "question": "Quel est l'ordre des étapes du système éducatif français ?",
-    "options": [
-      "Collège, école primaire, lycée, université",
-      "École primaire, lycée, collège, université",
-      "École maternelle, école élémentaire, collège, lycée",
-      "École élémentaire, école maternelle, lycée, collège"
-    ],
-    "correct_index": 2,
-    "explanation": "Le parcours scolaire suit l'ordre : maternelle (3-6 ans), élémentaire (6-11 ans), collège (11-15 ans), lycée (15-18 ans).",
+    "question": "Quel est le plus long fleuve de France ?",
+    "options": ["La Seine", "Le Rhône", "La Garonne", "La Loire"],
+    "correct_index": 3,
+    "explanation": "La Loire est le plus long fleuve français. La France est aussi parcourue par d'autres fleuves importants : la Seine, la Garonne, le Rhône et le Rhin.",
     "difficulty": "easy"
   },
   {
     "id": "vf_003",
     "theme": "vie_en_france",
-    "question": "Quelle institution permet aux citoyens d'effectuer des démarches administratives au niveau local ?",
-    "options": [
-      "Le Parlement",
-      "La préfecture ou la mairie",
-      "Le Conseil constitutionnel",
-      "La Cour de cassation"
-    ],
-    "correct_index": 1,
-    "explanation": "La mairie et la préfecture sont les principales institutions locales pour les démarches administratives (état civil, carte d'identité, etc.).",
-    "difficulty": "easy"
+    "question": "Combien de millions d'habitants la France compte-t-elle environ en 2021 ?",
+    "options": ["62 millions", "65 millions", "67,4 millions", "72 millions"],
+    "correct_index": 2,
+    "explanation": "En 2021, la France compte 67,4 millions d'habitants (source INSEE). Son territoire s'étend sur 675 000 km², en métropole et outre-mer.",
+    "difficulty": "medium"
   },
   {
     "id": "vf_004",
     "theme": "vie_en_france",
-    "question": "Combien de jours fériés légaux y a-t-il en France métropolitaine ?",
-    "options": [
-      "8",
-      "10",
-      "11",
-      "13"
-    ],
+    "question": "Combien de personnes dans le monde parlent couramment le français ?",
+    "options": ["50 millions", "100 millions", "200 millions", "500 millions"],
     "correct_index": 2,
-    "explanation": "La France métropolitaine compte 11 jours fériés légaux, dont le 1er janvier, le 14 juillet, le 25 décembre et le 11 novembre.",
+    "explanation": "Le français est parlé couramment par 200 millions de personnes dans le monde, réparties dans 70 pays. Les Français ne représentent que 1% de la population mondiale.",
     "difficulty": "medium"
   },
   {
     "id": "vf_005",
     "theme": "vie_en_france",
-    "question": "En combien de régions la France métropolitaine est-elle divisée depuis 2016 ?",
+    "question": "Quel est le rang de la France comme destination touristique mondiale ?",
+    "options": ["2e", "3e", "1re", "5e"],
+    "correct_index": 2,
+    "explanation": "La France est la première destination touristique au monde. Célèbre pour ses monuments et sa culture, le tourisme est un élément essentiel de son économie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vf_006",
+    "theme": "vie_en_france",
+    "question": "Quand la France a-t-elle adopté l'Euro comme monnaie ?",
+    "options": ["1992", "1995", "2000", "2002"],
+    "correct_index": 2,
+    "explanation": "Depuis 2000, la France partage avec 18 autres pays membres de l'Union européenne une monnaie unique : l'Euro.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vf_007",
+    "theme": "vie_en_france",
+    "question": "Qu'est-ce que le Mont-Saint-Michel ?",
     "options": [
-      "10",
-      "13",
-      "18",
-      "22"
+      "Un sommet des Pyrénées classé au patrimoine mondial",
+      "Un îlot rocheux en Normandie avec une abbaye, classé au patrimoine mondial par l'UNESCO",
+      "Un château royal situé sur la Loire",
+      "Un site préhistorique dans le Périgord"
     ],
     "correct_index": 1,
-    "explanation": "Depuis la réforme territoriale de 2016, la France métropolitaine est divisée en 13 régions (contre 22 auparavant).",
+    "explanation": "Le Mont-Saint-Michel est un îlot rocheux situé en Normandie dans une baie, sur lequel s'élève une abbaye. Il est classé au patrimoine mondial de l'humanité par l'UNESCO.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vf_008",
+    "theme": "vie_en_france",
+    "question": "Quand a été fondée la Communauté économique européenne dont la France est membre fondateur ?",
+    "options": ["1945", "1950", "1957", "1992"],
+    "correct_index": 2,
+    "explanation": "En 1957, le Traité de Rome instaure la Communauté économique européenne entre six pays d'Europe, dont la France. En 1992, l'Union européenne est créée, comptant aujourd'hui 27 États membres.",
     "difficulty": "medium"
+  },
+  {
+    "id": "vf_009",
+    "theme": "vie_en_france",
+    "question": "Quels sont les 5 départements et régions d'outre-mer français ?",
+    "options": [
+      "Tahiti, Nouvelle-Calédonie, Saint-Martin, Wallis, Mayotte",
+      "Guadeloupe, Guyane, Martinique, Mayotte et la Réunion",
+      "Guadeloupe, Martinique, Polynésie française, Guyane et Corse",
+      "Réunion, Mayotte, Saint-Pierre-et-Miquelon, Polynésie et Nouvelle-Calédonie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France compte 5 départements et régions d'outre-mer : la Guadeloupe, la Guyane, la Martinique, Mayotte et la Réunion.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "vf_010",
+    "theme": "vie_en_france",
+    "question": "Quel est le rang de la France comme puissance économique mondiale selon le livret citoyen 2022 ?",
+    "options": ["3e", "4e", "5e", "6e"],
+    "correct_index": 3,
+    "explanation": "Selon le livret du citoyen de février 2022, la France est la sixième puissance économique mondiale. Elle est membre permanent du Conseil de sécurité de l'ONU et membre fondateur de l'UE.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "vf_011",
+    "theme": "vie_en_france",
+    "question": "Pour quoi la tour Eiffel a-t-elle été construite et quand ?",
+    "options": [
+      "Pour commémorer la Révolution française en 1789",
+      "Comme siège du Parlement français en 1875",
+      "Pour l'Exposition universelle de 1889, par l'ingénieur Gustave Eiffel",
+      "Comme phare militaire pendant la Première Guerre mondiale"
+    ],
+    "correct_index": 2,
+    "explanation": "La tour Eiffel a été construite par l'ingénieur Gustave Eiffel pour l'Exposition universelle de 1889. C'est un monument très fréquenté, avec plus de 7 millions de visiteurs par an.",
+    "difficulty": "easy"
   }
 ]

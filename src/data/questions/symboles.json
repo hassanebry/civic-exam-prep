@@ -1,72 +1,132 @@
 [
   {
-    "id": "sym_001",
+    "id": "sy_001",
     "theme": "symboles",
-    "question": "Quelles sont les trois couleurs du drapeau français, de gauche à droite ?",
+    "question": "Quelle est la fête nationale française et pourquoi cette date ?",
     "options": [
-      "Bleu, blanc, rouge",
-      "Rouge, blanc, bleu",
-      "Bleu, rouge, blanc",
-      "Blanc, bleu, rouge"
-    ],
-    "correct_index": 0,
-    "explanation": "Le drapeau tricolore bleu, blanc, rouge est l'emblème national de la République française, inscrit à l'article 2 de la Constitution.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "sym_002",
-    "theme": "symboles",
-    "question": "Quel est l'hymne national de la France ?",
-    "options": [
-      "Le Chant du départ",
-      "La Marseillaise",
-      "L'Internationale",
-      "La Parisienne"
+      "Le 8 mai, en commémoration de la fin de la Seconde Guerre mondiale",
+      "Le 14 juillet, en référence à la prise de la Bastille en 1789",
+      "Le 1er janvier, date de fondation de la République",
+      "Le 11 novembre, en commémoration de l'armistice de 1918"
     ],
     "correct_index": 1,
-    "explanation": "La Marseillaise, composée par Rouget de Lisle en 1792, est l'hymne national depuis 1879.",
+    "explanation": "Le 14 juillet est la fête nationale française. Le 14 juillet 1789, le peuple de Paris s'empare de la Bastille. Un an plus tard, le 14 juillet 1790, la fête de la Fédération célèbre l'unité de la Nation.",
     "difficulty": "easy"
   },
   {
-    "id": "sym_003",
+    "id": "sy_002",
     "theme": "symboles",
-    "question": "Que représente Marianne, figure allégorique de la République française ?",
+    "question": "Quel est l'hymne national français ?",
+    "options": ["Le Chant du Départ", "La Marseillaise", "L'Internationale", "La Brabançonne"],
+    "correct_index": 1,
+    "explanation": "L'hymne national français est La Marseillaise. Il a été composé à l'époque de la Révolution française, au moment de la prise de la Bastille en 1789.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sy_003",
+    "theme": "symboles",
+    "question": "Qui est Marianne et où trouve-t-on sa représentation ?",
     "options": [
-      "La monarchie constitutionnelle",
-      "La liberté et la République",
-      "La justice pénale",
-      "L'armée française"
+      "Une reine de France dont le portrait orne les billets de banque",
+      "Le symbole de la République, dont la statue est placée dans toutes les mairies",
+      "Une héroïne de la Révolution enterrée au Panthéon",
+      "Le symbole de la justice, représentée les yeux bandés"
     ],
     "correct_index": 1,
-    "explanation": "Marianne incarne la République française et ses valeurs de liberté et de démocratie. Son buste est présent dans toutes les mairies.",
+    "explanation": "Marianne est le symbole de la République française. Sa statue est placée dans toutes les mairies et rappelle la Révolution française.",
     "difficulty": "easy"
   },
   {
-    "id": "sym_004",
+    "id": "sy_004",
     "theme": "symboles",
-    "question": "Quelle est la fête nationale française et que commémore-t-elle ?",
+    "question": "De quelle époque date le drapeau tricolore bleu, blanc, rouge ?",
     "options": [
-      "Le 11 novembre, l'armistice de 1918",
-      "Le 8 mai, la victoire de 1945",
-      "Le 14 juillet, la prise de la Bastille en 1789",
-      "Le 1er mai, la fête du travail"
+      "Du règne de Louis XIV au XVIIe siècle",
+      "De la Révolution française",
+      "Du Premier Empire sous Napoléon",
+      "De la création de la Ve République en 1958"
+    ],
+    "correct_index": 1,
+    "explanation": "Le drapeau tricolore bleu, blanc, rouge date de la Révolution française. Il est devenu l'un des symboles les plus reconnaissables de la République française.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sy_005",
+    "theme": "symboles",
+    "question": "Quelle est la langue de la République française ?",
+    "options": ["Le français et le breton", "Le français", "Le français et l'occitan", "Toutes les langues régionales sont officielles"],
+    "correct_index": 1,
+    "explanation": "La langue de la République est le français. C'est une des caractéristiques fondamentales de la République française, inscrite dans la Constitution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sy_006",
+    "theme": "symboles",
+    "question": "Que commémore le 11 novembre en France ?",
+    "options": [
+      "La fin de la Seconde Guerre mondiale",
+      "La prise de la Bastille",
+      "La fin de la Première Guerre mondiale",
+      "La proclamation de la République"
     ],
     "correct_index": 2,
-    "explanation": "Le 14 juillet est la fête nationale. Elle commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790).",
+    "explanation": "Le 11 novembre est un jour férié en France en commémoration de la fin de la Première Guerre mondiale (1914-1918), conflit qui a fait plus de 9 millions de morts.",
     "difficulty": "easy"
   },
   {
-    "id": "sym_005",
+    "id": "sy_007",
     "theme": "symboles",
-    "question": "Quelle est la signification de la devise « Liberté, Égalité, Fraternité » ?",
+    "question": "Que commémore le 8 mai en France ?",
     "options": [
-      "Un slogan politique du parti au pouvoir",
-      "Les trois valeurs fondamentales de la République française",
-      "Le titre de la Constitution de 1958",
-      "Le nom des trois pouvoirs de l'État"
+      "La fin de la Première Guerre mondiale",
+      "La libération de Paris",
+      "La fin de la Seconde Guerre mondiale",
+      "La proclamation de la Ve République"
+    ],
+    "correct_index": 2,
+    "explanation": "Le 8 mai est un jour férié en commémoration de la fin de la Seconde Guerre mondiale (1939-1945), qui a fait plus de 50 millions de morts dont une majorité de civils.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sy_008",
+    "theme": "symboles",
+    "question": "Que représente la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+    "options": [
+      "Le premier code pénal français",
+      "Un texte qui assure la liberté et l'égalité de tous les citoyens, issu de la Révolution française",
+      "La Constitution de la Ve République",
+      "Le traité fondateur de l'Union européenne"
     ],
     "correct_index": 1,
-    "explanation": "La devise « Liberté, Égalité, Fraternité » exprime les trois valeurs fondamentales de la République, inscrites dans la Constitution.",
+    "explanation": "La Déclaration des Droits de l'Homme et du Citoyen de 1789 est un texte fondamental issu de la Révolution française. Elle assure la liberté et l'égalité de tous les citoyens et constitue le socle des valeurs républicaines.",
     "difficulty": "medium"
+  },
+  {
+    "id": "sy_009",
+    "theme": "symboles",
+    "question": "Quel est le symbole du drapeau européen ?",
+    "options": [
+      "12 étoiles symbolisant les idéaux d'unité et d'harmonie entre les Européens",
+      "27 étoiles représentant les États membres",
+      "Une couronne de lauriers sur fond bleu",
+      "Les couleurs des 6 pays fondateurs"
+    ],
+    "correct_index": 0,
+    "explanation": "Le drapeau européen est constitué de 12 étoiles qui symbolisent les idéaux d'unité et d'harmonie entre les Européens. Le nombre d'étoiles ne correspond pas au nombre d'États membres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sy_010",
+    "theme": "symboles",
+    "question": "Qu'est-ce que la Marianne rappelle aux citoyens ?",
+    "options": [
+      "Les victoires militaires de la France",
+      "La Révolution française et les valeurs républicaines",
+      "La monarchie française avant 1789",
+      "L'unité des régions de France"
+    ],
+    "correct_index": 1,
+    "explanation": "La statue de Marianne, placée dans toutes les mairies, rappelle la Révolution française et symbolise les valeurs de la République : liberté, égalité, fraternité.",
+    "difficulty": "easy"
   }
 ]

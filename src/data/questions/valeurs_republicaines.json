@@ -5,35 +5,128 @@
     "question": "Quelle est la devise de la République française ?",
     "options": [
       "Liberté, Égalité, Fraternité",
-      "Unité, Justice, Paix",
+      "Unité, Justice, Solidarité",
       "Travail, Famille, Patrie",
-      "Liberté, Justice, Solidarité"
+      "Liberté, Laïcité, Fraternité"
     ],
     "correct_index": 0,
-    "explanation": "La devise 'Liberté, Égalité, Fraternité' est inscrite dans la Constitution de 1958.",
+    "explanation": "La devise de la République française est 'Liberté, Égalité, Fraternité'. Ces trois valeurs fondamentales garantissent les droits de chaque citoyen et constituent le socle de la vie collective en France.",
     "difficulty": "easy"
   },
   {
     "id": "vr_002",
     "theme": "valeurs_republicaines",
-    "question": "Quel principe fondamental garantit la séparation de l'Église et de l'État en France ?",
+    "question": "Qu'est-ce que la laïcité ?",
     "options": [
-      "Le fédéralisme",
-      "La laïcité",
-      "Le républicanisme",
-      "L'égalitarisme"
+      "L'interdiction de toute religion sur le territoire français",
+      "La séparation des affaires religieuses et des affaires publiques, garantissant la liberté religieuse",
+      "L'obligation pour tous les citoyens de suivre une religion",
+      "La primauté de la religion catholique dans les institutions"
     ],
     "correct_index": 1,
-    "explanation": "La laïcité, consacrée par la loi de 1905, garantit la séparation des Églises et de l'État.",
+    "explanation": "La laïcité signifie que les affaires religieuses et les affaires publiques sont clairement séparées (loi de 1905). L'État est neutre envers les religions et garantit à chacun la liberté de croire ou de ne pas croire.",
     "difficulty": "easy"
   },
   {
     "id": "vr_003",
     "theme": "valeurs_republicaines",
-    "question": "En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?",
-    "options": ["1789", "1792", "1804", "1848"],
-    "correct_index": 0,
-    "explanation": "La DDHC a été adoptée le 26 août 1789 par l'Assemblée nationale constituante.",
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été adoptée ?",
+    "options": ["1789", "1875", "1905", "1958"],
+    "correct_index": 2,
+    "explanation": "La loi de 1905 consacre la laïcité en séparant les Églises de l'État. C'est l'un des textes fondateurs de la République laïque française.",
     "difficulty": "medium"
+  },
+  {
+    "id": "vr_004",
+    "theme": "valeurs_republicaines",
+    "question": "La liberté d'expression est-elle absolue en France ?",
+    "options": [
+      "Oui, tout citoyen peut dire et exprimer tout ce qu'il souhaite",
+      "Non, elle a des limites : injures, diffamation, provocation à la haine et apologie de crimes contre l'humanité sont interdites",
+      "Non, seuls les journalistes ont droit à la liberté d'expression",
+      "Oui, mais uniquement dans l'espace privé"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté d'expression est un droit fondamental, mais elle a des limites pour respecter les droits des autres. Il est interdit de diffuser des injures, des propos diffamatoires, des provocations à la haine ou de faire l'apologie de crimes contre l'humanité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vr_005",
+    "theme": "valeurs_republicaines",
+    "question": "L'administration peut-elle refuser la nationalité française à une personne ne respectant pas l'égalité femmes-hommes ?",
+    "options": [
+      "Non, cela constituerait une discrimination",
+      "Oui, même si cette personne est mariée avec un(e) Français(e)",
+      "Seulement si la personne est en situation irrégulière",
+      "Non, ce critère n'est pas prévu par la loi"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. L'égalité entre les femmes et les hommes fait partie des valeurs essentielles de la République. L'adhésion à ces valeurs est évaluée au cours de l'entretien réglementaire et peut justifier un refus de naturalisation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vr_006",
+    "theme": "valeurs_republicaines",
+    "question": "Que représente le principe de fraternité en France ?",
+    "options": [
+      "L'appartenance à une même famille ou communauté religieuse",
+      "La solidarité entre les citoyens, illustrée notamment par la sécurité sociale depuis 1945",
+      "L'aide exclusive aux citoyens français de naissance",
+      "Le devoir de servir l'armée en temps de guerre"
+    ],
+    "correct_index": 1,
+    "explanation": "La fraternité se traduit par la solidarité entre citoyens. Depuis 1945, le système de sécurité sociale, financé par les cotisations et les impôts, en est l'illustration concrète.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vr_007",
+    "theme": "valeurs_republicaines",
+    "question": "Qu'est-ce qu'une discrimination selon la loi française ?",
+    "options": [
+      "Tout traitement différencié entre deux personnes, quelle qu'en soit la raison",
+      "Traiter moins favorablement quelqu'un en raison de ses origines, religion, sexe ou autre motif prévu par la loi",
+      "Refuser d'embaucher quelqu'un pour des raisons professionnelles",
+      "Sanctionner un employé pour faute grave"
+    ],
+    "correct_index": 1,
+    "explanation": "La discrimination consiste à traiter moins favorablement une personne en raison de ses origines, de son sexe, de sa religion, de son âge, de son handicap ou de son orientation sexuelle. Toute décision d'un employeur doit être fondée sur des raisons professionnelles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vr_008",
+    "theme": "valeurs_republicaines",
+    "question": "Pourquoi les élèves ne peuvent-ils pas porter de signes religieux ostensibles à l'école publique ?",
+    "options": [
+      "Par respect pour les enseignants",
+      "Parce que l'école est une institution publique neutre face aux religions, conformément à la loi du 15 mars 2004",
+      "Parce que la France interdit toute pratique religieuse",
+      "Par mesure de sécurité uniquement"
+    ],
+    "correct_index": 1,
+    "explanation": "La loi du 15 mars 2004 interdit le port de signes manifestant ostensiblement une appartenance religieuse dans les écoles, collèges et lycées publics. L'école, institution publique, doit être neutre face aux religions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vr_009",
+    "theme": "valeurs_republicaines",
+    "question": "Quand la République française a-t-elle été installée de façon stable ?",
+    "options": ["1789", "1848", "1875", "1958"],
+    "correct_index": 2,
+    "explanation": "La République est installée de façon stable en 1875 avec la naissance de la IIIe République. Dans les années 1880, l'école primaire devient obligatoire, gratuite et laïque, sous l'impulsion de Jules Ferry.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "vr_010",
+    "theme": "valeurs_republicaines",
+    "question": "Où peut-on consulter toutes les lois françaises en vigueur ?",
+    "options": [
+      "Sur vie-publique.fr uniquement",
+      "Sur legifrance.gouv.fr",
+      "À la mairie de son domicile",
+      "Sur service-public.fr uniquement"
+    ],
+    "correct_index": 1,
+    "explanation": "Toutes les lois françaises, souvent regroupées en codes, sont disponibles sur legifrance.gouv.fr. Le site vie-publique.fr présente les principales règles et le fonctionnement des institutions.",
+    "difficulty": "easy"
   }
 ]
