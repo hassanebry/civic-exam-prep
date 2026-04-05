@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /exam
+Disallow: /results
+Disallow: /history
+Disallow: /review
+
+Sitemap: https://www.monpasscivique.fr/sitemap.xml
