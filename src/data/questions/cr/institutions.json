@@ -1,0 +1,712 @@
+[
+  {
+    "id": "cr_in_001",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qu'est-ce que l'État de droit ?",
+    "options": [
+      "Un État où le gouvernement peut agir sans contrainte légale",
+      "Un État dans lequel tous, citoyens et gouvernants, sont soumis au respect de la loi",
+      "Un État dirigé par des juristes et des avocats",
+      "Un État où seuls les tribunaux exercent le pouvoir"
+    ],
+    "correct_index": 1,
+    "explanation": "L'État de droit est un système dans lequel tous, citoyens et gouvernants, sont soumis au respect de la loi. Le pouvoir politique est soumis à la Constitution et aux lois. L'indépendance de la justice est garantie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_002",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "options": [
+      "Il bénéficie d'une immunité totale et ne peut pas être poursuivi",
+      "Il peut être destitué par le Parlement et jugé après la fin de ses fonctions",
+      "Il est jugé immédiatement par le Conseil constitutionnel",
+      "Il est automatiquement acquitté en raison de sa fonction"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, nul n'est au-dessus des lois. Le Président peut être destitué par la Haute Cour (réunion du Parlement) en cas de manquement à ses devoirs manifestement incompatible avec l'exercice de son mandat, puis jugé.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_003",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "La loi est l'expression de :",
+    "options": [
+      "La volonté du Président de la République",
+      "La volonté générale du peuple, votée par ses représentants au Parlement",
+      "La volonté du gouvernement",
+      "La volonté des juges et magistrats"
+    ],
+    "correct_index": 1,
+    "explanation": "Selon l'article 6 de la Déclaration des Droits de l'Homme de 1789, 'La loi est l'expression de la volonté générale.' Elle est votée par le Parlement, représentant le peuple souverain.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_004",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "correct_index": 2,
+    "explanation": "Le maire et les conseillers municipaux sont élus pour 6 ans lors des élections municipales. Ils administrent la commune et sont responsables des services de proximité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_005",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Que garantit l'État de droit ?",
+    "options": [
+      "La suprématie de l'État sur les citoyens",
+      "L'égalité de tous devant la loi, l'indépendance de la justice et le respect des droits fondamentaux",
+      "Le pouvoir absolu du gouvernement élu",
+      "L'absence de toute contrainte pour les élus"
+    ],
+    "correct_index": 1,
+    "explanation": "L'État de droit garantit l'égalité de tous devant la loi, l'indépendance de la justice, la séparation des pouvoirs et le respect des droits fondamentaux. Personne, même au gouvernement, ne peut s'affranchir de la loi.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_006",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Une personne peut-elle voter à la place d'une autre ?",
+    "options": [
+      "Oui, si elle a une procuration",
+      "Non, le vote est personnel et secret",
+      "Oui, pour un membre de sa famille proche",
+      "Oui, avec une autorisation de la mairie"
+    ],
+    "correct_index": 0,
+    "explanation": "Oui, sous conditions. Le vote par procuration est légal en France : une personne peut donner mandat à une autre personne inscrite sur les listes électorales de voter à sa place, dans le cadre légal prévu.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_007",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Est-ce que le vote est obligatoire ?",
+    "options": [
+      "Oui, l'abstention est punie d'une amende",
+      "Non, le vote est un droit mais pas une obligation légale en France",
+      "Oui, pour les élections présidentielles uniquement",
+      "Oui, pour tous les citoyens ayant plus de 25 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "Non. Le vote est un droit civique mais n'est pas une obligation légale en France. L'abstention, bien que regrettable pour la démocratie, n'est pas sanctionnée. En revanche, certains pays rendent le vote obligatoire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_008",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "options": [
+      "Oui, s'il est réélu par acclamation populaire",
+      "Oui, en cas de crise nationale grave",
+      "Non, il doit quitter ses fonctions à l'issue de son mandat",
+      "Oui, si le Parlement l'y autorise"
+    ],
+    "correct_index": 2,
+    "explanation": "Non. À la fin de son mandat de 5 ans, le Président doit quitter ses fonctions. Il peut se représenter une fois pour un second mandat, mais ne peut pas se maintenir au pouvoir sans être réélu. C'est un principe fondamental de la démocratie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_009",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui dirige l'action du Gouvernement ?",
+    "options": [
+      "Le Président de la République",
+      "Le Premier ministre",
+      "Le président de l'Assemblée nationale",
+      "Le président du Sénat"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Premier ministre dirige l'action du Gouvernement. Il coordonne le travail des ministres et met en œuvre la politique définie par le Président de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_010",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui nomme le Premier ministre ?",
+    "options": [
+      "Le Parlement",
+      "Le Président de la République",
+      "Le Conseil d'État",
+      "Les citoyens par élection directe"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Premier ministre est nommé par le Président de la République. Il est généralement issu de la majorité à l'Assemblée nationale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_011",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quelle est l'organisation administrative de la France ?",
+    "options": [
+      "La France est divisée en provinces autonomes",
+      "La France est organisée en communes, départements et régions",
+      "La France est un État fédéral avec des États souverains",
+      "La France est uniquement divisée en cantons"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est organisée en trois niveaux de collectivités territoriales : les communes (~35 000), les départements (101) et les régions (18 dont 13 métropolitaines). Cette organisation découle des lois de décentralisation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_012",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+    "options": [
+      "Qui gouverne et applique les lois",
+      "Qui vote les lois au nom du peuple",
+      "Qui juge les infractions à la loi",
+      "Qui contrôle la constitutionnalité des lois"
+    ],
+    "correct_index": 1,
+    "explanation": "Le pouvoir législatif est celui qui vote les lois au nom du peuple. En France, il est exercé par le Parlement, composé de l'Assemblée nationale et du Sénat.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_013",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "options": [
+      "Pour ralentir le processus législatif",
+      "Pour éviter la concentration du pouvoir et garantir les libertés des citoyens",
+      "Pour permettre à chaque pouvoir d'agir sans contrôle",
+      "Pour favoriser l'efficacité gouvernementale"
+    ],
+    "correct_index": 1,
+    "explanation": "La séparation des pouvoirs évite la concentration du pouvoir entre les mains d'une seule autorité, ce qui garantit les libertés des citoyens et prévient l'arbitraire. C'est un principe fondamental de la démocratie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_014",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "options": [
+      "Le préfet du département",
+      "Le maire de la commune",
+      "Le juge, au nom de l'autorité judiciaire",
+      "Le ministre de l'Intérieur"
+    ],
+    "correct_index": 2,
+    "explanation": "C'est le juge, au nom de l'autorité judiciaire, qui sanctionne les infractions à la loi. La justice est indépendante du pouvoir politique, garantissant l'impartialité des décisions.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_015",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle du gouvernement ?",
+    "options": [
+      "Voter les lois et contrôler le Président",
+      "Déterminer et conduire la politique de la Nation",
+      "Juger les crimes et délits",
+      "Élire le Président de la République"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Gouvernement détermine et conduit la politique de la Nation. Il est responsable devant le Parlement et met en œuvre les lois votées par celui-ci.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_016",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "options": [
+      "Il bénéficie d'une immunité totale",
+      "Il est jugé et sanctionné comme tout citoyen",
+      "Il est simplement démis de ses fonctions sans poursuite",
+      "Il est jugé uniquement par le Président de la République"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, nul n'est au-dessus des lois. Un ministre qui ne respecte pas la loi est jugé et sanctionné. La Cour de justice de la République est compétente pour juger les membres du gouvernement pour des actes commis dans l'exercice de leurs fonctions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_017",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Combien de députés composent l'Assemblée nationale ?",
+    "options": ["348", "450", "577", "650"],
+    "correct_index": 2,
+    "explanation": "L'Assemblée nationale est composée de 577 députés, élus tous les cinq ans lors des élections législatives au suffrage universel direct.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_018",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui peut voter aux élections en France ?",
+    "options": [
+      "Tous les résidents en France quelle que soit leur nationalité",
+      "Les citoyens français majeurs disposant de leurs droits civiques",
+      "Les citoyens français et européens pour toutes les élections",
+      "Tous les contribuables payant des impôts en France"
+    ],
+    "correct_index": 1,
+    "explanation": "Peuvent voter aux élections nationales les citoyens français âgés de plus de 18 ans, n'ayant pas été privés de leurs droits civiques par une décision de justice et inscrits sur les listes électorales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_019",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "correct_index": 2,
+    "explanation": "Les sénateurs sont élus pour 6 ans au suffrage universel indirect par les grands électeurs. Le Sénat est renouvelé par moitié tous les 3 ans.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_020",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "options": [
+      "Le pouvoir présidentiel, ministériel et préfectoral",
+      "Le pouvoir exécutif, législatif et judiciaire",
+      "Le pouvoir national, régional et communal",
+      "Le pouvoir civil, militaire et religieux"
+    ],
+    "correct_index": 1,
+    "explanation": "La séparation des pouvoirs distingue le pouvoir exécutif (gouverner), le pouvoir législatif (voter les lois) et le pouvoir judiciaire (rendre la justice). Ces trois pouvoirs ne peuvent pas être exercés par la même autorité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_021",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "options": [
+      "Oui, il concentre tous les pouvoirs de l'État",
+      "Non, les pouvoirs sont séparés entre l'exécutif, le législatif et le judiciaire",
+      "Oui, mais uniquement en temps de guerre",
+      "Non, il partage tous ses pouvoirs avec le Premier ministre"
+    ],
+    "correct_index": 1,
+    "explanation": "Non. La France applique le principe de séparation des pouvoirs. Le Président exerce le pouvoir exécutif, mais le Parlement vote les lois (pouvoir législatif) et les juges rendent la justice (pouvoir judiciaire) de manière indépendante.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_022",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui est le préfet ?",
+    "options": [
+      "Le chef de la police nationale",
+      "Le représentant de l'État dans le département ou la région",
+      "Le président du tribunal administratif",
+      "Le directeur des services fiscaux"
+    ],
+    "correct_index": 1,
+    "explanation": "Le préfet est le représentant de l'État dans le département ou la région. Nommé par le Conseil des ministres, il veille à l'application des lois et des politiques publiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_023",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "options": [
+      "Être né en France",
+      "Avoir la nationalité française, 18 ans et être inscrit sur les listes électorales",
+      "Avoir un diplôme",
+      "Payer des impôts depuis au moins 5 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "Pour voter, il faut être de nationalité française, avoir au moins 18 ans, jouir de ses droits civils et politiques et être inscrit sur les listes électorales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_024",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui dirige la commune ?",
+    "options": [
+      "Le préfet",
+      "Le maire",
+      "Le conseiller départemental",
+      "Le député"
+    ],
+    "correct_index": 1,
+    "explanation": "La commune est dirigée par le maire, élu par le conseil municipal pour 6 ans. Le maire est à la fois chef de l'exécutif communal et représentant de l'État dans la commune.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_025",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "options": [
+      "Une monarchie constitutionnelle",
+      "Une République démocratique",
+      "Une fédération d'États",
+      "Un régime présidentiel pur"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est une République démocratique. C'est la Ve République, fondée en 1958 par Charles de Gaulle. Les dirigeants sont élus au suffrage universel et exercent le pouvoir dans le cadre de la Constitution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_026",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "options": [
+      "La résidence officielle du Président de la République",
+      "La résidence officielle et lieu de travail du Premier ministre",
+      "Le siège du Sénat",
+      "Le palais de justice de Paris"
+    ],
+    "correct_index": 1,
+    "explanation": "L'Hôtel de Matignon est la résidence officielle et le lieu de travail du Premier ministre, situé à Paris. Le Président de la République réside à l'Élysée.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_027",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Le Parlement est composé :",
+    "options": [
+      "Du Président de la République et du Premier ministre",
+      "De l'Assemblée nationale et du Sénat",
+      "Du Conseil d'État et du Conseil constitutionnel",
+      "Des maires et des présidents de région"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Parlement est composé de l'Assemblée nationale et du Sénat. Il vote les lois au nom du peuple et contrôle le Gouvernement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_028",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle du président de la République ?",
+    "options": [
+      "Voter les lois et contrôler le gouvernement",
+      "Veiller au respect de la Constitution, garantir l'indépendance nationale et nommer le Premier ministre",
+      "Juger les crimes et délits graves",
+      "Percevoir les impôts et gérer le budget de l'État"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Président de la République veille au respect de la Constitution, garantit l'indépendance nationale et l'intégrité du territoire, nomme le Premier ministre et préside le Conseil des ministres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_029",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle du Premier ministre ?",
+    "options": [
+      "Élire les députés et sénateurs",
+      "Diriger l'action du Gouvernement et coordonner le travail des ministres",
+      "Présider le Conseil constitutionnel",
+      "Représenter la France à l'étranger"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Premier ministre dirige l'action du Gouvernement, coordonne le travail des ministres et est responsable devant l'Assemblée nationale. Il réside et travaille à l'Hôtel de Matignon.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_030",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Qui est le chef du Gouvernement ?",
+    "options": [
+      "Le Président de la République",
+      "Le Premier ministre",
+      "Le président de l'Assemblée nationale",
+      "Le ministre de l'Intérieur"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Premier ministre est le chef du Gouvernement. Il dirige l'action gouvernementale et coordonne le travail des ministres sous l'autorité du Président de la République.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_031",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Combien y a-t-il de régions en France ?",
+    "options": ["13", "15", "17", "18"],
+    "correct_index": 3,
+    "explanation": "La France compte 18 régions au total : 13 régions métropolitaines (dont la Corse) et 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_032",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "options": [
+      "Défendre la France devant les tribunaux internationaux",
+      "Veiller au respect des droits et libertés et lutter contre les discriminations",
+      "Contrôler les comptes publics de l'État",
+      "Représenter les victimes d'infractions pénales"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Défenseur des droits est une institution indépendante qui veille au respect des droits et libertés des citoyens, lutte contre les discriminations et défend les droits des enfants. Toute personne peut le saisir gratuitement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_033",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Depuis quand l'euro est-il la monnaie unique ?",
+    "options": [
+      "Depuis 1992",
+      "Depuis 1999 pour les transactions financières et 2002 pour les pièces et billets",
+      "Depuis 2000 uniquement",
+      "Depuis 2005"
+    ],
+    "correct_index": 1,
+    "explanation": "L'euro a été introduit comme monnaie scripturale en 1999 et les pièces et billets sont en circulation depuis le 1er janvier 2002. La France partage cette monnaie avec 18 autres pays membres de l'Union européenne.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_034",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle principal du département ?",
+    "options": [
+      "Gérer les lycées et les transports régionaux",
+      "Gérer les collèges, la protection de l'enfance et l'aide aux personnes âgées",
+      "Gérer les écoles primaires et les activités culturelles",
+      "Percevoir les impôts locaux"
+    ],
+    "correct_index": 1,
+    "explanation": "Le département est responsable notamment des collèges, de la protection de l'enfance, de l'aide aux personnes âgées et handicapées. Il est administré par le conseil départemental.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_035",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est le rôle principal des communes ?",
+    "options": [
+      "Gérer les collèges et lycées",
+      "Gérer les écoles maternelles et primaires, l'état civil, les activités sportives et culturelles",
+      "Percevoir les impôts nationaux",
+      "Gérer les hôpitaux et les soins de santé"
+    ],
+    "correct_index": 1,
+    "explanation": "Les communes sont responsables des écoles maternelles et primaires, des activités sportives et culturelles, de l'entretien des voiries communales et tiennent l'état civil (naissances, mariages, décès).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_036",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Combien de communes environ existe-t-il en France ?",
+    "options": ["10 000", "20 000", "35 000", "50 000"],
+    "correct_index": 2,
+    "explanation": "La France compte environ 35 000 communes, ce qui en fait l'un des pays d'Europe avec le plus grand nombre de communes. Elles sont administrées par un maire et un conseil municipal.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_037",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel traité concerne la construction de l'Union européenne ?",
+    "options": [
+      "Le Traité de Versailles",
+      "Le Traité de Maastricht",
+      "Le Traité de Rome uniquement",
+      "La Charte de l'Atlantique"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Traité de Maastricht, signé en 1992, a fondé l'Union européenne telle qu'on la connaît aujourd'hui. Avant cela, le Traité de Rome de 1957 avait créé la Communauté Économique Européenne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_038",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel État a quitté l'Union européenne en 2020 ?",
+    "options": [
+      "La Suisse",
+      "La Norvège",
+      "Le Royaume-Uni",
+      "La Turquie"
+    ],
+    "correct_index": 2,
+    "explanation": "Le Royaume-Uni a officiellement quitté l'Union européenne le 31 janvier 2020, après le référendum du Brexit de 2016. L'UE compte depuis 27 États membres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_039",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quelle est la devise de l'Union européenne ?",
+    "options": [
+      "Liberté, Égalité, Fraternité",
+      "Unie dans la diversité",
+      "Paix, Justice, Solidarité",
+      "En avant ensemble"
+    ],
+    "correct_index": 1,
+    "explanation": "'Unie dans la diversité' est la devise officielle de l'Union européenne. Elle exprime l'idée que les Européens travaillent ensemble pour la paix et la prospérité tout en restant riches de leurs différentes cultures et traditions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_040",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel est l'hymne de l'Union européenne ?",
+    "options": [
+      "La Marseillaise",
+      "L'Ode à la Joie, extrait de la 9e symphonie de Beethoven",
+      "Le Chant des Partisans",
+      "L'Europa"
+    ],
+    "correct_index": 1,
+    "explanation": "L'hymne officiel de l'Union européenne est l'Ode à la Joie, tiré de la 9e symphonie de Ludwig van Beethoven. Il symbolise les idéaux de liberté, de paix et de solidarité de l'Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_041",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "De quoi est composé le drapeau européen ?",
+    "options": [
+      "Des drapeaux de tous les États membres",
+      "De 12 étoiles dorées en cercle sur fond bleu",
+      "De 27 étoiles représentant les États membres",
+      "Des couleurs de la France et de l'Allemagne"
+    ],
+    "correct_index": 1,
+    "explanation": "Le drapeau européen est composé de 12 étoiles dorées disposées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, sans rapport avec le nombre d'États membres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_042",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "De quelle couleur est le drapeau européen ?",
+    "options": [
+      "Bleu et rouge",
+      "Bleu avec des étoiles dorées",
+      "Blanc et bleu",
+      "Vert et jaune"
+    ],
+    "correct_index": 1,
+    "explanation": "Le drapeau européen est bleu avec 12 étoiles dorées disposées en cercle. Le bleu symbolise le ciel de l'Europe occidentale et les étoiles représentent les peuples d'Europe unis.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_in_043",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "options": ["1957", "1986", "1992", "2000"],
+    "correct_index": 2,
+    "explanation": "Le traité de Maastricht a été signé en 1992 et est entré en vigueur en 1993. Il a fondé l'Union européenne, créé la citoyenneté européenne et posé les bases de l'union économique et monétaire.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_044",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Où est le siège du Parlement européen ?",
+    "options": [
+      "À Bruxelles uniquement",
+      "À Strasbourg (siège officiel) et Bruxelles (lieu de travail)",
+      "À Luxembourg",
+      "À Berlin"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Parlement européen a son siège officiel à Strasbourg, en France, où se tiennent les séances plénières. Il travaille également à Bruxelles pour les commissions parlementaires, et son secrétariat général est à Luxembourg.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_045",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Où est le siège de la Commission européenne ?",
+    "options": [
+      "À Paris",
+      "À Strasbourg",
+      "À Bruxelles",
+      "À Berlin"
+    ],
+    "correct_index": 2,
+    "explanation": "La Commission européenne a son siège à Bruxelles, en Belgique. C'est l'organe exécutif de l'Union européenne, chargé de proposer des législations et de veiller à leur application.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_046",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "options": [
+      "L'Espagne",
+      "La Suisse",
+      "La Belgique",
+      "L'Italie"
+    ],
+    "correct_index": 1,
+    "explanation": "La Suisse n'est pas membre de l'Union européenne. Elle est membre de l'espace Schengen et entretient des relations bilatérales avec l'UE, mais a choisi de rester en dehors de l'Union.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_047",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "options": ["Le 1er janvier", "Le 9 mai", "Le 14 juillet", "Le 25 mars"],
+    "correct_index": 1,
+    "explanation": "La journée de l'Europe est célébrée le 9 mai, date anniversaire de la déclaration Schuman de 1950, considérée comme le point de départ de la construction européenne.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_in_048",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "options": ["Tous les 4 ans", "Tous les 5 ans", "Tous les 6 ans", "Tous les 7 ans"],
+    "correct_index": 1,
+    "explanation": "Les élections européennes ont lieu tous les 5 ans. Les citoyens des États membres élisent leurs représentants au Parlement européen.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_049",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "options": [
+      "Être de nationalité française uniquement",
+      "Être citoyen d'un État membre de l'UE et résider en France",
+      "Avoir vécu en France pendant au moins 10 ans",
+      "Être inscrit dans une association européenne"
+    ],
+    "correct_index": 1,
+    "explanation": "Pour voter aux élections européennes en France, il faut être citoyen d'un État membre de l'Union européenne, avoir au moins 18 ans et être inscrit sur les listes électorales en France.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_in_050",
+    "theme": "institutions",
+    "level": "cr",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "options": [
+      "La Pologne",
+      "La France",
+      "La Suède",
+      "La Roumanie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est l'un des six pays fondateurs de la Communauté économique européenne, créée par le Traité de Rome en 1957. Les autres fondateurs sont l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
+    "difficulty": "medium"
+  }
+]

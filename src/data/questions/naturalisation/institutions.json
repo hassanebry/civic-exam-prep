@@ -1,642 +1,352 @@
 [
   {
-    "id": "csp_in_001",
+    "id": "nat_in_001",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui nomme le Premier ministre ?",
-    "options": [
-      "Le Parlement",
-      "Le Président de la République",
-      "Le Conseil d'État",
-      "Les citoyens par élection directe"
-    ],
+    "level": "naturalisation",
+    "question": "Pour combien d'années le Président de la République est-il élu ?",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
     "correct_index": 1,
-    "explanation": "Le Premier ministre est nommé par le Président de la République. Il est issu de la majorité aux élections législatives et dirige le Gouvernement qui détermine et conduit la politique de la Nation.",
+    "explanation": "Le Président de la République est élu au suffrage universel pour cinq ans. Il nomme le Gouvernement, dirigé par le Premier ministre, issu de la majorité aux élections législatives.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_002",
+    "id": "nat_in_002",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Le Parlement est composé :",
+    "level": "naturalisation",
+    "question": "Quelle est la composition du Parlement français ?",
     "options": [
-      "Du Président de la République et du Premier ministre",
-      "De l'Assemblée nationale et du Sénat",
-      "Du Conseil d'État et du Conseil constitutionnel",
-      "Des maires et des présidents de région"
+      "Le Sénat et le Conseil d'État",
+      "L'Assemblée nationale et le Sénat",
+      "L'Assemblée nationale et le Conseil constitutionnel",
+      "Le Sénat et le Conseil économique et social"
     ],
     "correct_index": 1,
     "explanation": "Le Parlement est composé de l'Assemblée nationale et du Sénat. Il vote les lois au nom du peuple et contrôle le Gouvernement.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_003",
+    "id": "nat_in_003",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+    "level": "naturalisation",
+    "question": "Quelle est la Constitution actuellement en vigueur en France ?",
     "options": [
-      "Qui vote les lois",
-      "Qui juge les infractions",
-      "Qui gouverne et applique les lois",
-      "Qui contrôle la constitutionnalité des lois"
+      "La Constitution de la IIIe République de 1875",
+      "La Constitution de la IVe République de 1946",
+      "La Constitution de la Ve République adoptée en 1958",
+      "La Déclaration des Droits de l'Homme de 1789"
     ],
     "correct_index": 2,
-    "explanation": "Le pouvoir exécutif est celui qui gouverne et applique les lois. En France, il est exercé par le Président de la République et le Gouvernement dirigé par le Premier ministre.",
+    "explanation": "La Constitution actuelle est celle de la Ve République, adoptée en 1958. Charles de Gaulle en est à l'origine. Elle définit l'organisation de l'État, la séparation des pouvoirs et les droits fondamentaux.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_004",
+    "id": "nat_in_004",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Les dirigeants sont élus par les citoyens dans :",
+    "level": "naturalisation",
+    "question": "Quel est le principe fondamental qui organise les pouvoirs en France ?",
     "options": [
-      "Une monarchie",
-      "Une dictature",
-      "Une démocratie",
-      "Une théocratie"
-    ],
-    "correct_index": 2,
-    "explanation": "Dans une démocratie, les dirigeants sont élus par les citoyens au suffrage universel. La France est une démocratie : le Président, les députés, les sénateurs, les maires sont élus par les citoyens.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_005",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "A-t-on le droit de ne pas respecter une loi ?",
-    "options": [
-      "Oui, si on n'est pas d'accord avec elle",
-      "Oui, dans certaines circonstances exceptionnelles",
-      "Non, la loi s'applique à tous sans exception",
-      "Oui, si on peut le justifier devant un tribunal"
-    ],
-    "correct_index": 2,
-    "explanation": "Non. 'Nul n'est censé ignorer la loi.' La loi s'applique à tous sans exception. Ne pas respecter une loi expose à des sanctions pénales ou civiles.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_006",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui doit respecter la loi ?",
-    "options": [
-      "Uniquement les étrangers résidant en France",
-      "Tous les citoyens français",
-      "Toutes les personnes présentes sur le territoire français, sans exception",
-      "Uniquement les personnes majeures"
-    ],
-    "correct_index": 2,
-    "explanation": "La loi s'applique à toutes les personnes présentes sur le territoire français, sans exception : citoyens français, étrangers en situation régulière ou non, mineurs et majeurs.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_007",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quel est le rôle de l'autorité judiciaire ?",
-    "options": [
-      "Voter les lois",
-      "Diriger le gouvernement",
-      "Rendre la justice, régler les litiges et sanctionner les infractions",
-      "Percevoir les impôts"
-    ],
-    "correct_index": 2,
-    "explanation": "L'autorité judiciaire rend la justice. Elle règle les litiges entre particuliers ou entreprises, et entre citoyens et administration. Elle sanctionne les infractions aux règles de droit par des peines prévues par la loi.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_008",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quel pouvoir détient un juge ? Le pouvoir :",
-    "options": [
-      "Exécutif",
-      "Législatif",
-      "Judiciaire",
-      "Constitutionnel"
-    ],
-    "correct_index": 2,
-    "explanation": "Un juge détient le pouvoir judiciaire. La séparation des pouvoirs garantit que le pouvoir judiciaire est indépendant des pouvoirs exécutif et législatif.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_009",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "L'autorité judiciaire est exercée par :",
-    "options": [
-      "Le Président de la République",
-      "Les préfets",
-      "Les juges et magistrats",
-      "Les députés"
-    ],
-    "correct_index": 2,
-    "explanation": "L'autorité judiciaire est exercée par les juges et magistrats. Elle est indépendante du pouvoir politique, ce qui garantit l'impartialité de la justice.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_010",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
-    "options": [
-      "Il bénéficie d'une immunité totale",
-      "Il est jugé et sanctionné comme tout citoyen",
-      "Il est simplement démis de ses fonctions sans poursuite",
-      "Il est jugé uniquement par le Président de la République"
+      "La concentration des pouvoirs entre les mains du Président",
+      "La séparation des pouvoirs exécutif, législatif et de l'autorité judiciaire",
+      "La primauté du Parlement sur le gouvernement",
+      "L'union des pouvoirs au sein du Conseil d'État"
     ],
     "correct_index": 1,
-    "explanation": "En France, nul n'est au-dessus des lois. Un ministre qui ne respecte pas la loi est jugé et sanctionné comme tout citoyen. La Cour de justice de la République peut juger les membres du gouvernement pour des actes commis dans l'exercice de leurs fonctions.",
+    "explanation": "Nos institutions sont fondées sur la séparation des pouvoirs exécutif et législatif et de l'autorité judiciaire : ces pouvoirs et la Justice ne doivent pas être exercés par la même autorité.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_011",
+    "id": "nat_in_005",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui est élu lors des élections législatives ?",
+    "level": "naturalisation",
+    "question": "Les députés à l'Assemblée nationale sont-ils élus tous les cinq ans ?",
     "options": [
-      "Le Président de la République",
-      "Les sénateurs",
-      "Les députés de l'Assemblée nationale",
-      "Les maires"
-    ],
-    "correct_index": 2,
-    "explanation": "Les élections législatives permettent d'élire les députés de l'Assemblée nationale, tous les cinq ans. Les députés votent les lois et contrôlent le Gouvernement.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_012",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Combien de députés composent l'Assemblée nationale ?",
-    "options": ["348", "450", "577", "650"],
-    "correct_index": 2,
-    "explanation": "L'Assemblée nationale est composée de 577 députés, élus tous les cinq ans lors des élections législatives au suffrage universel direct.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "csp_in_013",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quand sont élus les sénateurs ?",
-    "options": [
-      "Au suffrage universel direct tous les 5 ans",
-      "Au suffrage universel indirect pour un mandat de 6 ans",
-      "Par le Président de la République pour 7 ans",
-      "Par les maires pour un mandat de 4 ans"
+      "Non, ils sont élus tous les 6 ans comme les sénateurs",
+      "Oui, lors des élections législatives",
+      "Non, ils sont nommés par le Président de la République",
+      "Oui, lors des élections présidentielles"
     ],
     "correct_index": 1,
-    "explanation": "Les sénateurs sont élus au suffrage universel indirect pour un mandat de 6 ans. Ils sont élus par des grands électeurs (conseillers municipaux, départementaux, régionaux et députés).",
-    "difficulty": "medium"
+    "explanation": "Les députés à l'Assemblée nationale sont élus tous les cinq ans lors des élections législatives. Les sénateurs sont élus au suffrage universel indirect pour un mandat de 6 ans.",
+    "difficulty": "easy"
   },
   {
-    "id": "csp_in_014",
+    "id": "nat_in_006",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui est élu lors des élections municipales ?",
+    "level": "naturalisation",
+    "question": "Quel est le rôle de la justice en France ?",
     "options": [
-      "Les préfets",
-      "Les conseillers départementaux",
-      "Le maire et les conseillers municipaux",
-      "Les députés"
+      "Voter les lois au nom du peuple",
+      "Conduire la politique de la Nation",
+      "Régler les litiges et sanctionner les infractions aux règles de droit",
+      "Nommer le Premier ministre"
     ],
     "correct_index": 2,
-    "explanation": "Les élections municipales permettent d'élire le maire et les conseillers municipaux pour un mandat de 6 ans. Ils administrent la commune.",
+    "explanation": "La justice est rendue par les juges. Elle règle les litiges entre les particuliers ou les entreprises, et entre les citoyens et l'administration. Elle sanctionne les infractions aux règles de droit par des peines prévues par la loi.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_015",
+    "id": "nat_in_007",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui est élu lors des élections présidentielles ?",
+    "level": "naturalisation",
+    "question": "Qui administre une commune en France ?",
     "options": [
-      "Le Premier ministre",
-      "Le Président de la République",
-      "Les membres du gouvernement",
-      "Le président du Sénat"
+      "Un préfet nommé par l'État",
+      "Un maire et un conseil municipal élus pour 6 ans",
+      "Un conseil départemental",
+      "Un sous-préfet nommé par le gouvernement"
     ],
     "correct_index": 1,
-    "explanation": "Les élections présidentielles permettent d'élire le Président de la République, au suffrage universel direct pour un mandat de 5 ans.",
+    "explanation": "Les communes sont administrées par un maire et un conseil municipal, élus pour 6 ans. La France compte environ 35 000 communes. Elles sont regroupées en intercommunalités.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_016",
+    "id": "nat_in_008",
     "theme": "institutions",
-    "level": "csp",
-    "question": "À partir de quel âge a-t-on le droit de voter ?",
-    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
-    "correct_index": 1,
-    "explanation": "Le droit de vote est accordé à partir de 18 ans. Le suffrage universel signifie que tous les citoyens, hommes et femmes, ayant au moins 18 ans et disposant de leurs droits civils et politiques, peuvent voter.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_017",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Pour combien de temps est élu le Président de la République française ?",
-    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
-    "correct_index": 1,
-    "explanation": "Le Président de la République est élu pour 5 ans au suffrage universel direct. Il nomme le Premier ministre et préside le Conseil des ministres.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_018",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Pour combien de temps sont élus les députés ?",
-    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
-    "correct_index": 1,
-    "explanation": "Les députés de l'Assemblée nationale sont élus pour 5 ans lors des élections législatives. Ils votent les lois et contrôlent le Gouvernement.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_019",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Pour combien de temps sont élus les sénateurs ?",
-    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
-    "correct_index": 2,
-    "explanation": "Les sénateurs sont élus pour 6 ans au suffrage universel indirect. Le Sénat est renouvelé par moitié tous les 3 ans.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_020",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui possède le pouvoir exécutif ?",
-    "options": [
-      "Le Parlement",
-      "Les juges",
-      "Le Président de la République et le Gouvernement",
-      "Le Conseil constitutionnel"
-    ],
-    "correct_index": 2,
-    "explanation": "Le pouvoir exécutif est exercé par le Président de la République et le Gouvernement dirigé par le Premier ministre. Ils gouvernent le pays et appliquent les lois votées par le Parlement.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_021",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quelle condition est nécessaire pour voter aux élections ?",
-    "options": [
-      "Être né en France",
-      "Avoir la nationalité française et être inscrit sur les listes électorales",
-      "Avoir un diplôme",
-      "Payer des impôts depuis au moins 5 ans"
-    ],
-    "correct_index": 1,
-    "explanation": "Pour voter, il faut être de nationalité française, avoir au moins 18 ans, jouir de ses droits civils et politiques, et être inscrit sur les listes électorales.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_022",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui peut voter aux élections en France ?",
-    "options": [
-      "Tous les résidents en France, quelle que soit leur nationalité",
-      "Les citoyens français majeurs disposant de leurs droits civiques",
-      "Les citoyens français et européens pour toutes les élections",
-      "Tous les contribuables payant des impôts en France"
-    ],
-    "correct_index": 1,
-    "explanation": "Peuvent voter aux élections nationales les citoyens français âgés de plus de 18 ans, n'ayant pas été privés de leurs droits civiques par une décision de justice.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_023",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Que signifie 'suffrage universel' ?",
-    "options": [
-      "Que seuls les propriétaires ont le droit de vote",
-      "Que le vote est obligatoire pour tous les citoyens",
-      "Que tous les citoyens majeurs ont le droit de voter",
-      "Que le vote se fait uniquement par correspondance"
-    ],
-    "correct_index": 2,
-    "explanation": "Le suffrage universel signifie que tous les citoyens, hommes et femmes, ayant au moins 18 ans et disposant de leurs droits civils et politiques, ont le droit de voter et de se présenter aux élections.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_024",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
-    "options": [
-      "Il n'existe qu'un seul parti politique autorisé en France",
-      "Les partis politiques sont financés uniquement par l'État",
-      "Les partis politiques se forment et exercent leur activité librement",
-      "Les partis politiques doivent être approuvés par le Président"
-    ],
-    "correct_index": 2,
-    "explanation": "En France, les partis politiques se forment et exercent leur activité librement. C'est une garantie fondamentale de la démocratie. Ils contribuent à l'expression du suffrage.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_025",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quel est le rôle des députés ?",
-    "options": [
-      "Appliquer les lois dans les communes",
-      "Voter les lois et contrôler le Gouvernement au nom des citoyens",
-      "Nommer les ministres",
-      "Juger les infractions à la loi"
-    ],
-    "correct_index": 1,
-    "explanation": "Les députés, élus par les citoyens, votent les lois au nom du peuple et contrôlent l'action du Gouvernement. Ils siègent à l'Assemblée nationale.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_026",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
-    "options": [
-      "Le pouvoir présidentiel, ministériel et préfectoral",
-      "Le pouvoir exécutif, législatif et judiciaire",
-      "Le pouvoir national, régional et communal",
-      "Le pouvoir civil, militaire et religieux"
-    ],
-    "correct_index": 1,
-    "explanation": "La séparation des pouvoirs distingue le pouvoir exécutif (gouverner), le pouvoir législatif (voter les lois) et le pouvoir judiciaire (rendre la justice). Ces trois pouvoirs ne peuvent pas être exercés par la même autorité.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_027",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui possède le pouvoir législatif ?",
-    "options": [
-      "Le Président de la République",
-      "Le Gouvernement",
-      "Le Parlement (Assemblée nationale et Sénat)",
-      "Le Conseil d'État"
-    ],
-    "correct_index": 2,
-    "explanation": "Le pouvoir législatif est détenu par le Parlement, composé de l'Assemblée nationale et du Sénat. Il vote les lois au nom du peuple.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_028",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui sanctionne l'auteur d'un vol ?",
-    "options": [
-      "Le préfet du département",
-      "Le maire de la commune",
-      "Le juge, au nom de l'autorité judiciaire",
-      "Le ministre de l'Intérieur"
-    ],
-    "correct_index": 2,
-    "explanation": "C'est le juge, au nom de l'autorité judiciaire, qui sanctionne les infractions à la loi. La justice est indépendante du pouvoir politique.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_029",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui élit les députés ?",
-    "options": [
-      "Le Président de la République",
-      "Les sénateurs",
-      "Les citoyens français au suffrage universel direct",
-      "Les maires de France"
-    ],
-    "correct_index": 2,
-    "explanation": "Les députés sont élus par les citoyens français au suffrage universel direct lors des élections législatives, tous les cinq ans.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_030",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui vote les lois ?",
-    "options": [
-      "Le Président de la République",
-      "Le Gouvernement",
-      "Le Parlement",
-      "Le Conseil constitutionnel"
-    ],
-    "correct_index": 2,
-    "explanation": "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois au nom du peuple. C'est le pouvoir législatif.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_031",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Qui réside au palais de l'Élysée ?",
-    "options": [
-      "Le Premier ministre",
-      "Le Président de la République",
-      "Le président du Sénat",
-      "Le président de l'Assemblée nationale"
-    ],
-    "correct_index": 1,
-    "explanation": "Le Président de la République réside et travaille au palais de l'Élysée, à Paris. C'est le siège de la présidence de la République française.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_032",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Combien y a-t-il de départements en France ?",
+    "level": "naturalisation",
+    "question": "Combien de départements la France compte-t-elle ?",
     "options": ["95", "96", "100", "101"],
     "correct_index": 3,
-    "explanation": "La France compte 101 départements : 96 en métropole (dont la Corse) et 5 départements et régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion).",
+    "explanation": "La France compte 101 départements : 96 en métropole (dont la Corse) et 5 départements et régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion). Ils sont administrés par les conseils départementaux.",
     "difficulty": "hard"
   },
   {
-    "id": "csp_in_033",
+    "id": "nat_in_009",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui représente l'État dans un département ?",
+    "level": "naturalisation",
+    "question": "Qui représente l'État dans les départements et régions ?",
     "options": [
-      "Le président du conseil départemental",
-      "Le maire du chef-lieu",
+      "Le maire",
+      "Le président du conseil régional",
       "Le préfet",
-      "Le député de la circonscription"
+      "Le député élu dans la circonscription"
     ],
     "correct_index": 2,
-    "explanation": "Le préfet représente l'État dans le département. Il est nommé par le Président de la République et veille à l'application des lois et des décisions du gouvernement.",
+    "explanation": "Dans les départements et les régions de métropole et d'outre-mer, l'État est représenté par les préfets (ou par les hauts-commissaires dans certaines collectivités d'outre-mer).",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_034",
+    "id": "nat_in_010",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui dirige la commune ?",
+    "level": "naturalisation",
+    "question": "De quoi sont chargées les régions en France ?",
     "options": [
-      "Le préfet",
-      "Le maire",
-      "Le conseiller départemental",
-      "Le député"
+      "Des écoles maternelles et primaires",
+      "Des collèges et de la protection de l'enfance",
+      "Des transports publics, de la formation professionnelle et de la construction des lycées",
+      "De l'état civil et du recensement de la population"
     ],
-    "correct_index": 1,
-    "explanation": "La commune est dirigée par le maire, élu par le conseil municipal pour 6 ans. Le maire est à la fois chef de l'exécutif communal et représentant de l'État dans la commune.",
+    "correct_index": 2,
+    "explanation": "Les 13 régions métropolitaines sont administrées par les conseils régionaux. Elles sont chargées notamment des transports publics, de la formation professionnelle, et de la construction et l'entretien des lycées.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_in_011",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Quel est le principe fondateur de la démocratie française ?",
+    "options": [
+      "Le gouvernement du peuple, par le peuple et pour le peuple",
+      "La primauté de l'économie sur le politique",
+      "La souveraineté du Parlement sur toutes les institutions",
+      "L'autorité de l'Église sur les affaires publiques"
+    ],
+    "correct_index": 0,
+    "explanation": "La France est une démocratie et un État de droit. Son principe fondateur est : le gouvernement du peuple, par le peuple et pour le peuple. Le pouvoir politique est soumis à la loi.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_035",
+    "id": "nat_in_012",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Est-ce que le Président de la République a tous les pouvoirs ?",
+    "level": "naturalisation",
+    "question": "De quoi sont responsables les communes en France ?",
     "options": [
-      "Oui, il concentre tous les pouvoirs de l'État",
-      "Non, les pouvoirs sont séparés entre l'exécutif, le législatif et le judiciaire",
-      "Oui, mais uniquement en temps de guerre",
-      "Non, il partage tous ses pouvoirs avec le Premier ministre"
+      "Des lycées et des transports régionaux",
+      "Des collèges et de la protection de l'enfance",
+      "Des écoles maternelles et primaires, des activités sportives et culturelles, de l'état civil",
+      "De la formation professionnelle et des universités"
     ],
-    "correct_index": 1,
-    "explanation": "Non. La France applique le principe de séparation des pouvoirs. Le Président exerce le pouvoir exécutif, mais le Parlement vote les lois (pouvoir législatif) et les juges rendent la justice (pouvoir judiciaire) de manière indépendante.",
+    "correct_index": 2,
+    "explanation": "Les communes sont responsables notamment des écoles maternelles et primaires, des activités sportives et culturelles, de l'entretien de la voirie communale. Elles tiennent l'état civil : naissances, mariages, décès.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_036",
+    "id": "nat_in_013",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui est le préfet ?",
+    "level": "naturalisation",
+    "question": "De quoi sont responsables les départements en France ?",
     "options": [
-      "Le chef de la police nationale",
-      "Le représentant de l'État dans le département ou la région",
-      "Le président du tribunal administratif",
-      "Le directeur des services fiscaux"
+      "Des lycées et des transports régionaux",
+      "Des collèges, de la protection de l'enfance et de l'aide aux personnes âgées",
+      "Des écoles maternelles et primaires",
+      "De la formation professionnelle et des universités"
     ],
     "correct_index": 1,
-    "explanation": "Le préfet est le représentant de l'État dans le département ou la région. Il est nommé par le Conseil des ministres et veille à l'application des lois et des politiques publiques.",
+    "explanation": "Les départements sont administrés par les conseils départementaux. Ils sont responsables notamment des collèges, de la protection de l'enfance, de l'aide aux personnes âgées.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_037",
+    "id": "nat_in_014",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Quel est le rôle du Parlement ?",
+    "level": "naturalisation",
+    "question": "La France est-elle membre de l'Union européenne ?",
     "options": [
-      "Appliquer les lois dans les communes",
-      "Voter les lois et contrôler le Gouvernement",
-      "Nommer les préfets et ambassadeurs",
-      "Rendre la justice au nom du peuple"
+      "Non, la France n'a jamais été membre de l'UE",
+      "Oui, et elle est l'un des pays fondateurs depuis 1957",
+      "Oui, mais elle a rejoint l'UE seulement en 1992",
+      "Non, la France a quitté l'UE comme le Royaume-Uni"
     ],
     "correct_index": 1,
-    "explanation": "Le Parlement vote les lois au nom du peuple et contrôle l'action du Gouvernement. Il est composé de l'Assemblée nationale et du Sénat.",
+    "explanation": "La France est l'un des six pays fondateurs de la Communauté économique européenne, créée par le Traité de Rome en 1957. L'Union européenne compte aujourd'hui 27 États membres depuis le départ du Royaume-Uni en 2020.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_038",
+    "id": "nat_in_015",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Quel est le régime politique de la France aujourd'hui ?",
-    "options": [
-      "Une monarchie constitutionnelle",
-      "Une République démocratique",
-      "Une fédération d'États",
-      "Un régime présidentiel pur"
-    ],
-    "correct_index": 1,
-    "explanation": "La France est une République démocratique. C'est la Ve République, fondée en 1958. Les dirigeants sont élus au suffrage universel et exercent le pouvoir dans le cadre de la Constitution.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_in_039",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
-    "options": ["25", "27", "28", "30"],
-    "correct_index": 1,
-    "explanation": "Au 1er janvier 2025, l'Union européenne compte 27 États membres. Le Royaume-Uni a quitté l'UE en 2020 (Brexit), faisant passer le nombre de membres de 28 à 27.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "csp_in_040",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quel État n'est pas membre de l'Union européenne ?",
-    "options": [
-      "L'Espagne",
-      "La Suisse",
-      "La Belgique",
-      "L'Italie"
-    ],
-    "correct_index": 1,
-    "explanation": "La Suisse n'est pas membre de l'Union européenne. Elle est membre de l'espace Schengen mais a choisi de rester en dehors de l'UE. L'Espagne, la Belgique et l'Italie sont membres fondateurs ou membres de l'UE.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_041",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
-    "options": [
-      "Être de nationalité française uniquement",
-      "Être citoyen d'un État membre de l'UE et résider en France",
-      "Avoir vécu en France pendant au moins 10 ans",
-      "Être inscrit dans une association européenne"
-    ],
-    "correct_index": 1,
-    "explanation": "Pour voter aux élections européennes en France, il faut être citoyen d'un État membre de l'Union européenne, avoir au moins 18 ans et être inscrit sur les listes électorales en France.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_042",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
-    "options": ["Tous les 4 ans", "Tous les 5 ans", "Tous les 6 ans", "Tous les 7 ans"],
-    "correct_index": 1,
-    "explanation": "Les élections européennes ont lieu tous les 5 ans. Les citoyens français élisent leurs représentants au Parlement européen lors de ces élections.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_043",
-    "theme": "institutions",
-    "level": "csp",
-    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
-    "options": [
-      "La Pologne",
-      "La France",
-      "La Suède",
-      "La Roumanie"
-    ],
-    "correct_index": 1,
-    "explanation": "La France est l'un des six pays fondateurs de la Communauté économique européenne, créée par le Traité de Rome en 1957. Les autres fondateurs sont l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_in_044",
-    "theme": "institutions",
-    "level": "csp",
+    "level": "naturalisation",
     "question": "Quelle est la monnaie utilisée en France ?",
     "options": ["Le franc", "La livre sterling", "L'euro", "Le dollar"],
     "correct_index": 2,
-    "explanation": "La France utilise l'euro depuis 2002. La France partage cette monnaie unique avec 18 autres pays membres de l'Union européenne.",
+    "explanation": "La France utilise l'euro depuis 2002. Depuis 2000, la France partage avec 18 autres pays membres de l'Union européenne cette monnaie unique.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_in_045",
+    "id": "nat_in_016",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Qui élit les députés européens ?",
+    "level": "naturalisation",
+    "question": "Combien de régions la France compte-t-elle au total ?",
+    "options": ["13", "15", "17", "18"],
+    "correct_index": 3,
+    "explanation": "La France compte 18 régions au total : 13 régions métropolitaines (dont la Corse) et 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_in_017",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "À quel âge les citoyens français ont-ils le droit de vote ?",
+    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
+    "correct_index": 1,
+    "explanation": "Le droit de vote est accordé à partir de 18 ans. Le suffrage universel signifie que tous les citoyens hommes et femmes ayant au moins 18 ans et disposant de leurs droits civils et politiques peuvent voter.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_in_018",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Qui vote les lois en France ?",
     "options": [
-      "Les gouvernements des États membres",
-      "Les citoyens européens au suffrage universel direct",
-      "Le Parlement national de chaque pays",
-      "Le Conseil européen"
+      "Le Président de la République",
+      "Le Gouvernement",
+      "Le Parlement composé de l'Assemblée nationale et du Sénat",
+      "Le Conseil constitutionnel"
+    ],
+    "correct_index": 2,
+    "explanation": "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois au nom du peuple. C'est le pouvoir législatif. Le Gouvernement détermine et conduit la politique de la Nation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_in_019",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Qui nomme le Premier ministre en France ?",
+    "options": [
+      "Le Parlement lors d'un vote",
+      "Le Président de la République",
+      "Le Conseil d'État",
+      "Les citoyens par élection directe"
     ],
     "correct_index": 1,
-    "explanation": "Les députés européens sont élus directement par les citoyens des États membres au suffrage universel, tous les cinq ans.",
+    "explanation": "Le Premier ministre est nommé par le Président de la République. Il est généralement issu de la majorité à l'Assemblée nationale et dirige l'action du Gouvernement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_in_020",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Quels citoyens peuvent voter aux élections en France ?",
+    "options": [
+      "Tous les résidents en France quelle que soit leur nationalité",
+      "Les citoyens français majeurs disposant de leurs droits civiques et inscrits sur les listes électorales",
+      "Les citoyens français et européens pour toutes les élections nationales",
+      "Tous les contribuables payant des impôts en France"
+    ],
+    "correct_index": 1,
+    "explanation": "Peuvent voter aux élections nationales les citoyens français âgés de plus de 18 ans, n'ayant pas été privés de leurs droits civiques par une décision de justice, et inscrits sur les listes électorales.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_in_046",
+    "id": "nat_in_021",
     "theme": "institutions",
-    "level": "csp",
-    "question": "Quand célèbre-t-on la journée de l'Europe ?",
-    "options": ["Le 1er janvier", "Le 9 mai", "Le 14 juillet", "Le 25 mars"],
+    "level": "naturalisation",
+    "question": "L'indépendance de la justice est-elle garantie en France ?",
+    "options": [
+      "Non, la justice dépend directement du Président de la République",
+      "Oui, l'indépendance de la justice est garantie et les juges ne peuvent pas recevoir d'ordres du gouvernement",
+      "Non, les juges sont nommés par le Parlement et lui rendent des comptes",
+      "Cela dépend du type de juridiction"
+    ],
     "correct_index": 1,
-    "explanation": "La journée de l'Europe est célébrée le 9 mai, date anniversaire de la déclaration Schuman de 1950, considérée comme le point de départ de la construction européenne.",
-    "difficulty": "hard"
+    "explanation": "L'indépendance de la justice est garantie en France. C'est l'un des principes fondamentaux de l'État de droit. Les juges ne reçoivent d'ordres ni du Président, ni du gouvernement, ni du Parlement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_in_022",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Les partis politiques sont-ils libres de se former en France ?",
+    "options": [
+      "Non, il n'existe qu'un seul parti politique autorisé",
+      "Oui, les partis politiques se forment et exercent leur activité librement",
+      "Non, ils doivent être approuvés par le Président de la République",
+      "Oui, mais uniquement les partis qui soutiennent le gouvernement"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, les partis politiques se forment et exercent leur activité librement. C'est une garantie fondamentale de la démocratie. Ils contribuent à l'expression du suffrage.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_in_023",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la France représente dans l'Union européenne ?",
+    "options": [
+      "Un petit pays sans influence particulière",
+      "L'un des pays fondateurs de 1957, membre de l'eurozone et du Conseil de sécurité de l'ONU",
+      "Un pays qui a rejoint l'UE récemment",
+      "Le seul pays de l'UE à posséder l'arme nucléaire"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est l'un des pionniers de la construction européenne depuis 1957. Elle fait partie de l'eurozone depuis 2002 et est membre permanent du Conseil de sécurité de l'ONU, ce qui lui confère un rôle international majeur.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_in_024",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Depuis 1992, les citoyens français sont-ils aussi des citoyens européens ?",
+    "options": [
+      "Non, la citoyenneté européenne n'existe pas",
+      "Oui, depuis le Traité de Maastricht de 1992, les citoyens français sont aussi citoyens européens",
+      "Oui, mais seulement depuis l'introduction de l'euro en 2002",
+      "Non, uniquement les personnes nées dans un autre pays de l'UE"
+    ],
+    "correct_index": 1,
+    "explanation": "Depuis 1992, les citoyens français sont aussi citoyens européens. Ils votent aux élections du Parlement européen tous les cinq ans et sont libres de circuler, travailler et s'installer dans les autres pays de l'UE.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_in_025",
+    "theme": "institutions",
+    "level": "naturalisation",
+    "question": "Quel est le rôle du Gouvernement en France ?",
+    "options": [
+      "Voter les lois et contrôler le Président",
+      "Déterminer et conduire la politique de la Nation",
+      "Juger les crimes et délits graves",
+      "Élire le Président de la République"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Gouvernement détermine et conduit la politique de la Nation. Il est dirigé par le Premier ministre, nommé par le Président de la République, et est responsable devant le Parlement.",
+    "difficulty": "medium"
   }
 ]

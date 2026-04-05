@@ -1,0 +1,717 @@
+[
+  {
+    "id": "cr_hg_001",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel était le surnom de Louis XIV ?",
+    "options": [
+      "Le Roi Soleil",
+      "Le Grand Roi",
+      "Le Roi Très Chrétien",
+      "Le Roi de France et de Navarre"
+    ],
+    "correct_index": 0,
+    "explanation": "Louis XIV (1643-1715) était surnommé 'le Roi Soleil'. Il a régné pendant 72 ans, le plus long règne de l'histoire de France. Il a concentré tous les pouvoirs et fait construire le château de Versailles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_002",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "options": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVI",
+      "Louis XVIII"
+    ],
+    "correct_index": 2,
+    "explanation": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française. Son arrestation et son procès ont marqué la fin de la monarchie absolue et la proclamation de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_003",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "options": ["1799", "1802", "1804", "1815"],
+    "correct_index": 2,
+    "explanation": "Napoléon Ier est devenu empereur des Français le 2 décembre 1804, lors d'une cérémonie au cours de laquelle il s'est couronné lui-même en présence du pape Pie VII à Notre-Dame de Paris.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_hg_004",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "options": [
+      "Winston Churchill",
+      "Simone Veil",
+      "Nelson Mandela",
+      "Martin Luther King"
+    ],
+    "correct_index": 1,
+    "explanation": "Simone Veil (1927-2017) est une figure majeure de la République française. Rescapée de la Shoah, elle a été ministre de la Santé et a fait adopter la loi sur l'IVG en 1975. Elle est entrée au Panthéon en 2018.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_005",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "options": [
+      "Du 18 juin 1940",
+      "Du 8 mai 1945",
+      "Du 6 juin 1944",
+      "Du 11 novembre 1918"
+    ],
+    "correct_index": 0,
+    "explanation": "Le 18 juin 1940, le général de Gaulle a lancé depuis Londres son célèbre appel à la résistance contre l'occupation allemande. Cet appel, diffusé par la BBC, est considéré comme l'acte fondateur de la Résistance française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_006",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "options": [
+      "Pour commémorer uniquement les soldats français morts au combat",
+      "Pour transmettre la mémoire de ce génocide et prévenir toute répétition de tels crimes",
+      "Pour étudier la politique étrangère de la France",
+      "Parce que c'est obligatoire dans tous les pays européens"
+    ],
+    "correct_index": 1,
+    "explanation": "La Shoah est étudiée à l'école pour transmettre la mémoire de l'extermination de millions de Juifs et d'autres victimes par les nazis, et pour éduquer les jeunes générations afin de prévenir toute répétition de tels crimes contre l'humanité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_007",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel pays a été colonisé par la France ?",
+    "options": [
+      "Le Brésil",
+      "L'Algérie",
+      "L'Inde",
+      "La Chine"
+    ],
+    "correct_index": 1,
+    "explanation": "L'Algérie a été colonisée par la France à partir de 1830 et jusqu'à son indépendance en 1962. La guerre d'Algérie (1954-1962) a été un conflit majeur de la décolonisation française.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_008",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "options": ["1848", "1875", "1962", "1981"],
+    "correct_index": 2,
+    "explanation": "Les Français élisent le Président de la République au suffrage universel direct depuis 1962, suite à un référendum initié par le général de Gaulle. Avant cette date, le Président était élu par le Parlement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_hg_009",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "options": [
+      "La création de l'Union européenne",
+      "La création de la Communauté européenne du charbon et de l'acier (CECA)",
+      "La signature du Traité de Rome",
+      "L'introduction de l'euro"
+    ],
+    "correct_index": 1,
+    "explanation": "La première étape de la construction européenne est la création de la Communauté européenne du charbon et de l'acier (CECA) en 1951, par le Traité de Paris. Cette organisation réunissait 6 pays dont la France et l'Allemagne.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_hg_010",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "options": [
+      "Charles de Gaulle",
+      "Georges Pompidou",
+      "Valéry Giscard d'Estaing",
+      "François Mitterrand"
+    ],
+    "correct_index": 3,
+    "explanation": "La peine de mort a été abolie en France en 1981, durant le premier mandat de François Mitterrand, à l'initiative du garde des Sceaux Robert Badinter. La France est l'un des premiers grands pays à avoir aboli la peine capitale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_011",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "options": [
+      "La monarchie constitutionnelle",
+      "La République",
+      "L'Empire",
+      "La dictature"
+    ],
+    "correct_index": 1,
+    "explanation": "En 1792, pendant la Révolution française, la Ire République a été proclamée après l'abolition de la monarchie. C'est la première fois que la France adoptait un régime républicain.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_012",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Philippe Pétain",
+      "Jean Moulin",
+      "Pierre Laval",
+      "Louis XVI"
+    ],
+    "correct_index": 1,
+    "explanation": "Jean Moulin (1899-1943) était l'une des figures emblématiques de la Résistance française. Préfet révoqué par Vichy, il a rejoint de Gaulle à Londres et a unifié les mouvements de résistance intérieure. Il est mort sous la torture.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_013",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "options": [
+      "Elles ont obtenu le droit de travailler",
+      "Elles ont obtenu le droit de vote",
+      "Elles ont obtenu le droit à l'éducation",
+      "Elles ont obtenu le droit de divorcer"
+    ],
+    "correct_index": 1,
+    "explanation": "En 1944, les femmes françaises ont obtenu le droit de vote par ordonnance du gouvernement provisoire du général de Gaulle. Elles ont exercé ce droit pour la première fois lors des élections municipales d'avril 1945.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_014",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "options": [
+      "L'Union européenne",
+      "L'Organisation des Nations Unies (ONU)",
+      "L'OTAN",
+      "Le G7"
+    ],
+    "correct_index": 1,
+    "explanation": "L'Organisation des Nations Unies (ONU) a été créée en 1945 après la Seconde Guerre mondiale pour maintenir la paix internationale, développer des relations amicales entre nations et promouvoir le progrès social. La France est membre permanent du Conseil de sécurité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_015",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle peine a été supprimée en 1981 ?",
+    "options": [
+      "La prison à vie",
+      "La peine de mort",
+      "Les travaux forcés",
+      "La détention provisoire"
+    ],
+    "correct_index": 1,
+    "explanation": "La peine de mort a été abolie en France en 1981, sous la présidence de François Mitterrand, à l'initiative du garde des Sceaux Robert Badinter. Son abolition est inscrite dans la Constitution depuis 2007.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_016",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "En quelle année l'euro est-il devenu la monnaie utilisée en France ?",
+    "options": ["1992", "1999", "2002", "2005"],
+    "correct_index": 2,
+    "explanation": "L'euro est devenu la monnaie courante en France le 1er janvier 2002, avec la mise en circulation des pièces et billets en euros. Il avait été introduit comme monnaie scripturale en 1999.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_017",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "En quelle année a commencé la Première Guerre mondiale ?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "correct_index": 1,
+    "explanation": "La Première Guerre mondiale a commencé en 1914 et s'est terminée en 1918. Ce conflit a fait plus de 9 millions de morts. Le 11 novembre commémore l'armistice qui a mis fin à cette guerre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_018",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Où a eu lieu le débarquement en 1944 ?",
+    "options": [
+      "En Bretagne",
+      "En Normandie",
+      "En Provence uniquement",
+      "Dans le Pas-de-Calais"
+    ],
+    "correct_index": 1,
+    "explanation": "Le débarquement des alliés a eu lieu en Normandie le 6 juin 1944 (Jour J). C'est une étape décisive dans la libération de la France occupée par l'Allemagne nazie. Le 6 juin est commémoré chaque année.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_019",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "options": [
+      "L'Amérique du Sud",
+      "L'Asie uniquement",
+      "L'Afrique",
+      "L'Océanie"
+    ],
+    "correct_index": 2,
+    "explanation": "L'Afrique a été le continent le plus concerné par la décolonisation française après la Seconde Guerre mondiale. La plupart des colonies africaines françaises ont accédé à l'indépendance dans les années 1960.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_020",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Que fête-t-on le 8 mai ?",
+    "options": [
+      "La fin de la Première Guerre mondiale",
+      "La fin de la Seconde Guerre mondiale en Europe",
+      "La libération de Paris",
+      "L'anniversaire de la République"
+    ],
+    "correct_index": 1,
+    "explanation": "Le 8 mai commémore la fin de la Seconde Guerre mondiale en Europe, avec la capitulation de l'Allemagne nazie le 8 mai 1945. C'est un jour férié en France.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_021",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "options": [
+      "La mer du Nord et l'océan Pacifique",
+      "La Manche, l'océan Atlantique et la mer Méditerranée",
+      "La mer Baltique et la mer du Nord",
+      "L'océan Atlantique uniquement"
+    ],
+    "correct_index": 1,
+    "explanation": "La France métropolitaine est bordée par la Manche au nord, l'océan Atlantique à l'ouest et la mer Méditerranée au sud. Cette position géographique lui confère une façade maritime exceptionnelle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_022",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "options": [
+      "Le Maroc",
+      "La Tunisie",
+      "L'Allemagne",
+      "La Grèce"
+    ],
+    "correct_index": 2,
+    "explanation": "L'Allemagne partage une frontière terrestre avec la France métropolitaine. La France partage aussi ses frontières avec la Belgique, le Luxembourg, la Suisse, l'Italie, Monaco, l'Espagne et Andorre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_023",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle ville française est un port maritime ?",
+    "options": [
+      "Clermont-Ferrand",
+      "Dijon",
+      "Le Havre",
+      "Strasbourg"
+    ],
+    "correct_index": 2,
+    "explanation": "Le Havre est l'un des plus grands ports maritimes français, situé en Normandie sur la Manche. Marseille est également un grand port maritime méditerranéen. Strasbourg est un port fluvial sur le Rhin.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_024",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "options": [
+      "La mer du Nord",
+      "La mer Baltique",
+      "La Manche",
+      "La mer Méditerranée"
+    ],
+    "correct_index": 2,
+    "explanation": "La Manche est la mer qui sépare la France de l'Angleterre. Elle relie l'océan Atlantique à la mer du Nord. Le tunnel sous la Manche (Eurostar) relie la France au Royaume-Uni.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_025",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qu'est-ce que la France d'outre-mer ?",
+    "options": [
+      "Les ambassades françaises dans le monde",
+      "Les territoires français situés en dehors de l'Europe continentale",
+      "Les pays francophones d'Afrique",
+      "Les anciennes colonies françaises devenues indépendantes"
+    ],
+    "correct_index": 1,
+    "explanation": "La France d'outre-mer désigne les territoires français situés en dehors de l'Europe continentale : les 5 départements et régions d'outre-mer (DOM-ROM) et les 7 collectivités d'outre-mer (COM), répartis sur plusieurs océans.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_026",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+    "options": [
+      "Les Alpes",
+      "Les Vosges",
+      "Les Pyrénées",
+      "Le Massif central"
+    ],
+    "correct_index": 2,
+    "explanation": "Les Pyrénées sont la chaîne de montagnes qui forme la frontière naturelle entre la France et l'Espagne. Les Alpes séparent quant à elles la France de l'Italie et de la Suisse.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_027",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle île française se trouve dans l'océan Indien ?",
+    "options": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Réunion",
+      "Saint-Martin"
+    ],
+    "correct_index": 2,
+    "explanation": "La Réunion est un département et région d'outre-mer français situé dans l'océan Indien, à l'est de Madagascar. La Martinique et la Guadeloupe sont dans les Caraïbes (océan Atlantique).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_028",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "options": [
+      "Environ 55 millions",
+      "Environ 60 millions",
+      "Environ 68 millions",
+      "Environ 75 millions"
+    ],
+    "correct_index": 2,
+    "explanation": "La France compte environ 68 millions d'habitants en 2025. En 2021, l'INSEE recensait 67,4 millions d'habitants. La France est l'un des pays les plus peuplés d'Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_029",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel fleuve traverse Paris ?",
+    "options": [
+      "La Loire",
+      "Le Rhône",
+      "La Seine",
+      "La Garonne"
+    ],
+    "correct_index": 2,
+    "explanation": "La Seine traverse Paris. C'est l'un des fleuves les plus emblématiques de France. Elle prend sa source en Bourgogne et se jette dans la Manche au Havre, après avoir traversé Paris.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_030",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+    "options": [
+      "Le Portugal",
+      "La Pologne",
+      "La Suisse",
+      "Le Danemark"
+    ],
+    "correct_index": 2,
+    "explanation": "La Suisse partage une frontière terrestre avec la France. La France partage ses frontières avec 8 pays : Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne et Andorre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_031",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+    "options": [
+      "L'Espagne",
+      "L'Italie",
+      "L'Allemagne",
+      "Le Portugal"
+    ],
+    "correct_index": 2,
+    "explanation": "L'Allemagne partage une frontière avec la France au nord-est, dans la région du Grand-Est (Alsace-Moselle). Le Rhin constitue une partie de cette frontière naturelle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_032",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Où se trouvent les principales activités économiques en France ?",
+    "options": [
+      "Uniquement dans les zones rurales",
+      "Principalement dans les grandes métropoles et leurs périphéries",
+      "Uniquement dans les ports maritimes",
+      "Principalement dans les zones montagneuses"
+    ],
+    "correct_index": 1,
+    "explanation": "Les principales activités économiques françaises se concentrent dans les grandes métropoles et leurs périphéries : Paris (premier pôle économique), Lyon, Marseille, Toulouse, Bordeaux, etc. Ces métropoles concentrent emplois, entreprises et services.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_033",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+    "options": [
+      "Les États-Unis",
+      "L'Espagne",
+      "La France",
+      "L'Italie"
+    ],
+    "correct_index": 2,
+    "explanation": "La France est la première destination touristique mondiale, accueillant environ 90 millions de visiteurs étrangers par an. Paris, la Côte d'Azur, les châteaux de la Loire et les régions viticoles attirent des millions de touristes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_034",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Où habite la majorité des Français ?",
+    "options": [
+      "Dans les zones rurales",
+      "Dans les zones urbaines et périurbaines",
+      "Dans les zones côtières uniquement",
+      "Dans les zones montagneuses"
+    ],
+    "correct_index": 1,
+    "explanation": "La majorité des Français (environ 80%) vivent dans des zones urbaines et périurbaines. La France a connu une forte urbanisation au cours du XXe siècle, avec une concentration de la population dans et autour des grandes villes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_035",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle région est la plus peuplée ?",
+    "options": [
+      "Auvergne-Rhône-Alpes",
+      "Provence-Alpes-Côte d'Azur",
+      "Île-de-France",
+      "Nouvelle-Aquitaine"
+    ],
+    "correct_index": 2,
+    "explanation": "L'Île-de-France est la région la plus peuplée de France avec environ 12 millions d'habitants, soit près de 18% de la population française. Elle regroupe Paris et sa banlieue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_036",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "options": [
+      "Brest",
+      "Perpignan",
+      "Lyon",
+      "Limoges"
+    ],
+    "correct_index": 2,
+    "explanation": "Lyon est la deuxième plus grande métropole française après Paris. Les 10 plus grandes métropoles françaises sont : Paris, Lyon, Marseille, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg et Rennes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_037",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Lequel de ces départements de France est le plus touristique ?",
+    "options": [
+      "La Creuse",
+      "La Lozère",
+      "Paris (75)",
+      "L'Ariège"
+    ],
+    "correct_index": 2,
+    "explanation": "Paris (département 75) est le département le plus touristique de France et l'une des villes les plus visitées du monde. La tour Eiffel, le Louvre et Notre-Dame attirent des millions de visiteurs chaque année.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_038",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+    "options": [
+      "Uniquement le 14 juillet",
+      "Le premier dimanche de chaque mois pour les musées nationaux, et lors des Journées du Patrimoine",
+      "Tous les dimanches de l'année",
+      "Uniquement pendant les vacances scolaires"
+    ],
+    "correct_index": 1,
+    "explanation": "De nombreux musées nationaux sont gratuits le premier dimanche de chaque mois. Les Journées européennes du Patrimoine, organisées chaque année en septembre, permettent également de visiter gratuitement de nombreux monuments et sites culturels.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_039",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Combien de personnes parlent français dans le monde ?",
+    "options": [
+      "Environ 50 millions",
+      "Environ 100 millions",
+      "Environ 200 millions",
+      "Environ 500 millions"
+    ],
+    "correct_index": 2,
+    "explanation": "Environ 200 millions de personnes parlent couramment le français dans le monde, réparties dans 70 pays. Le français est la 5e langue la plus parlée dans le monde et la 2e langue étrangère la plus apprise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_040",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était Marguerite Yourcenar ?",
+    "options": [
+      "Une femme politique française du XXe siècle",
+      "La première femme élue à l'Académie française, romancière auteure des Mémoires d'Hadrien",
+      "Une peintre impressionniste française",
+      "Une résistante française pendant la Seconde Guerre mondiale"
+    ],
+    "correct_index": 1,
+    "explanation": "Marguerite Yourcenar (1903-1987) est la première femme élue à l'Académie française en 1980. Romancière franco-américaine, elle est notamment l'auteure des Mémoires d'Hadrien.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_hg_041",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel peintre est français ?",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ],
+    "correct_index": 2,
+    "explanation": "Claude Monet (1840-1926) est un peintre français, l'un des fondateurs du mouvement impressionniste. Son tableau Impression, soleil levant a donné son nom à ce courant artistique majeur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_042",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel musée est situé à Paris ?",
+    "options": [
+      "Le musée du Prado",
+      "La Tate Modern",
+      "Le musée du Louvre",
+      "Les Offices"
+    ],
+    "correct_index": 2,
+    "explanation": "Le musée du Louvre est situé à Paris. C'est le plus grand musée du monde et l'un des plus visités, avec plus de 9 millions de visiteurs par an. Il abrite notamment la Joconde de Léonard de Vinci.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_043",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était Auguste Rodin ?",
+    "options": [
+      "Un peintre impressionniste français du XIXe siècle",
+      "Un sculpteur français célèbre, auteur du Penseur et du Baiser",
+      "Un architecte français du XIXe siècle",
+      "Un compositeur de musique classique française"
+    ],
+    "correct_index": 1,
+    "explanation": "Auguste Rodin (1840-1917) était un sculpteur français considéré comme l'un des plus grands sculpteurs de tous les temps. Il est notamment l'auteur du Penseur, du Baiser et des Bourgeois de Calais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_044",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+    "options": [
+      "2e langue mondiale",
+      "3e langue mondiale",
+      "5e langue mondiale",
+      "10e langue mondiale"
+    ],
+    "correct_index": 2,
+    "explanation": "Le français est la 5e langue la plus parlée dans le monde avec environ 200 millions de locuteurs natifs et appris. C'est également la 2e langue la plus apprise dans le monde et langue officielle dans 29 pays.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_hg_045",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+    "options": [
+      "La basilique du Sacré-Cœur de Montmartre",
+      "La cathédrale de Chartres",
+      "La cathédrale Notre-Dame de Paris",
+      "La cathédrale de Reims"
+    ],
+    "correct_index": 2,
+    "explanation": "La cathédrale Notre-Dame de Paris a subi un grave incendie le 15 avril 2019, qui a détruit sa flèche et une grande partie de sa toiture. Des travaux de restauration ont été entrepris et la cathédrale a été rouverte en décembre 2024.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_hg_046",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était une écrivaine française célèbre ?",
+    "options": [
+      "Marie Curie",
+      "Simone Veil",
+      "Simone de Beauvoir",
+      "Joséphine Baker"
+    ],
+    "correct_index": 2,
+    "explanation": "Simone de Beauvoir (1908-1986) était une philosophe et écrivaine française, figure majeure du féminisme et de l'existentialisme. Son œuvre Le Deuxième Sexe (1949) est un texte fondateur du féminisme moderne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_047",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était un célèbre musicien français ?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Claude Debussy",
+      "Frédéric Chopin"
+    ],
+    "correct_index": 2,
+    "explanation": "Claude Debussy (1862-1918) était un compositeur français, figure majeure de la musique impressionniste. Il est notamment connu pour Clair de lune et La Mer. Beethoven est allemand, Mozart autrichien et Chopin polonais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_048",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Qui était Auguste Renoir ?",
+    "options": [
+      "Un sculpteur français du XIXe siècle",
+      "Un peintre français impressionniste, auteur du Moulin de la Galette",
+      "Un architecte du château de Versailles",
+      "Un poète symboliste du XIXe siècle"
+    ],
+    "correct_index": 1,
+    "explanation": "Auguste Renoir (1841-1919) était un peintre français impressionniste, connu pour ses scènes de la vie quotidienne et ses portraits. Le Moulin de la Galette et Les Grandes Baigneuses sont parmi ses œuvres les plus célèbres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_hg_049",
+    "theme": "histoire_geo_culture",
+    "level": "cr",
+    "question": "Quelle fête est française ?",
+    "options": [
+      "Halloween",
+      "La Saint-Patrick",
+      "La Chandeleur",
+      "Thanksgiving"
+    ],
+    "correct_index": 2,
+    "explanation": "La Chandeleur, célébrée le 2 février, est une fête d'origine française et chrétienne associée à la tradition de faire des crêpes. Halloween est d'origine celtique, la Saint-Patrick irlandaise et Thanksgiving américaine.",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "id": "cr_vf_001",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quel mariage est reconnu par l'État ?",
+    "options": [
+      "Le mariage religieux célébré dans un lieu de culte",
+      "Le mariage civil célébré à la mairie devant un officier d'état civil",
+      "Le mariage coutumier célébré selon les traditions familiales",
+      "Tout mariage célébré devant des témoins"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, seul le mariage civil célébré à la mairie devant un officier d'état civil est juridiquement reconnu par l'État. Une cérémonie religieuse seule n'a pas de valeur légale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_002",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "options": [
+      "La préfecture",
+      "La mairie de leur commune",
+      "Le rectorat de l'académie",
+      "Le ministère de l'Éducation nationale"
+    ],
+    "correct_index": 1,
+    "explanation": "Les parents inscrivent leur enfant à l'école publique auprès de la mairie de leur commune. La commune est responsable des écoles maternelles et primaires et gère les inscriptions scolaires.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_003",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "options": [
+      "Uniquement le parent qui a la garde de l'enfant",
+      "Les deux parents conjointement, sauf décision contraire du juge",
+      "Uniquement la mère dans tous les cas",
+      "L'État jusqu'à la majorité de l'enfant"
+    ],
+    "correct_index": 1,
+    "explanation": "En cas de divorce, l'autorité parentale est exercée conjointement par les deux parents, sauf décision contraire du juge aux affaires familiales. L'intérêt de l'enfant est la priorité dans toutes les décisions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_004",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "options": [
+      "L'aide sociale",
+      "L'aide juridictionnelle",
+      "L'allocation de solidarité",
+      "Le RSA"
+    ],
+    "correct_index": 1,
+    "explanation": "L'aide juridictionnelle permet aux personnes aux revenus insuffisants d'avoir accès à un avocat et à la justice gratuitement ou à moindre coût. Elle garantit l'égalité de tous devant la justice.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_005",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Où faut-il déclarer la naissance d'un enfant ?",
+    "options": [
+      "À la préfecture",
+      "À la mairie du lieu de naissance, dans les 5 jours",
+      "À l'hôpital uniquement",
+      "Au tribunal de grande instance"
+    ],
+    "correct_index": 1,
+    "explanation": "La naissance doit être déclarée à la mairie du lieu de naissance dans les 5 jours suivant l'accouchement. C'est l'état civil qui enregistre les naissances et établit l'acte de naissance.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_006",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "options": [
+      "Avoir au moins 21 ans",
+      "Avoir suivi une formation dans une auto-école agréée ou en conduite accompagnée",
+      "Avoir résidé en France depuis au moins 5 ans",
+      "Être propriétaire d'un véhicule"
+    ],
+    "correct_index": 1,
+    "explanation": "Pour passer l'examen du permis de conduire, il faut avoir suivi une formation dans une auto-école agréée ou en conduite accompagnée, et avoir réussi le code de la route. L'âge minimum est 17 ans pour la conduite accompagnée et 18 ans pour le permis classique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_007",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Un bail locatif est valide s'il est :",
+    "options": [
+      "Conclu oralement devant témoins",
+      "Établi par écrit et signé par le propriétaire et le locataire",
+      "Validé uniquement par un notaire",
+      "Enregistré à la préfecture"
+    ],
+    "correct_index": 1,
+    "explanation": "Un bail locatif doit être établi par écrit et signé par le propriétaire et le locataire pour être valide. Il précise les conditions de la location : loyer, durée, charges, droits et obligations de chaque partie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_008",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Où peut-on déposer un lave-vaisselle cassé ?",
+    "options": [
+      "Dans la poubelle ordinaire",
+      "Sur le trottoir devant chez soi",
+      "En déchetterie ou lors d'une collecte d'encombrants organisée par la commune",
+      "Dans les conteneurs de tri sélectif"
+    ],
+    "correct_index": 2,
+    "explanation": "Un lave-vaisselle cassé doit être déposé en déchetterie ou lors d'une collecte d'encombrants organisée par la commune. Le déposer sur le trottoir est un dépôt sauvage interdit et sanctionné par une amende.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_009",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quel numéro d'urgence permet d'appeler la police ?",
+    "options": ["15", "17", "18", "112"],
+    "correct_index": 1,
+    "explanation": "Le 17 est le numéro d'urgence de la police nationale. Les autres numéros d'urgence sont : le 15 (SAMU), le 18 (pompiers) et le 112 (numéro européen d'urgence, accessible depuis partout en Europe).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_010",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "options": [
+      "Seuls les citoyens français ont accès aux soins en France",
+      "L'accès aux soins d'urgence est garanti à toute personne sur le territoire français",
+      "Les soins sont entièrement gratuits pour tous",
+      "Les étrangers ne peuvent pas être soignés en France"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, l'accès aux soins d'urgence est garanti à toute personne présente sur le territoire, quelle que soit sa situation. Le système de santé français est reconnu pour son accessibilité et sa qualité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_011",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "À qui est accessible la contraception ?",
+    "options": [
+      "Uniquement aux femmes mariées",
+      "Uniquement aux personnes majeures",
+      "À toutes les personnes qui en font la demande, y compris les mineures",
+      "Uniquement sur prescription médicale pour les majeures"
+    ],
+    "correct_index": 2,
+    "explanation": "La contraception est accessible à toutes les personnes qui en font la demande, y compris les mineures. En France, les mineures peuvent accéder à la contraception gratuitement et de manière confidentielle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_012",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "options": [
+      "L'obligation pour le patient de tout dire à son médecin",
+      "L'obligation pour le médecin de garder secrets les informations médicales de son patient",
+      "L'interdiction de partager les données de santé avec d'autres médecins",
+      "L'obligation pour l'hôpital de publier les résultats médicaux"
+    ],
+    "correct_index": 1,
+    "explanation": "Le secret médical oblige le médecin à garder confidentielles les informations médicales de son patient. C'est un droit fondamental du patient qui protège sa vie privée. Le médecin ne peut les divulguer sans le consentement du patient, sauf exceptions légales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_013",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "L'inscription à l'Assurance maladie est :",
+    "options": [
+      "Facultative et réservée aux salariés",
+      "Obligatoire pour toute personne résidant régulièrement en France",
+      "Réservée aux citoyens français",
+      "Optionnelle pour les personnes en bonne santé"
+    ],
+    "correct_index": 1,
+    "explanation": "L'inscription à l'Assurance maladie est obligatoire pour toute personne résidant régulièrement en France, quelle que soit sa nationalité. Elle permet l'accès aux remboursements des frais de santé.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_014",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Qui peut demander un congé parental d'éducation ?",
+    "options": [
+      "Uniquement la mère de l'enfant",
+      "L'un ou l'autre des parents salariés, pour s'occuper de leur enfant",
+      "Uniquement le parent qui ne travaille pas",
+      "Uniquement les parents fonctionnaires"
+    ],
+    "correct_index": 1,
+    "explanation": "Le congé parental d'éducation peut être demandé par l'un ou l'autre des parents salariés, quel que soit leur sexe. Il permet de suspendre ou réduire son activité professionnelle pour s'occuper de son enfant après la naissance ou l'adoption.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_015",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "options": [
+      "Les litiges entre voisins",
+      "Les litiges entre employeurs et salariés concernant le contrat de travail",
+      "Les infractions au code de la route",
+      "Les affaires de droit de la famille"
+    ],
+    "correct_index": 1,
+    "explanation": "Le conseil de prud'hommes est une juridiction spécialisée qui traite les litiges entre employeurs et salariés relatifs au contrat de travail : licenciement, salaires, conditions de travail, etc.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_016",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Travailler sans être déclaré est :",
+    "options": [
+      "Toléré pour les petits travaux occasionnels",
+      "Illégal et passible de sanctions pénales et financières",
+      "Autorisé entre particuliers",
+      "Légal si le montant est inférieur à 1 500 euros"
+    ],
+    "correct_index": 1,
+    "explanation": "Le travail non déclaré (travail au noir) est illégal et passible de sanctions pénales et financières pour l'employeur et l'employé. Il prive le travailleur de ses droits sociaux : retraite, chômage, maladie, accidents du travail.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_017",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "options": [
+      "Il peut l'imposer sans compensation",
+      "Il doit demander des heures supplémentaires, rémunérées avec majoration ou compensées par du repos",
+      "Il peut modifier le contrat unilatéralement",
+      "Il doit obtenir l'accord de la préfecture"
+    ],
+    "correct_index": 1,
+    "explanation": "Les heures supplémentaires au-delà de la durée légale (35h/semaine) doivent être rémunérées avec une majoration de salaire (25% pour les premières heures, 50% ensuite) ou compensées par un repos équivalent.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_018",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quelle est la mission de France Travail ?",
+    "options": [
+      "Former uniquement les demandeurs d'emploi diplômés",
+      "Accompagner les demandeurs d'emploi dans leur recherche et verser les allocations chômage",
+      "Créer des emplois dans le secteur public",
+      "Contrôler les entreprises qui ne respectent pas le droit du travail"
+    ],
+    "correct_index": 1,
+    "explanation": "France Travail (anciennement Pôle emploi) a pour mission d'accompagner les demandeurs d'emploi dans leur recherche de travail, de leur proposer des formations et de verser les allocations chômage aux personnes éligibles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_019",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Dans une entreprise, le droit syndical permet :",
+    "options": [
+      "De refuser de travailler à tout moment",
+      "Aux salariés de se regrouper pour défendre leurs intérêts professionnels collectivement",
+      "De décider des salaires à la place de l'employeur",
+      "D'imposer des règles à l'employeur sans négociation"
+    ],
+    "correct_index": 1,
+    "explanation": "Le droit syndical permet aux salariés de se regrouper au sein de syndicats pour défendre collectivement leurs intérêts professionnels : salaires, conditions de travail, droits des salariés. C'est un droit fondamental garanti par la Constitution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_020",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Dans une entreprise, le droit de grève autorise :",
+    "options": [
+      "Les salariés à occuper les locaux de l'entreprise indéfiniment",
+      "Les salariés à cesser collectivement le travail pour défendre leurs revendications professionnelles",
+      "Les salariés à refuser toute mission sans préavis",
+      "Les salariés à empêcher physiquement les non-grévistes de travailler"
+    ],
+    "correct_index": 1,
+    "explanation": "Le droit de grève autorise les salariés à cesser collectivement le travail pour défendre leurs revendications professionnelles. C'est un droit constitutionnel en France, encadré par la loi pour protéger les droits de tous.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_021",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "options": [
+      "Être de nationalité française",
+      "Avoir travaillé et cotisé suffisamment, être inscrit à France Travail et chercher activement un emploi",
+      "N'avoir jamais travaillé auparavant",
+      "Avoir au moins 25 ans et résider en France depuis 10 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "Pour toucher les allocations chômage (ARE), il faut avoir travaillé et cotisé suffisamment (au moins 6 mois sur les 24 derniers mois), être inscrit à France Travail, être en recherche active d'emploi et résider en France.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_022",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Qu'est-ce que l'école maternelle ?",
+    "options": [
+      "Une école réservée aux enfants de mères célibataires",
+      "La première étape de la scolarité en France, accueillant les enfants de 3 à 6 ans",
+      "Une école privée pour les jeunes enfants",
+      "Une école spécialisée pour les enfants en difficulté"
+    ],
+    "correct_index": 1,
+    "explanation": "L'école maternelle est la première étape de la scolarité en France, accueillant les enfants de 3 à 6 ans. Elle est gratuite, publique et obligatoire depuis 2019. Elle prépare les enfants à l'école élémentaire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_023",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+    "options": [
+      "Le baccalauréat",
+      "Le brevet des collèges (DNB)",
+      "Le CAP",
+      "Le certificat d'études primaires"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Diplôme National du Brevet (DNB), communément appelé brevet des collèges, est le diplôme passé à la fin de la 3e. Le baccalauréat est passé à la fin du lycée.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_024",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Les parents d'élève ont le droit de :",
+    "options": [
+      "Décider des programmes scolaires de leur enfant",
+      "Être informés des résultats de leur enfant et participer à la vie scolaire via les associations de parents",
+      "Choisir les enseignants de leur enfant",
+      "Imposer des cours particuliers à l'école"
+    ],
+    "correct_index": 1,
+    "explanation": "Les parents d'élèves ont le droit d'être informés des résultats et du comportement de leur enfant, et de participer à la vie scolaire via les associations de parents d'élèves et les conseils d'école ou de classe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_025",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Qui peut manger à la cantine scolaire ?",
+    "options": [
+      "Uniquement les élèves boursiers",
+      "Tous les élèves de l'établissement qui en font la demande",
+      "Uniquement les élèves dont les parents travaillent",
+      "Uniquement les élèves inscrits à la demi-pension en début d'année"
+    ],
+    "correct_index": 1,
+    "explanation": "Tous les élèves de l'établissement peuvent manger à la cantine scolaire sous réserve de places disponibles. Des tarifs modulés selon les revenus des familles peuvent être appliqués dans certaines communes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_026",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "options": ["2 ans", "3 ans", "5 ans", "6 ans"],
+    "correct_index": 1,
+    "explanation": "Depuis 2019, l'instruction est obligatoire dès l'âge de 3 ans en France. Avant cette réforme, elle commençait à 6 ans. Elle reste obligatoire jusqu'à 16 ans.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_027",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quel est l'âge de la majorité ?",
+    "options": ["16 ans", "17 ans", "18 ans", "21 ans"],
+    "correct_index": 2,
+    "explanation": "La majorité légale est fixée à 18 ans en France depuis 1974. À partir de cet âge, une personne peut voter, passer des contrats, se marier sans autorisation parentale et est pleinement responsable de ses actes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_028",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "À l'école, il est interdit aux parents de :",
+    "options": [
+      "Parler au directeur de l'école",
+      "Rentrer dans les classes pendant les cours sans autorisation",
+      "Participer aux réunions de parents",
+      "Consulter les bulletins scolaires de leur enfant"
+    ],
+    "correct_index": 1,
+    "explanation": "Les parents ne peuvent pas entrer dans les classes pendant les cours sans l'autorisation de l'enseignant ou du directeur. L'école est un espace éducatif régi par des règles de fonctionnement précises.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vf_029",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "options": [
+      "Les vacances familiales en dehors des congés scolaires officiels",
+      "Une maladie justifiée par un certificat médical",
+      "Le refus de participer à certains cours",
+      "Les anniversaires familiaux"
+    ],
+    "correct_index": 1,
+    "explanation": "Les absences justifiées par un certificat médical sont acceptées par l'école. En revanche, les absences pour vacances hors des périodes officielles ou pour des raisons non reconnues peuvent être sanctionnées.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_030",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "options": [
+      "Un simple avertissement de la mairie",
+      "Une amende et une peine d'emprisonnement",
+      "La perte des allocations familiales uniquement",
+      "Un signalement à la préfecture"
+    ],
+    "correct_index": 1,
+    "explanation": "Les parents qui ne respectent pas l'obligation d'instruction pour leurs enfants risquent des sanctions pénales : une amende et une peine d'emprisonnement. L'instruction est un droit et une obligation pour tous les enfants de 3 à 16 ans.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_vf_031",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "Quand ont lieu les vacances scolaires de Noël ?",
+    "options": [
+      "Du 1er au 15 décembre",
+      "Fin décembre - début janvier, autour du 25 décembre",
+      "Tout le mois de décembre",
+      "Du 20 novembre au 5 janvier"
+    ],
+    "correct_index": 1,
+    "explanation": "Les vacances scolaires de Noël ont lieu fin décembre et début janvier, autour du 25 décembre. Leur durée exacte varie selon les années mais elles durent généralement 2 semaines. Les dates sont fixées par le ministère de l'Éducation nationale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vf_032",
+    "theme": "vie_en_france",
+    "level": "cr",
+    "question": "À l'école, un enfant en situation de handicap :",
+    "options": [
+      "Doit être scolarisé uniquement dans des établissements spécialisés",
+      "A le droit d'être scolarisé en milieu ordinaire avec des aménagements adaptés",
+      "Ne peut pas fréquenter l'école publique",
+      "Doit attendre une autorisation spéciale de l'inspection académique"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, tout enfant en situation de handicap a le droit d'être scolarisé en milieu ordinaire. Des aménagements sont mis en place (AESH, matériel adapté, temps supplémentaire) pour favoriser son inclusion. La loi de 2005 garantit ce droit.",
+    "difficulty": "medium"
+  }
+]

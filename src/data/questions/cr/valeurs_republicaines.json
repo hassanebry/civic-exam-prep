@@ -1,0 +1,592 @@
+[
+  {
+    "id": "cr_vr_001",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+    "options": [
+      "Regarder les informations à la télévision",
+      "Voter aux élections et s'engager dans la vie associative",
+      "Payer ses impôts uniquement",
+      "Respecter le code de la route"
+    ],
+    "correct_index": 1,
+    "explanation": "La participation citoyenne inclut le vote aux élections, l'engagement associatif, la participation à la vie publique locale. C'est l'expression concrète de la démocratie et de la fraternité républicaine.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_002",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que garantit la liberté d'expression ?",
+    "options": [
+      "Le droit de diffuser des propos haineux sans sanction",
+      "Le droit d'exprimer ses opinions librement dans le respect des limites fixées par la loi",
+      "Le droit exclusif des journalistes à informer",
+      "Le droit de critiquer la loi sans la respecter"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté d'expression garantit le droit d'exprimer ses opinions librement. Elle est limitée par la loi : injures, diffamation, provocation à la haine et apologie de crimes contre l'humanité sont interdites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_003",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "À quoi sert un titre de séjour ?",
+    "options": [
+      "À prouver qu'on parle français",
+      "À autoriser un ressortissant étranger à séjourner légalement en France",
+      "À obtenir la nationalité française automatiquement",
+      "À bénéficier de tous les droits des citoyens français"
+    ],
+    "correct_index": 1,
+    "explanation": "Un titre de séjour est un document officiel qui autorise un ressortissant étranger à séjourner légalement sur le territoire français pour une durée déterminée. Il existe différents types selon la situation de la personne.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_004",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "La liberté de circulation permet à toute personne de :",
+    "options": [
+      "Se déplacer sans aucune contrainte dans le monde entier",
+      "Se déplacer librement sur le territoire français et dans l'espace Schengen",
+      "Entrer dans n'importe quel pays sans visa",
+      "Conduire sans permis sur le territoire français"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté de circulation permet de se déplacer librement sur le territoire français et, pour les citoyens européens, dans l'espace Schengen. Elle peut être restreinte dans certaines circonstances légales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_005",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+    "options": [
+      "Sur les sites commerciaux français uniquement",
+      "Sur les sites officiels du gouvernement français (.gouv.fr)",
+      "Sur les réseaux sociaux uniquement",
+      "Sur les sites des partis politiques"
+    ],
+    "correct_index": 1,
+    "explanation": "Les symboles officiels de la République française (Marianne, devise, drapeau) figurent notamment sur les sites officiels du gouvernement français, reconnaissables par l'extension .gouv.fr.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_006",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Complétez ces paroles de la Marseillaise : 'Aux armes […] ! Formez vos bataillons'",
+    "options": ["soldats", "citoyens", "patriots", "Français"],
+    "correct_index": 1,
+    "explanation": "Les paroles de La Marseillaise sont : 'Aux armes, citoyens ! Formez vos bataillons !' Cet hymne national a été composé en 1792 pendant la Révolution française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_007",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Complétez les paroles de la Marseillaise : 'Allons enfants de la patrie […]'",
+    "options": [
+      "Marchons, marchons !",
+      "Le jour de gloire est arrivé !",
+      "Liberté, liberté chérie !",
+      "Contre nous de la tyrannie !"
+    ],
+    "correct_index": 1,
+    "explanation": "Le premier vers de La Marseillaise est : 'Allons enfants de la Patrie, le jour de gloire est arrivé !' C'est l'hymne national français, symbole de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_008",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+    "options": [
+      "Faire tout ce qu'elle veut sans aucune limite",
+      "Choisir librement son mode de vie dans le respect des lois et des droits des autres",
+      "Refuser de respecter les lois qui ne lui conviennent pas",
+      "Imposer ses convictions aux autres membres de sa famille"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté individuelle permet de choisir librement son mode de vie, ses croyances et ses opinions dans le respect des lois et des droits des autres. Elle ne peut pas porter atteinte à autrui.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_009",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+    "options": [
+      "Toute pratique religieuse est interdite en dehors des lieux de culte",
+      "Chacun est libre de pratiquer la religion de son choix ou de n'en avoir aucune, dans le respect de la loi",
+      "La religion doit être pratiquée uniquement dans la sphère privée",
+      "L'État impose une religion officielle à tous les citoyens"
+    ],
+    "correct_index": 1,
+    "explanation": "La laïcité garantit la liberté religieuse : chacun est libre de pratiquer la religion de son choix ou de n'en avoir aucune. L'État est neutre et ne favorise aucune religion.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_010",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+    "options": [
+      "Oui, les parents ont toujours le droit de décider pour leurs enfants",
+      "Oui, pour des raisons religieuses ou culturelles",
+      "Non, la mixité à l'école est un principe républicain et les parents ne peuvent pas s'y opposer",
+      "Oui, mais seulement au collège et au lycée"
+    ],
+    "correct_index": 2,
+    "explanation": "Non. La mixité à l'école publique est un principe républicain. Les parents ne peuvent pas refuser la participation de leur enfant aux cours mixtes pour des raisons religieuses ou culturelles. L'égalité filles-garçons est un principe fondamental.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_011",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Quelle est la devise de la France ?",
+    "options": [
+      "Travail, Famille, Patrie",
+      "Liberté, Égalité, Fraternité",
+      "Unité, Justice, Solidarité",
+      "Paix, Liberté, Démocratie"
+    ],
+    "correct_index": 1,
+    "explanation": "'Liberté, Égalité, Fraternité' est la devise de la République française. Ces trois valeurs sont inscrites sur les bâtiments publics et constituent le fondement de la vie en société.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_012",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "La répudiation de sa femme est :",
+    "options": [
+      "Autorisée si les deux époux sont d'accord",
+      "Autorisée pour des raisons religieuses",
+      "Interdite en France, seul le divorce est légal",
+      "Autorisée uniquement si le mariage a été célébré à l'étranger"
+    ],
+    "correct_index": 2,
+    "explanation": "La répudiation est interdite en France. Elle est contraire au principe d'égalité entre les femmes et les hommes. En France, seul le divorce prononcé par un juge met fin légalement au mariage.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_013",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "options": [
+      "Seuls les citoyens français paient des impôts",
+      "Payer ses impôts est un devoir civique pour tous ceux qui y sont assujettis",
+      "On peut choisir de ne pas payer ses impôts si on n'utilise pas les services publics",
+      "Les impôts sont facultatifs pour les personnes à faibles revenus"
+    ],
+    "correct_index": 1,
+    "explanation": "Payer ses impôts est un devoir civique obligatoire pour toutes les personnes qui y sont assujetties. Les impôts financent les services publics (éducation, santé, sécurité) dont bénéficie l'ensemble de la société.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_014",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Peut-on brûler publiquement un drapeau français ?",
+    "options": [
+      "Oui, c'est une forme d'expression protégée par la liberté d'expression",
+      "Non, c'est un délit puni par la loi",
+      "Oui, lors de manifestations autorisées",
+      "Oui, si cela ne cause pas de trouble à l'ordre public"
+    ],
+    "correct_index": 1,
+    "explanation": "Non. Brûler publiquement un drapeau français est un délit puni par la loi. Le drapeau tricolore est un symbole officiel de la République et sa dégradation publique est sanctionnée pénalement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_015",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que fait l'État pour lutter contre les discriminations ?",
+    "options": [
+      "Il ne s'implique pas dans les relations entre particuliers",
+      "Il adopte des lois, crée des institutions comme le Défenseur des droits et sanctionne les discriminations",
+      "Il sensibilise uniquement les entreprises privées",
+      "Il délègue entièrement cette mission aux associations"
+    ],
+    "correct_index": 1,
+    "explanation": "L'État lutte contre les discriminations en adoptant des lois, en créant des institutions comme le Défenseur des droits, et en sanctionnant pénalement les actes discriminatoires. La France condamne toutes les formes de discrimination.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_016",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que représente Marianne ?",
+    "options": [
+      "La première présidente de la République française",
+      "Le symbole de la République française incarnant les valeurs de liberté, égalité et fraternité",
+      "La patronne des marins français",
+      "Une reine de France du Moyen-Âge"
+    ],
+    "correct_index": 1,
+    "explanation": "Marianne est le symbole officiel de la République française. Son buste est présent dans toutes les mairies et incarne les valeurs républicaines : liberté, égalité, fraternité.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_017",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Qu'est-ce que la liberté d'association ?",
+    "options": [
+      "Le droit de s'associer uniquement avec des personnes de même nationalité",
+      "Le droit de se regrouper librement avec d'autres personnes pour défendre des intérêts communs",
+      "Le droit de créer des partis politiques uniquement",
+      "Le droit de former des syndicats dans les entreprises"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté d'association est le droit de se regrouper librement avec d'autres personnes pour défendre des intérêts communs ou mener des actions collectives. C'est une liberté fondamentale garantie par la loi de 1901.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_018",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Qu'est-ce que la liberté ?",
+    "options": [
+      "Le droit de faire tout ce qu'on veut sans aucune contrainte",
+      "Le droit de faire tout ce qui ne nuit pas à autrui, dans le respect des lois",
+      "Le droit de ne pas respecter les règles qui nous déplaisent",
+      "Une valeur réservée aux citoyens français"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. C'est l'article 4 de la Déclaration des Droits de l'Homme et du Citoyen de 1789. Elle s'exerce dans le respect des lois et des droits des autres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_019",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Qu'est-ce que la Marseillaise ?",
+    "options": [
+      "Un plat typique de la cuisine marseillaise",
+      "L'hymne national français, composé pendant la Révolution française",
+      "Une loi sur la liberté de la presse adoptée en 1881",
+      "Le nom d'un régiment militaire célèbre"
+    ],
+    "correct_index": 1,
+    "explanation": "La Marseillaise est l'hymne national français. Composée en 1792 pendant la Révolution française, elle est l'un des symboles officiels de la République aux côtés du drapeau tricolore et de Marianne.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_020",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Sur quel document peut-on voir Marianne ?",
+    "options": [
+      "Sur les billets de banque européens",
+      "Sur les timbres-poste et les documents officiels français",
+      "Sur le passeport européen uniquement",
+      "Sur les plaques d'immatriculation françaises"
+    ],
+    "correct_index": 1,
+    "explanation": "Marianne figure sur les timbres-poste français et de nombreux documents officiels de la République. Son buste est présent dans toutes les mairies et ses traits ornent certaines pièces de monnaie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_021",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Un employeur refuse d'embaucher des femmes dans son entreprise. Que dit la loi ?",
+    "options": [
+      "C'est légal si l'employeur peut le justifier",
+      "C'est une discrimination illégale, punie par la loi",
+      "C'est autorisé dans certains secteurs d'activité",
+      "C'est légal dans les petites entreprises de moins de 10 salariés"
+    ],
+    "correct_index": 1,
+    "explanation": "Refuser d'embaucher des femmes est une discrimination illégale punie par la loi. L'égalité entre les femmes et les hommes est un principe constitutionnel. Toute décision d'embauche doit être fondée sur des critères professionnels.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_022",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?",
+    "options": [
+      "Que tous les citoyens gagnent le même salaire",
+      "Que tous les citoyens ont les mêmes droits et devoirs, sans distinction de sexe, origine ou religion",
+      "Que tous les citoyens vivent de la même façon",
+      "Que l'État donne plus aux plus pauvres pour compenser les inégalités"
+    ],
+    "correct_index": 1,
+    "explanation": "L'égalité signifie que tous les citoyens ont les mêmes droits et les mêmes devoirs, quels que soient leur sexe, leur origine, leur religion, leurs opinions ou leur orientation sexuelle. La loi est la même pour tous.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_023",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Quelle est la place de la langue française dans la République ?",
+    "options": [
+      "Elle est recommandée mais pas obligatoire dans les actes officiels",
+      "Elle est la langue officielle de la République, inscrite dans la Constitution",
+      "Elle est l'une des deux langues officielles avec l'anglais",
+      "Elle est imposée uniquement dans l'administration nationale"
+    ],
+    "correct_index": 1,
+    "explanation": "Le français est la langue officielle de la République française, inscrite à l'article 2 de la Constitution. Son usage est obligatoire dans les actes officiels, l'enseignement public et les services de l'État.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_024",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Quels sont des symboles officiels de la République française ?",
+    "options": [
+      "Le coq gaulois et la fleur de lys",
+      "Le drapeau tricolore, la Marseillaise et Marianne",
+      "La croix de Lorraine et la Tour Eiffel",
+      "L'aigle impérial et le sceau royal"
+    ],
+    "correct_index": 1,
+    "explanation": "Les symboles officiels de la République française sont le drapeau tricolore (bleu, blanc, rouge), la Marseillaise (hymne national), Marianne (symbole de la République), la devise 'Liberté, Égalité, Fraternité' et le 14 juillet (fête nationale).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_025",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent (handicap, apparence physique, sexe…) ?",
+    "options": [
+      "Oui, la liberté d'expression permet de tout dire",
+      "Oui, uniquement sur internet",
+      "Non, c'est interdit par la loi, c'est une discrimination",
+      "Oui, si c'est dit en privé"
+    ],
+    "correct_index": 2,
+    "explanation": "Non. Insulter publiquement quelqu'un en raison de son handicap, apparence, sexe ou autre caractéristique est une discrimination interdite par la loi. La liberté d'expression a des limites pour protéger la dignité de chacun.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_026",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Le régime de la France est :",
+    "options": [
+      "Une monarchie constitutionnelle",
+      "Une République",
+      "Une fédération d'États",
+      "Une oligarchie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est une République. C'est un régime politique dans lequel les dirigeants élus gouvernent au nom du peuple, conformément à la Constitution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_027",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+    "options": [
+      "Parce que les enfants ne doivent pas connaître les religions",
+      "Parce que l'école publique est une institution neutre qui forme tous les citoyens",
+      "Parce que la religion est interdite en France",
+      "Parce que les enseignants refusent d'aborder ce sujet"
+    ],
+    "correct_index": 1,
+    "explanation": "L'école publique est une institution neutre qui forme tous les citoyens ensemble. La laïcité y garantit l'égalité de traitement et protège les élèves de toute pression religieuse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_028",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+    "options": ["1789", "1875", "1905", "1958"],
+    "correct_index": 2,
+    "explanation": "La loi de 1905 consacre la laïcité en séparant les Églises de l'État. Elle garantit la liberté de conscience et la neutralité de l'État envers toutes les religions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_029",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+    "options": [
+      "Non, tout citoyen doit déclarer une appartenance religieuse",
+      "Oui, la liberté de conscience garantit le droit de ne pas avoir de religion",
+      "Oui, mais uniquement dans la sphère privée",
+      "Non, sauf dispense accordée par la préfecture"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire. L'athéisme et l'agnosticisme sont des choix personnels totalement libres et protégés par la loi.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_030",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Quel droit est garanti par la laïcité ?",
+    "options": [
+      "Le droit de ne payer aucun impôt",
+      "La liberté de conscience et de religion",
+      "Le droit d'imposer sa religion aux autres",
+      "Le droit à un emploi réservé selon sa religion"
+    ],
+    "correct_index": 1,
+    "explanation": "La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire, de pratiquer la religion de son choix ou de n'en avoir aucune, sans contrainte ni discrimination.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_031",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+    "options": [
+      "Tous les élèves",
+      "Les enseignants uniquement",
+      "Personne — ni les élèves ni les agents de l'État",
+      "Les élèves de lycée uniquement"
+    ],
+    "correct_index": 2,
+    "explanation": "À l'école publique, personne ne peut porter de signes religieux ostensibles : ni les élèves (loi du 15 mars 2004), ni les agents de l'État qui sont soumis au principe de neutralité religieuse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_032",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
+    "options": [
+      "L'État interdit toute pratique religieuse",
+      "L'État ne favorise aucune religion, ne la finance pas et garantit la liberté de conscience de chacun",
+      "L'État impose une religion civile à tous les citoyens",
+      "L'État contrôle les pratiques religieuses pour éviter les abus"
+    ],
+    "correct_index": 1,
+    "explanation": "La neutralité de l'État signifie qu'il ne favorise aucune religion, ne la finance pas et traite tous les citoyens de manière égale quelle que soit leur croyance. L'État garantit la liberté de conscience de chacun.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_033",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que peut faire un usager du service public dans une mairie ?",
+    "options": [
+      "Exiger d'être servi par un agent de sa religion",
+      "Refuser d'être reçu par une femme",
+      "Solliciter des services administratifs dans le respect des règles en vigueur",
+      "Porter des signes religieux ostensibles pour manifester sa foi"
+    ],
+    "correct_index": 2,
+    "explanation": "Dans une mairie, un usager peut solliciter les services administratifs dans le respect des règles en vigueur. Il ne peut pas exiger d'être servi par un agent d'une religion particulière ni refuser d'être reçu par une femme.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_034",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+    "options": [
+      "Uniquement les usagers",
+      "Uniquement le directeur de la préfecture",
+      "Tous les agents de l'État travaillant dans la préfecture",
+      "Personne, la laïcité ne s'applique pas aux préfectures"
+    ],
+    "correct_index": 2,
+    "explanation": "Tous les agents de l'État, y compris ceux travaillant en préfecture, doivent respecter le principe de neutralité religieuse. Ils ne peuvent pas afficher leurs convictions religieuses dans l'exercice de leurs fonctions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_035",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+    "options": [
+      "Non, les agents peuvent exprimer leurs opinions religieuses librement",
+      "Oui, les agents de l'État doivent être neutres et ne pas afficher leurs convictions religieuses",
+      "Oui, mais uniquement dans les lieux de culte publics",
+      "Non, la neutralité ne concerne que les élèves à l'école"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. Les agents publics sont soumis au principe de neutralité : ils ne doivent pas afficher leurs convictions religieuses, politiques ou philosophiques dans l'exercice de leurs fonctions, afin de traiter tous les usagers de manière égale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_036",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que garantit le principe de laïcité ?",
+    "options": [
+      "L'interdiction de toute pratique religieuse en France",
+      "La liberté de conscience, la neutralité de l'État et l'égalité de traitement de tous les citoyens",
+      "La primauté d'une religion sur les autres",
+      "Le financement public des lieux de culte"
+    ],
+    "correct_index": 1,
+    "explanation": "La laïcité garantit la liberté de conscience de chacun, la neutralité de l'État vis-à-vis des religions et l'égalité de traitement de tous les citoyens quelle que soit leur croyance.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_037",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "A-t-on le droit de changer de religion ?",
+    "options": [
+      "Non, la religion est fixée définitivement à la naissance",
+      "Oui, la liberté de conscience garantit ce droit",
+      "Oui, mais seulement après 5 ans de résidence en France",
+      "Non, sauf autorisation préfectorale"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. La liberté de conscience garantit le droit de changer de religion ou de ne plus en avoir. Nul ne peut être contraint de pratiquer ou d'abandonner une religion.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_038",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que représente la laïcité ?",
+    "options": [
+      "L'interdiction des religions en France",
+      "Un principe fondamental de la République garantissant la séparation des affaires religieuses et publiques et la liberté de conscience",
+      "La religion officielle de la France",
+      "Une loi récente adoptée dans les années 2000"
+    ],
+    "correct_index": 1,
+    "explanation": "La laïcité est un principe fondamental de la République française inscrit dans la Constitution. Elle garantit la séparation des affaires religieuses et publiques, la neutralité de l'État et la liberté de conscience de chacun.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_vr_039",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Qu'est-ce qui est interdit par la Charte de la laïcité à l'école ?",
+    "options": [
+      "Parler de religion en cours d'histoire",
+      "Porter des signes ou tenues manifestant ostensiblement une appartenance religieuse",
+      "Avoir des opinions religieuses personnelles",
+      "Célébrer des fêtes d'origine religieuse"
+    ],
+    "correct_index": 1,
+    "explanation": "La Charte de la laïcité à l'école interdit le port de signes ou tenues qui manifestent ostensiblement (de manière très visible) une appartenance religieuse. Elle s'applique aux élèves et aux agents dans les établissements scolaires publics.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_vr_040",
+    "theme": "valeurs_republicaines",
+    "level": "cr",
+    "question": "Que dit l'article 1er de la Constitution française ?",
+    "options": [
+      "La France est une monarchie constitutionnelle",
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "La souveraineté appartient au Président de la République",
+      "La France est un État fédéral composé de régions autonomes"
+    ],
+    "correct_index": 1,
+    "explanation": "L'article 1er de la Constitution dispose que 'La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion.'",
+    "difficulty": "hard"
+  }
+]

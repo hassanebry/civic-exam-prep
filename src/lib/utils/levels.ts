@@ -42,6 +42,14 @@ const CSP_THEMES: ThemeInfo[] = [
   { value: "vie_en_france", label: "Vie en France", emoji: "🗼" },
 ];
 
+const CR_THEMES: ThemeInfo[] = [
+  { value: "valeurs_republicaines", label: "Valeurs républicaines", emoji: "🏛️" },
+  { value: "institutions", label: "Les institutions", emoji: "🏗️" },
+  { value: "droits_devoirs", label: "Droits et devoirs", emoji: "⚖️" },
+  { value: "histoire_geo_culture", label: "Histoire, géographie et culture", emoji: "🗺️" },
+  { value: "vie_en_france", label: "Vie en France", emoji: "🗼" },
+];
+
 const NATURALISATION_THEMES: ThemeInfo[] = [
   { value: "valeurs_republicaines", label: "Valeurs républicaines", emoji: "🏛️" },
   { value: "symboles", label: "Symboles de la République", emoji: "🇫🇷" },
@@ -54,8 +62,9 @@ export function getThemesForLevel(level: Level): ThemeInfo[] {
   switch (level) {
     case "csp":
       return CSP_THEMES;
-    case "naturalisation":
     case "cr":
+      return CR_THEMES;
+    case "naturalisation":
     default:
       return NATURALISATION_THEMES;
   }

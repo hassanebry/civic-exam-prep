@@ -1,578 +1,308 @@
 [
   {
-    "id": "csp_hg_001",
+    "id": "nat_vf_001",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "En quelle année a débuté la Révolution française ?",
-    "options": ["1776", "1789", "1799", "1815"],
-    "correct_index": 1,
-    "explanation": "La Révolution française a débuté en 1789. Le 14 juillet 1789, le peuple de Paris s'empare de la Bastille. En 1792, la Ire République est proclamée. Cette période est à l'origine des valeurs républicaines françaises.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_002",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Napoléon Ier ?",
-    "options": [
-      "Un roi de France du XVIIe siècle",
-      "Un général et dirigeant de la France pendant près de 15 ans, à l'origine du Code civil",
-      "Un philosophe des Lumières",
-      "Le premier Président de la République française"
-    ],
-    "correct_index": 1,
-    "explanation": "Napoléon Ier (1769-1821) a dirigé la France pendant près de 15 ans. Il a mené de nombreuses guerres en Europe et est à l'origine du Code civil, qui régit encore aujourd'hui le droit français.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_003",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Lequel de ces personnages historiques est français ?",
-    "options": [
-      "Winston Churchill",
-      "Abraham Lincoln",
-      "Jeanne d'Arc",
-      "Leonardo da Vinci"
-    ],
-    "correct_index": 2,
-    "explanation": "Jeanne d'Arc (1412-1431) est une héroïne nationale française. Pendant la guerre de Cent-Ans contre l'Angleterre, elle conduit les troupes françaises à la libération d'une partie du territoire français.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_004",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Dans quelle République est-on aujourd'hui ?",
-    "options": [
-      "La IIIe République",
-      "La IVe République",
-      "La Ve République",
-      "La VIe République"
-    ],
-    "correct_index": 2,
-    "explanation": "La France est actuellement sous la Ve République, fondée en 1958 par le général de Gaulle. C'est la Constitution de 1958 qui est en vigueur aujourd'hui.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_005",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qu'est-ce que la Shoah ?",
-    "options": [
-      "Le nom de la Première Guerre mondiale en hébreu",
-      "L'extermination systématique de millions de Juifs par les nazis pendant la Seconde Guerre mondiale",
-      "La résistance française contre l'occupation allemande",
-      "Le traité de paix signé en 1945"
-    ],
-    "correct_index": 1,
-    "explanation": "La Shoah désigne l'extermination systématique de millions de Juifs par les nazis pendant la Seconde Guerre mondiale. Le régime de Vichy a collaboré avec l'Allemagne nazie et porte une responsabilité dans la déportation des Juifs.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_006",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quel pays ou région du monde a été colonisé par la France ?",
-    "options": [
-      "La Chine et le Japon",
-      "L'Australie et la Nouvelle-Zélande",
-      "L'Algérie et l'Indochine",
-      "Le Brésil et l'Argentine"
-    ],
-    "correct_index": 2,
-    "explanation": "La France a constitué un vaste empire colonial à partir des années 1830, principalement en Afrique (dont l'Algérie) et en Asie (dont l'Indochine). La décolonisation française a eu lieu entre 1950 et 1962.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_007",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
-    "options": [
-      "Napoléon Ier",
-      "Victor Hugo",
-      "Jules Ferry",
-      "Charles de Gaulle"
-    ],
-    "correct_index": 2,
-    "explanation": "Jules Ferry, ministre de l'Instruction publique au début des années 1880, est à l'origine de l'enseignement public, gratuit et laïc. L'école primaire est devenue obligatoire et gratuite sous son impulsion.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_008",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
-    "options": [
-      "1914-1918",
-      "1935-1942",
-      "1939-1945",
-      "1940-1946"
-    ],
-    "correct_index": 2,
-    "explanation": "La Seconde Guerre mondiale a eu lieu de 1939 à 1945. Elle a fait plus de 50 millions de morts. Le 8 mai est un jour férié en France en commémoration de la fin de ce conflit.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_009",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quand a eu lieu la Première Guerre mondiale ?",
-    "options": [
-      "1870-1871",
-      "1914-1918",
-      "1918-1922",
-      "1939-1945"
-    ],
-    "correct_index": 1,
-    "explanation": "La Première Guerre mondiale a eu lieu de 1914 à 1918. Ce conflit de masse a touché toute l'Europe puis les États-Unis et a fait plus de 9 millions de morts. Le 11 novembre commémore l'armistice de 1918.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_010",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
-    "options": ["1945", "1950", "1957", "1992"],
-    "correct_index": 2,
-    "explanation": "La Communauté Économique Européenne (CEE) a été créée en 1957 par le Traité de Rome, entre six pays fondateurs dont la France. En 1992, elle est devenue l'Union européenne.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_011",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
-    "options": [
-      "À la fin de la Seconde Guerre mondiale",
-      "À la libération de Paris en 1944",
-      "À l'armistice de la Première Guerre mondiale en 1918",
-      "À la proclamation de la Ve République"
-    ],
-    "correct_index": 2,
-    "explanation": "Le 11 novembre commémore l'armistice signé le 11 novembre 1918, marquant la fin de la Première Guerre mondiale. Ce conflit a fait plus de 9 millions de morts.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_012",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui a été le premier Président élu sous la Ve République ?",
-    "options": [
-      "François Mitterrand",
-      "Georges Pompidou",
-      "Charles de Gaulle",
-      "Valéry Giscard d'Estaing"
-    ],
-    "correct_index": 2,
-    "explanation": "Charles de Gaulle a été le premier Président de la Ve République, élu en 1958. Chef de la résistance française pendant la Seconde Guerre mondiale, il est également à l'origine de la Constitution de 1958.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_013",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
-    "options": ["1789", "1815", "1848", "1905"],
-    "correct_index": 2,
-    "explanation": "L'esclavage a été aboli définitivement en France en 1848, sous la IIe République. Une première abolition avait eu lieu en 1794 mais avait été annulée par Napoléon en 1802.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_014",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
-    "options": ["1789", "1848", "1881", "1905"],
-    "correct_index": 2,
-    "explanation": "L'école publique primaire est devenue gratuite en 1881, grâce aux lois Jules Ferry. Elle est également devenue laïque et obligatoire dans les années suivantes.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_015",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Combien y a-t-il eu de républiques en France ?",
-    "options": ["3", "4", "5", "6"],
-    "correct_index": 2,
-    "explanation": "La France a connu cinq républiques : la Ire (1792), la IIe (1848), la IIIe (1875), la IVe (1946) et la Ve (1958, actuelle). Chaque République correspond à une période politique distincte.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "csp_hg_016",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était le roi de France au moment de la Révolution française ?",
-    "options": [
-      "Louis XIV",
-      "Louis XV",
-      "Louis XVI",
-      "Napoléon Ier"
-    ],
-    "correct_index": 2,
-    "explanation": "Louis XVI était le roi de France au moment de la Révolution française de 1789. Il fut arrêté, jugé par la Convention nationale et guillotiné en janvier 1793.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_017",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui a fondé la Ve République ?",
-    "options": [
-      "François Mitterrand",
-      "Georges Pompidou",
-      "Charles de Gaulle",
-      "Léon Blum"
-    ],
-    "correct_index": 2,
-    "explanation": "Charles de Gaulle (1890-1970) a fondé la Ve République en 1958. Chef de la résistance française pendant la Seconde Guerre mondiale, il a rédigé la Constitution de 1958 encore en vigueur aujourd'hui.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_018",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Que célèbre-t-on le 14 juillet ?",
-    "options": [
-      "La proclamation de la République en 1792",
-      "La fête nationale française, en référence à la prise de la Bastille et à la fête de la Fédération",
-      "La fin de la Première Guerre mondiale",
-      "L'anniversaire de la Constitution de 1958"
-    ],
-    "correct_index": 1,
-    "explanation": "Le 14 juillet célèbre la fête nationale française. Cette date commémore la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération du 14 juillet 1790, qui célébrait l'unité de la Nation.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_019",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
-    "options": [
-      "La guerre franco-prussienne",
-      "La Seconde Guerre mondiale",
-      "La Première Guerre mondiale",
-      "La guerre d'Algérie"
-    ],
-    "correct_index": 2,
-    "explanation": "La Première Guerre mondiale a eu lieu entre 1914 et 1918. Ce conflit a impliqué l'Europe entière puis les États-Unis et a fait plus de 9 millions de morts.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_020",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Pourquoi l'année 1958 est-elle importante pour la France ?",
-    "options": [
-      "C'est l'année de la fin de la Seconde Guerre mondiale",
-      "C'est l'année de l'abolition de la peine de mort",
-      "C'est l'année de la fondation de la Ve République et de l'adoption de la Constitution actuelle",
-      "C'est l'année de la création de l'Union européenne"
-    ],
-    "correct_index": 2,
-    "explanation": "En 1958, Charles de Gaulle fonde la Ve République et la Constitution actuelle est adoptée. Cette Constitution définit toujours aujourd'hui l'organisation de l'État et les institutions françaises.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "csp_hg_021",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quel fleuve coule en France ?",
-    "options": [
-      "Le Rhin uniquement",
-      "La Tamise",
-      "La Loire",
-      "Le Danube"
-    ],
-    "correct_index": 2,
+    "level": "naturalisation",
+    "question": "Quel est le plus long fleuve de France ?",
+    "options": ["La Seine", "Le Rhône", "La Garonne", "La Loire"],
+    "correct_index": 3,
     "explanation": "La Loire est le plus long fleuve français. La France est aussi parcourue par d'autres fleuves importants : la Seine, la Garonne, le Rhône et le Rhin.",
     "difficulty": "easy"
   },
   {
-    "id": "csp_hg_022",
+    "id": "nat_vf_002",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle ville est française ?",
-    "options": [
-      "Barcelone",
-      "Turin",
-      "Genève",
-      "Bordeaux"
-    ],
-    "correct_index": 3,
-    "explanation": "Bordeaux est une ville française, située dans le sud-ouest de la France. C'est l'une des 10 plus grandes métropoles françaises, connue notamment pour ses vins.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_023",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quel océan borde la côte ouest française ?",
-    "options": [
-      "L'océan Pacifique",
-      "L'océan Indien",
-      "L'océan Arctique",
-      "L'océan Atlantique"
-    ],
-    "correct_index": 3,
-    "explanation": "L'océan Atlantique borde la côte ouest de la France métropolitaine. La mer Méditerranée borde quant à elle la côte sud.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_024",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qu'est-ce que Paris ?",
-    "options": [
-      "La deuxième ville de France",
-      "La capitale et la plus grande ville de France",
-      "Le siège du Parlement européen",
-      "Une région administrative française"
-    ],
-    "correct_index": 1,
-    "explanation": "Paris est la capitale et la plus grande ville de France. C'est le centre politique, économique et culturel du pays. Paris accueille notamment l'Élysée, l'Assemblée nationale et le Sénat.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_025",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle est la capitale de la France ?",
-    "options": ["Lyon", "Marseille", "Paris", "Bordeaux"],
+    "level": "naturalisation",
+    "question": "Combien de millions d'habitants la France comptait-elle en 2021 ?",
+    "options": ["Environ 55 millions", "Environ 60 millions", "Environ 67,4 millions", "Environ 75 millions"],
     "correct_index": 2,
-    "explanation": "Paris est la capitale de la France. C'est la ville la plus peuplée du pays et le centre de la vie politique, économique et culturelle française.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_026",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Sur quel continent se situe la France métropolitaine ?",
-    "options": [
-      "En Afrique",
-      "En Asie",
-      "En Europe",
-      "En Amérique"
-    ],
-    "correct_index": 2,
-    "explanation": "La France métropolitaine se situe en Europe occidentale. Elle partage ses frontières avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_027",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle île est un département d'outre-mer français ?",
-    "options": [
-      "La Corse",
-      "La Réunion",
-      "La Sardaigne",
-      "Malte"
-    ],
-    "correct_index": 1,
-    "explanation": "La Réunion est un département et région d'outre-mer (DROM) français, situé dans l'océan Indien. Les autres DROM sont la Guadeloupe, la Martinique, la Guyane et Mayotte. La Corse est une collectivité territoriale de métropole.",
+    "explanation": "En 2021, la France comptait 67,4 millions d'habitants (source INSEE). Son territoire s'étend sur 675 000 km², en métropole et outre-mer.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_028",
+    "id": "nat_vf_003",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Combien y a-t-il de régions en France métropolitaine ?",
-    "options": ["10", "12", "13", "18"],
+    "level": "naturalisation",
+    "question": "Combien de personnes dans le monde parlent couramment le français ?",
+    "options": ["Environ 50 millions", "Environ 100 millions", "Environ 200 millions", "Environ 500 millions"],
     "correct_index": 2,
-    "explanation": "La France métropolitaine compte 13 régions depuis la réforme territoriale de 2016. En ajoutant les 5 régions d'outre-mer, la France compte 18 régions au total.",
+    "explanation": "Le français est parlé couramment par 200 millions de personnes dans le monde. Les Français ne représentent que 1% de la population mondiale mais les personnes qui parlent français sont réparties dans 70 pays.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_004",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Quel est le rang de la France comme destination touristique mondiale ?",
+    "options": ["2e destination", "3e destination", "1re destination", "5e destination"],
+    "correct_index": 2,
+    "explanation": "La France est la première destination touristique mondiale. Célèbre pour ses monuments et sa culture, le tourisme est un élément essentiel de son économie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_vf_005",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Depuis quand la France utilise-t-elle l'euro comme monnaie courante ?",
+    "options": ["Depuis 1992", "Depuis 1999", "Depuis 2002", "Depuis 2005"],
+    "correct_index": 2,
+    "explanation": "Depuis 2002, la France partage avec 18 autres pays membres de l'Union européenne une monnaie unique : l'Euro. Les pièces et billets en euros ont été mis en circulation le 1er janvier 2002.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_006",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que le Mont-Saint-Michel ?",
+    "options": [
+      "Un sommet des Pyrénées classé au patrimoine mondial",
+      "Un îlot rocheux en Normandie avec une abbaye, classé au patrimoine mondial par l'UNESCO",
+      "Un château royal situé sur la Loire",
+      "Un site préhistorique dans le Périgord"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Mont-Saint-Michel est un îlot rocheux situé en Normandie dans une baie, sur lequel s'élève une abbaye. Il est classé au patrimoine mondial de l'humanité par l'UNESCO.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_vf_007",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Quand la France a-t-elle fondé la Communauté économique européenne dont elle est membre fondateur ?",
+    "options": ["1945", "1950", "1957", "1992"],
+    "correct_index": 2,
+    "explanation": "En 1957, le Traité de Rome instaure la Communauté économique européenne entre six pays d'Europe, dont la France. En 1992, l'Union européenne est créée, comptant aujourd'hui 27 États membres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_008",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Quels sont les 5 départements et régions d'outre-mer français ?",
+    "options": [
+      "Tahiti, Nouvelle-Calédonie, Saint-Martin, Wallis, Mayotte",
+      "Guadeloupe, Guyane, Martinique, Mayotte et La Réunion",
+      "Guadeloupe, Martinique, Polynésie française, Guyane et Corse",
+      "La Réunion, Mayotte, Saint-Pierre-et-Miquelon, Polynésie et Nouvelle-Calédonie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France compte 5 départements et régions d'outre-mer : la Guadeloupe, la Guyane, la Martinique, Mayotte et La Réunion.",
     "difficulty": "hard"
   },
   {
-    "id": "csp_hg_029",
+    "id": "nat_vf_009",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle ville est un grand port maritime ?",
-    "options": [
-      "Clermont-Ferrand",
-      "Dijon",
-      "Marseille",
-      "Strasbourg"
-    ],
-    "correct_index": 2,
-    "explanation": "Marseille est le plus grand port maritime de France et l'un des plus importants de la Méditerranée. C'est la deuxième ville de France par sa population.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_030",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle est la mer au sud de la France métropolitaine ?",
-    "options": [
-      "La mer du Nord",
-      "La mer Baltique",
-      "La mer Méditerranée",
-      "La mer Adriatique"
-    ],
-    "correct_index": 2,
-    "explanation": "La mer Méditerranée borde le sud de la France métropolitaine. Elle baigne les côtes du Languedoc-Roussillon et de la Provence-Alpes-Côte d'Azur.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_031",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
-    "options": [
-      "Bordeaux",
-      "Brest",
-      "Nice",
-      "Rennes"
-    ],
-    "correct_index": 2,
-    "explanation": "Nice est une ville française située au bord de la mer Méditerranée, dans la région Provence-Alpes-Côte d'Azur. C'est l'une des 10 plus grandes métropoles françaises.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_032",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Où se situe la Corse ?",
-    "options": [
-      "Dans l'océan Atlantique, au large de Bordeaux",
-      "Dans la mer Méditerranée, au sud-est de la France",
-      "Dans la Manche, au nord de la Normandie",
-      "Dans l'océan Indien"
-    ],
-    "correct_index": 1,
-    "explanation": "La Corse est une île française située dans la mer Méditerranée, au sud-est de la France métropolitaine. C'est une collectivité territoriale à statut particulier.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_033",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
-    "options": [
-      "Les Pyrénées",
-      "Les Vosges",
-      "Le Massif central",
-      "Les Alpes"
-    ],
+    "level": "naturalisation",
+    "question": "Quel est le rang de la France comme puissance économique mondiale selon le livret du citoyen 2022 ?",
+    "options": ["3e", "4e", "5e", "6e"],
     "correct_index": 3,
-    "explanation": "Les Alpes sont la chaîne de montagnes située entre la France et l'Italie (et aussi la Suisse). Le Mont-Blanc, point culminant des Alpes à 4 810 m, est la plus haute montagne d'Europe.",
-    "difficulty": "easy"
+    "explanation": "Selon le livret du citoyen de février 2022, la France est la sixième puissance économique mondiale. Elle est membre permanent du Conseil de sécurité de l'ONU et membre fondateur de l'UE.",
+    "difficulty": "hard"
   },
   {
-    "id": "csp_hg_034",
+    "id": "nat_vf_010",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Molière ?",
+    "level": "naturalisation",
+    "question": "Pour quoi la tour Eiffel a-t-elle été construite et quand ?",
     "options": [
-      "Un peintre français du XIXe siècle",
-      "Le plus célèbre auteur de théâtre français, auteur de L'Avare",
-      "Un philosophe des Lumières",
-      "Un général de la Révolution française"
-    ],
-    "correct_index": 1,
-    "explanation": "Molière (1622-1673) est le plus célèbre auteur de théâtre français. Il a vécu au temps de Louis XIV et est l'auteur de comédies comme L'Avare, Le Misanthrope et Les Femmes savantes.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_035",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Charles Baudelaire ?",
-    "options": [
-      "Un général napoléonien",
-      "Un peintre impressionniste",
-      "Un poète français du XIXe siècle, auteur des Fleurs du Mal",
-      "Un philosophe des Lumières"
+      "Pour commémorer la Révolution française en 1789",
+      "Comme siège du Parlement français en 1875",
+      "Pour l'Exposition universelle de 1889, par l'ingénieur Gustave Eiffel",
+      "Comme tour de guet militaire pendant la Première Guerre mondiale"
     ],
     "correct_index": 2,
-    "explanation": "Charles Baudelaire (1821-1867) est un poète français du XIXe siècle, célèbre pour son recueil Les Fleurs du Mal. Il est considéré comme l'un des précurseurs de la poésie moderne.",
-    "difficulty": "medium"
+    "explanation": "La tour Eiffel a été construite par l'ingénieur Gustave Eiffel pour l'Exposition universelle de 1889. C'est un monument très fréquenté, avec plus de 7 millions de visiteurs par an.",
+    "difficulty": "easy"
   },
   {
-    "id": "csp_hg_036",
+    "id": "nat_vf_011",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était George Sand ?",
+    "level": "naturalisation",
+    "question": "Que représente la sécurité sociale en France ?",
     "options": [
-      "Une militante des droits civiques américaine",
-      "Une romancière française du XIXe siècle, pionnière du féminisme littéraire",
-      "Une peintre impressionniste",
-      "Une résistante française de la Seconde Guerre mondiale"
+      "Un système d'assurance privé facultatif",
+      "Un système de protection sociale financé par les cotisations et impôts, garantissant santé, retraite et famille",
+      "Une aide réservée aux personnes sans emploi",
+      "Un système réservé aux fonctionnaires de l'État"
     ],
     "correct_index": 1,
-    "explanation": "George Sand (1804-1876) était une romancière française du XIXe siècle. Pionnière du féminisme, elle a publié sous un pseudonyme masculin et défendu l'émancipation des femmes dans ses œuvres.",
+    "explanation": "Depuis 1945, le système de sécurité sociale, financé par les cotisations sociales et les impôts, protège les citoyens en matière de santé, retraite, chômage et famille. C'est une illustration concrète du principe de fraternité.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_037",
+    "id": "nat_vf_012",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Simone de Beauvoir ?",
+    "level": "naturalisation",
+    "question": "Qui était Clovis et quel est son rôle dans l'histoire de France ?",
     "options": [
-      "Une présidente de la République française",
-      "Une philosophe et écrivaine française, figure du féminisme et auteure du Deuxième Sexe",
-      "Une résistante fusillée pendant la Seconde Guerre mondiale",
-      "Une astronaute française"
+      "Un philosophe des Lumières du XVIIIe siècle",
+      "Un roi qui au Ve siècle unifia les royaumes des peuples francs et adopta la religion chrétienne",
+      "Un général de la Révolution française",
+      "Le premier Président de la République française"
     ],
     "correct_index": 1,
-    "explanation": "Simone de Beauvoir (1908-1986) était une philosophe et écrivaine française, figure majeure du féminisme. Son œuvre Le Deuxième Sexe (1949) est un texte fondateur du mouvement féministe.",
-    "difficulty": "medium"
+    "explanation": "Clovis (466-511) unifia les royaumes des différents peuples francs au Ve siècle. C'est une étape importante dans la construction de l'unité du territoire français. Il adopta la religion chrétienne.",
+    "difficulty": "hard"
   },
   {
-    "id": "csp_hg_038",
+    "id": "nat_vf_013",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Albert Camus ?",
+    "level": "naturalisation",
+    "question": "Qui était Jeanne d'Arc et quel est son rôle dans l'histoire de France ?",
     "options": [
-      "Un peintre surréaliste français",
-      "Un écrivain et philosophe français, prix Nobel de littérature, auteur de L'Étranger",
-      "Un compositeur de musique classique",
+      "Une reine de France du Moyen-Âge",
+      "Une héroïne nationale qui conduisit les troupes françaises à la libération d'une partie du territoire pendant la guerre de Cent-Ans",
+      "Une résistante de la Seconde Guerre mondiale",
+      "La première femme élue au Parlement français"
+    ],
+    "correct_index": 1,
+    "explanation": "Jeanne d'Arc (1412-1431) est une héroïne nationale. Pendant la guerre de Cent-Ans contre l'Angleterre, cette jeune paysanne conduisit les troupes françaises à la libération d'une partie du territoire français. Elle incarne le courage au service de la France.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_vf_014",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qui était Napoléon Ier et quel est son héritage ?",
+    "options": [
+      "Un roi de France du XVIIe siècle qui construisit Versailles",
+      "Un général et dirigeant qui dirigea la France pendant près de 15 ans et créa notamment le Code civil",
+      "Un philosophe des Lumières auteur de l'Encyclopédie",
+      "Le fondateur de la Ve République en 1958"
+    ],
+    "correct_index": 1,
+    "explanation": "Napoléon Ier (1769-1821) dirigea la France pendant près de 15 ans. Il mena de nombreuses guerres en Europe. On lui doit notamment le Code civil, qui régit encore aujourd'hui une grande partie du droit français.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_vf_015",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qui était Victor Hugo et quel est son rôle dans la culture française ?",
+    "options": [
+      "Un peintre impressionniste du XIXe siècle",
+      "L'un des plus grands écrivains français, engagé contre les inégalités sociales, auteur des Misérables",
+      "Un compositeur de musique classique française",
       "Un général de la Première Guerre mondiale"
     ],
     "correct_index": 1,
-    "explanation": "Albert Camus (1913-1960) était un écrivain et philosophe français, lauréat du prix Nobel de littérature en 1957. Il est notamment l'auteur de L'Étranger et de La Peste.",
-    "difficulty": "medium"
+    "explanation": "Victor Hugo (1802-1885) est l'un des plus grands écrivains français. Il s'est engagé contre les inégalités sociales et la peine de mort. Il a écrit Les Misérables et Notre-Dame de Paris.",
+    "difficulty": "easy"
   },
   {
-    "id": "csp_hg_039",
+    "id": "nat_vf_016",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Paul Cézanne ?",
+    "level": "naturalisation",
+    "question": "Qui était Jules Ferry et quel est son rôle dans l'histoire de l'éducation en France ?",
     "options": [
-      "Un sculpteur français du XVIIe siècle",
-      "Un peintre français du XIXe siècle, précurseur du cubisme",
-      "Un architecte du château de Versailles",
-      "Un poète symboliste"
+      "Un roi de France qui créa les premières universités",
+      "Un ministre de l'Instruction publique à l'origine de l'enseignement public, gratuit et laïc dans les années 1880",
+      "Un philosophe des Lumières qui défendit l'éducation universelle",
+      "Un général qui imposa l'instruction militaire obligatoire"
     ],
     "correct_index": 1,
-    "explanation": "Paul Cézanne (1839-1906) était un peintre français du XIXe siècle, considéré comme le précurseur du cubisme et de l'art moderne. Il est notamment connu pour ses séries sur la Montagne Sainte-Victoire.",
+    "explanation": "Jules Ferry, ministre de l'Instruction publique au début des années 1880, est à l'origine de l'enseignement public, gratuit et laïc. L'école primaire est devenue obligatoire et gratuite sous son impulsion.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_040",
+    "id": "nat_vf_017",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Marc Chagall ?",
+    "level": "naturalisation",
+    "question": "Qui était Charles de Gaulle et quel est son rôle dans l'histoire de France ?",
     "options": [
-      "Un compositeur franco-russe",
-      "Un peintre d'origine russe naturalisé français, connu pour la décoration du plafond de l'Opéra Garnier",
-      "Un écrivain français prix Goncourt",
-      "Un sculpteur de la Révolution française"
+      "Un roi de France du XVIIIe siècle",
+      "Le chef de la Résistance pendant la Seconde Guerre mondiale et fondateur de la Ve République en 1958",
+      "Un philosophe des Lumières du XVIIIe siècle",
+      "Le premier Président de la IIIe République"
     ],
     "correct_index": 1,
-    "explanation": "Marc Chagall (1887-1985) était un peintre d'origine russe naturalisé français. Il est notamment connu pour la décoration du plafond de l'Opéra Garnier de Paris, œuvre réalisée en 1964.",
+    "explanation": "Charles de Gaulle (1890-1970) est le chef de la résistance française contre les armées allemandes pendant la Seconde Guerre mondiale. Il est l'artisan, avec les alliés, de la libération de la France. En 1958, il est à l'origine de nos institutions actuelles (la Ve République).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_vf_018",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la Première Guerre mondiale et quelle est la date commémorative associée ?",
+    "options": [
+      "Un conflit de 1939-1945 commémoré le 8 mai",
+      "Un affrontement de masse de 1914-1918 ayant fait plus de 9 millions de morts, commémoré le 11 novembre",
+      "Une guerre franco-prussienne de 1870 commémorée le 11 novembre",
+      "Un conflit colonial de 1950-1962 commémoré le 19 mars"
+    ],
+    "correct_index": 1,
+    "explanation": "La Première Guerre mondiale (1914-1918) est un affrontement de masse touchant toute l'Europe puis les États-Unis. Les combats ont fait plus de 9 millions de morts. Le 11 novembre est un jour férié en commémoration de la fin de ce conflit.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_041",
+    "id": "nat_vf_019",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Joséphine Baker ?",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la Seconde Guerre mondiale et quelle est la date commémorative associée ?",
+    "options": [
+      "Un conflit de 1914-1918 commémoré le 11 novembre",
+      "Un conflit déclenché par Hitler qui a fait plus de 50 millions de morts, commémoré le 8 mai",
+      "Une guerre coloniale en Algérie de 1954 à 1962",
+      "Un conflit européen de 1870-1871 commémoré le 8 mai"
+    ],
+    "correct_index": 1,
+    "explanation": "La Seconde Guerre mondiale (1939-1945) a été déclenchée par Adolf Hitler. Elle a fait plus de 50 millions de morts dont une majorité de civils. Le 8 mai est un jour férié en commémoration de la fin de ce conflit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_020",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Que représente le régime de Vichy dans l'histoire de France ?",
+    "options": [
+      "Un régime républicain exemplaire pendant la guerre",
+      "Un régime non démocratique collaborant avec l'Allemagne nazie, portant une responsabilité dans la déportation des Juifs",
+      "Un gouvernement de résistance basé dans le sud de la France",
+      "Un régime militaire qui libéra la France de l'occupation"
+    ],
+    "correct_index": 1,
+    "explanation": "Le régime de Vichy (1940-1944), dirigé par le maréchal Pétain, était un régime non démocratique. Il collabora avec l'Allemagne nazie et porte donc une part de responsabilité dans la déportation des Juifs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_021",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la décolonisation française et quand a-t-elle eu lieu ?",
+    "options": [
+      "L'expansion coloniale de la France à partir de 1830",
+      "Le mouvement par lequel les peuples des colonies françaises ont accédé à l'indépendance entre 1950 et 1962",
+      "La politique d'intégration des immigrés en France après 1945",
+      "La création des départements d'outre-mer en 1946"
+    ],
+    "correct_index": 1,
+    "explanation": "La décolonisation française (1950-1962) : dans les empires coloniaux européens, les peuples revendiquèrent leur indépendance. La décolonisation française débuta en Asie et s'étendit à l'Afrique, donnant lieu à des guerres comme celles d'Indochine et d'Algérie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_022",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qui était Marie Curie et quel est son apport à la science française ?",
     "options": [
       "Une femme politique française du XXe siècle",
-      "Une artiste d'origine américaine naturalisée française, résistante pendant la Seconde Guerre mondiale, entrée au Panthéon",
-      "Une scientifique française prix Nobel",
+      "Une physicienne née en Pologne à qui on doit la découverte de la radioactivité, inhumée au Panthéon",
+      "Une romancière française prix Nobel de littérature",
+      "Une résistante française fusillée pendant la Seconde Guerre mondiale"
+    ],
+    "correct_index": 1,
+    "explanation": "Marie Curie (1867-1934) est une physicienne née en Pologne. On lui doit la découverte de la radioactivité au début du XXe siècle. Elle est inhumée au Panthéon. Elle est l'une des personnes étrangères naturalisées qui ont contribué au rayonnement de la France.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_vf_023",
+    "theme": "vie_en_france",
+    "level": "naturalisation",
+    "question": "Qui était Joséphine Baker et quel est son rôle dans l'histoire française ?",
+    "options": [
+      "Une femme politique française du XXe siècle",
+      "Une artiste d'origine américaine naturalisée française, résistante pendant la Seconde Guerre mondiale, entrée au Panthéon en 2021",
+      "Une scientifique française prix Nobel de physique",
       "Une romancière du XIXe siècle"
     ],
     "correct_index": 1,
@@ -580,83 +310,33 @@
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_042",
+    "id": "nat_vf_024",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était une chanteuse française célèbre ?",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que le Traité de Rome de 1957 a instauré ?",
     "options": [
-      "Simone Veil",
-      "Marie Curie",
-      "Édith Piaf",
-      "Simone de Beauvoir"
-    ],
-    "correct_index": 2,
-    "explanation": "Édith Piaf (1915-1963) est l'une des chanteuses françaises les plus célèbres de l'histoire. Surnommée 'La Môme Piaf', elle est connue dans le monde entier pour des chansons comme La Vie en rose.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_043",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qu'est-ce que le Louvre ?",
-    "options": [
-      "Le palais présidentiel français",
-      "Le plus grand musée du monde, situé à Paris",
-      "La résidence officielle du Premier ministre",
-      "Le siège de l'Assemblée nationale"
+      "La fin de la Seconde Guerre mondiale",
+      "La Communauté Économique Européenne entre six pays d'Europe dont la France, pour établir une union étroite entre les peuples européens",
+      "La création de l'ONU en 1945",
+      "L'introduction de l'euro comme monnaie unique"
     ],
     "correct_index": 1,
-    "explanation": "Le Louvre est le plus grand musée du monde, situé à Paris. Il abrite des collections exceptionnelles dont la Joconde de Léonard de Vinci. C'est l'un des sites touristiques les plus visités au monde.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_044",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Qui était Jean de la Fontaine ?",
-    "options": [
-      "Un roi de France du XVIIe siècle",
-      "Un fabuliste français du XVIIe siècle, auteur des Fables",
-      "Un explorateur français",
-      "Un révolutionnaire de 1789"
-    ],
-    "correct_index": 1,
-    "explanation": "Jean de la Fontaine (1621-1695) était un fabuliste français du XVIIe siècle. Il est célèbre pour ses Fables, recueil de courts récits moraux mettant en scène des animaux, comme Le Corbeau et le Renard.",
+    "explanation": "Le Traité de Rome (1957) instaure la Communauté Économique Européenne entre six pays d'Europe, dont la France. Son objectif est d'établir une union étroite entre les peuples européens. La construction européenne a fortement contribué à installer la paix en Europe.",
     "difficulty": "medium"
   },
   {
-    "id": "csp_hg_045",
+    "id": "nat_vf_025",
     "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quel écrivain est français ?",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que le système éducatif français et comment est-il organisé ?",
     "options": [
-      "William Shakespeare",
-      "Miguel de Cervantes",
-      "Victor Hugo",
-      "Fiodor Dostoïevski"
+      "Un système privé payant organisé en 2 niveaux",
+      "Un système public gratuit et laïque organisé en 3 niveaux : primaire (maternelle, élémentaire), secondaire (collège, lycée) et supérieur",
+      "Un système mixte où les familles choisissent librement le contenu des cours",
+      "Un système religieux financé par l'État"
     ],
-    "correct_index": 2,
-    "explanation": "Victor Hugo (1802-1885) est l'un des plus grands écrivains français. Engagé contre les inégalités sociales et la peine de mort, il est l'auteur des Misérables et de Notre-Dame de Paris.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_046",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Dans quelle ville se trouve la tour Eiffel ?",
-    "options": ["Lyon", "Marseille", "Paris", "Bordeaux"],
-    "correct_index": 2,
-    "explanation": "La tour Eiffel se trouve à Paris. Construite par l'ingénieur Gustave Eiffel pour l'Exposition universelle de 1889, elle accueille plus de 7 millions de visiteurs par an.",
-    "difficulty": "easy"
-  },
-  {
-    "id": "csp_hg_047",
-    "theme": "vie_en_france",
-    "level": "csp",
-    "question": "Quand célèbre-t-on Noël ?",
-    "options": ["Le 25 novembre", "Le 6 décembre", "Le 25 décembre", "Le 1er janvier"],
-    "correct_index": 2,
-    "explanation": "Noël est célébré le 25 décembre. C'est une fête d'origine chrétienne qui est devenue une fête culturelle et familiale largement célébrée en France, notamment par l'échange de cadeaux.",
-    "difficulty": "easy"
+    "correct_index": 1,
+    "explanation": "Le système éducatif français est public, gratuit et laïque. Il est organisé en trois niveaux : le primaire (école maternelle et élémentaire), le secondaire (collège et lycée) et le supérieur (université, grandes écoles). L'instruction est obligatoire de 3 à 16 ans.",
+    "difficulty": "medium"
   }
 ]

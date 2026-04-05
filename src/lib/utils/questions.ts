@@ -16,10 +16,20 @@ const CSP_THEMES: Theme[] = [
   "vie_en_france",
 ];
 
+const CR_THEMES: Theme[] = [
+  "valeurs_republicaines",
+  "institutions",
+  "droits_devoirs",
+  "histoire_geo_culture",
+  "vie_en_france",
+];
+
 function getThemesForLevel(level: Level): Theme[] {
   switch (level) {
     case "csp":
       return CSP_THEMES;
+    case "cr":
+      return CR_THEMES;
     case "naturalisation":
     default:
       return NATURALISATION_THEMES;

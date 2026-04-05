@@ -1,44 +1,53 @@
 [
   {
-    "id": "sy_001",
+    "id": "nat_sy_001",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Quelle est la fête nationale française et pourquoi cette date ?",
     "options": [
       "Le 8 mai, en commémoration de la fin de la Seconde Guerre mondiale",
-      "Le 14 juillet, en référence à la prise de la Bastille en 1789",
+      "Le 14 juillet, en référence à la prise de la Bastille en 1789 et à la fête de la Fédération en 1790",
       "Le 1er janvier, date de fondation de la République",
       "Le 11 novembre, en commémoration de l'armistice de 1918"
     ],
     "correct_index": 1,
-    "explanation": "Le 14 juillet est la fête nationale française. Le 14 juillet 1789, le peuple de Paris s'empare de la Bastille. Un an plus tard, le 14 juillet 1790, la fête de la Fédération célèbre l'unité de la Nation.",
+    "explanation": "Le 14 juillet est la fête nationale française. Le 14 juillet 1789, le peuple de Paris s'empare de la Bastille. Un an plus tard, le 14 juillet 1790, lors de la fête de la Fédération, cette date est devenue la date de la fête nationale.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_002",
+    "id": "nat_sy_002",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Quel est l'hymne national français ?",
-    "options": ["Le Chant du Départ", "La Marseillaise", "L'Internationale", "La Brabançonne"],
+    "options": [
+      "Le Chant du Départ",
+      "La Marseillaise",
+      "L'Internationale",
+      "La Brabançonne"
+    ],
     "correct_index": 1,
-    "explanation": "L'hymne national français est La Marseillaise. Il a été composé à l'époque de la Révolution française, au moment de la prise de la Bastille en 1789.",
+    "explanation": "L'hymne national français est La Marseillaise. Il a été composé à l'époque de la Révolution française. C'est l'un des symboles officiels de la République aux côtés du drapeau tricolore et de Marianne.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_003",
+    "id": "nat_sy_003",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Qui est Marianne et où trouve-t-on sa représentation ?",
     "options": [
       "Une reine de France dont le portrait orne les billets de banque",
-      "Le symbole de la République, dont la statue est placée dans toutes les mairies",
+      "Le symbole de la République française, dont le buste est placé dans toutes les mairies",
       "Une héroïne de la Révolution enterrée au Panthéon",
       "Le symbole de la justice, représentée les yeux bandés"
     ],
     "correct_index": 1,
-    "explanation": "Marianne est le symbole de la République française. Sa statue est placée dans toutes les mairies et rappelle la Révolution française.",
+    "explanation": "Marianne est devenue le symbole de la République française. Sa statue, placée dans toutes les mairies, rappelle la Révolution française et incarne les valeurs républicaines : liberté, égalité, fraternité.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_004",
+    "id": "nat_sy_004",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "De quelle époque date le drapeau tricolore bleu, blanc, rouge ?",
     "options": [
       "Du règne de Louis XIV au XVIIe siècle",
@@ -47,53 +56,62 @@
       "De la création de la Ve République en 1958"
     ],
     "correct_index": 1,
-    "explanation": "Le drapeau tricolore bleu, blanc, rouge date de la Révolution française. Il est devenu l'un des symboles les plus reconnaissables de la République française.",
+    "explanation": "Le drapeau tricolore, bleu, blanc, rouge, date de la Révolution française. Il est l'un des symboles officiels de la République française les plus reconnaissables dans le monde.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_005",
+    "id": "nat_sy_005",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Quelle est la langue de la République française ?",
-    "options": ["Le français et le breton", "Le français", "Le français et l'occitan", "Toutes les langues régionales sont officielles"],
+    "options": [
+      "Le français et le breton sont coofficiels",
+      "Le français",
+      "Le français et l'occitan sont coofficiels",
+      "Toutes les langues régionales sont officielles"
+    ],
     "correct_index": 1,
-    "explanation": "La langue de la République est le français. C'est une des caractéristiques fondamentales de la République française, inscrite dans la Constitution.",
+    "explanation": "La langue de la République est le français. C'est inscrit dans la Constitution à l'article 2. Son usage est obligatoire dans les actes officiels, l'enseignement public et les services de l'État.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_006",
+    "id": "nat_sy_006",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Que commémore le 11 novembre en France ?",
     "options": [
       "La fin de la Seconde Guerre mondiale",
-      "La prise de la Bastille",
-      "La fin de la Première Guerre mondiale",
-      "La proclamation de la République"
+      "La prise de la Bastille en 1789",
+      "La fin de la Première Guerre mondiale en 1918",
+      "La proclamation de la IIIe République"
     ],
     "correct_index": 2,
-    "explanation": "Le 11 novembre est un jour férié en France en commémoration de la fin de la Première Guerre mondiale (1914-1918), conflit qui a fait plus de 9 millions de morts.",
+    "explanation": "Le 11 novembre est un jour férié en commémoration de la fin de la Première Guerre mondiale (1914-1918), affrontement de masse qui a fait plus de 9 millions de morts.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_007",
+    "id": "nat_sy_007",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Que commémore le 8 mai en France ?",
     "options": [
       "La fin de la Première Guerre mondiale",
-      "La libération de Paris",
-      "La fin de la Seconde Guerre mondiale",
+      "La libération de Paris en 1944",
+      "La fin de la Seconde Guerre mondiale en 1945",
       "La proclamation de la Ve République"
     ],
     "correct_index": 2,
-    "explanation": "Le 8 mai est un jour férié en commémoration de la fin de la Seconde Guerre mondiale (1939-1945), qui a fait plus de 50 millions de morts dont une majorité de civils.",
+    "explanation": "Le 8 mai est un jour férié en commémoration de la fin de la Seconde Guerre mondiale (1939-1945). Ce conflit a fait plus de 50 millions de morts dont une majorité de civils.",
     "difficulty": "easy"
   },
   {
-    "id": "sy_008",
+    "id": "nat_sy_008",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Que représente la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
     "options": [
       "Le premier code pénal français",
-      "Un texte qui assure la liberté et l'égalité de tous les citoyens, issu de la Révolution française",
+      "Un texte fondateur qui assure la liberté et l'égalité de tous les citoyens, issu de la Révolution française",
       "La Constitution de la Ve République",
       "Le traité fondateur de l'Union européenne"
     ],
@@ -102,31 +120,258 @@
     "difficulty": "medium"
   },
   {
-    "id": "sy_009",
+    "id": "nat_sy_009",
     "theme": "symboles",
+    "level": "naturalisation",
     "question": "Quel est le symbole du drapeau européen ?",
     "options": [
-      "12 étoiles symbolisant les idéaux d'unité et d'harmonie entre les Européens",
-      "27 étoiles représentant les États membres",
+      "12 étoiles dorées sur fond bleu, symbolisant les idéaux d'unité et d'harmonie entre les Européens",
+      "27 étoiles représentant les États membres actuels",
       "Une couronne de lauriers sur fond bleu",
       "Les couleurs des 6 pays fondateurs"
     ],
     "correct_index": 0,
-    "explanation": "Le drapeau européen est constitué de 12 étoiles qui symbolisent les idéaux d'unité et d'harmonie entre les Européens. Le nombre d'étoiles ne correspond pas au nombre d'États membres.",
+    "explanation": "Le drapeau européen est constitué de 12 étoiles dorées disposées en cercle sur fond bleu. Ces 12 étoiles symbolisent les idéaux d'unité et d'harmonie entre les Européens. Le nombre d'étoiles ne correspond pas au nombre d'États membres.",
     "difficulty": "medium"
   },
   {
-    "id": "sy_010",
+    "id": "nat_sy_010",
     "theme": "symboles",
-    "question": "Qu'est-ce que la Marianne rappelle aux citoyens ?",
+    "level": "naturalisation",
+    "question": "Pour quoi la tour Eiffel a-t-elle été construite et quand ?",
     "options": [
-      "Les victoires militaires de la France",
-      "La Révolution française et les valeurs républicaines",
-      "La monarchie française avant 1789",
-      "L'unité des régions de France"
+      "Pour commémorer la Révolution française en 1789",
+      "Comme siège du Parlement français en 1875",
+      "Pour l'Exposition universelle de 1889, par l'ingénieur Gustave Eiffel",
+      "Comme tour de guet militaire pendant la Première Guerre mondiale"
+    ],
+    "correct_index": 2,
+    "explanation": "La tour Eiffel a été construite par l'ingénieur Gustave Eiffel pour l'Exposition universelle de 1889. C'est un monument très fréquenté, avec plus de 7 millions de visiteurs par an.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_011",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que le Mont-Saint-Michel ?",
+    "options": [
+      "Un sommet des Pyrénées classé au patrimoine mondial",
+      "Un îlot rocheux en Normandie avec une abbaye, classé au patrimoine mondial par l'UNESCO",
+      "Un château royal situé sur la Loire",
+      "Un site préhistorique dans le Périgord"
     ],
     "correct_index": 1,
-    "explanation": "La statue de Marianne, placée dans toutes les mairies, rappelle la Révolution française et symbolise les valeurs de la République : liberté, égalité, fraternité.",
+    "explanation": "Le Mont-Saint-Michel est un îlot rocheux situé en Normandie dans une baie, sur lequel s'élève une abbaye. Il est classé au patrimoine mondial de l'humanité par l'UNESCO.",
     "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_012",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quelle est la plus haute montagne d'Europe et où se situe-t-elle ?",
+    "options": [
+      "Le Mont Ventoux dans le Vaucluse (1 912 m)",
+      "Le Mont-Blanc dans les Alpes (4 810 m)",
+      "Le Puy de Dôme en Auvergne (1 465 m)",
+      "Le Grand Ballon dans les Vosges (1 424 m)"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Mont-Blanc, sommet de la chaîne des Alpes, est la plus haute montagne d'Europe avec 4 810 mètres d'altitude.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_013",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quel est le plus long fleuve français ?",
+    "options": [
+      "La Seine",
+      "Le Rhône",
+      "La Garonne",
+      "La Loire"
+    ],
+    "correct_index": 3,
+    "explanation": "La Loire est le plus long fleuve français. La France est également parcourue par d'autres fleuves importants : la Seine, la Garonne, le Rhône et le Rhin.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_014",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quel animal est un symbole traditionnel de la France ?",
+    "options": [
+      "Le lion",
+      "L'aigle",
+      "Le coq gaulois",
+      "Le cheval blanc"
+    ],
+    "correct_index": 2,
+    "explanation": "Le coq gaulois est l'un des symboles traditionnels de la France, bien qu'il ne soit pas un symbole officiel de la République au même titre que Marianne ou le drapeau tricolore.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_015",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Qu'est-ce qui est traditionnellement organisé sur les Champs-Élysées le 14 juillet ?",
+    "options": [
+      "Une course cycliste internationale",
+      "Un défilé militaire",
+      "Un marché artisanal national",
+      "Une cérémonie de remise de décorations officielles"
+    ],
+    "correct_index": 1,
+    "explanation": "Le 14 juillet, fête nationale, est marqué par un défilé militaire traditionnel sur les Champs-Élysées à Paris. Des feux d'artifice sont également organisés dans toute la France.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_016",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Combien de personnes dans le monde parlent couramment le français ?",
+    "options": [
+      "Environ 50 millions",
+      "Environ 100 millions",
+      "Environ 200 millions",
+      "Environ 500 millions"
+    ],
+    "correct_index": 2,
+    "explanation": "Le français est parlé couramment par 200 millions de personnes dans le monde. Les Français ne représentent que 1% de la population mondiale mais les personnes qui parlent français sont réparties dans 70 pays.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_017",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quel est le rang de la France comme destination touristique mondiale ?",
+    "options": [
+      "2e destination touristique mondiale",
+      "3e destination touristique mondiale",
+      "1re destination touristique mondiale",
+      "5e destination touristique mondiale"
+    ],
+    "correct_index": 2,
+    "explanation": "La France est la première destination touristique mondiale. Célèbre pour ses monuments et sa culture, le tourisme est un élément essentiel de son économie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_sy_018",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Combien de millions d'habitants la France comptait-elle environ en 2021 ?",
+    "options": [
+      "Environ 55 millions",
+      "Environ 60 millions",
+      "Environ 67,4 millions",
+      "Environ 75 millions"
+    ],
+    "correct_index": 2,
+    "explanation": "En 2021, la France comptait 67,4 millions d'habitants (source INSEE). Son territoire s'étend sur 675 000 km², en métropole et outre-mer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_019",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "La France est-elle membre fondateur de l'Union européenne ?",
+    "options": [
+      "Non, la France a rejoint l'UE en 1992 seulement",
+      "Oui, la France est l'un des six pays fondateurs de la CEE en 1957",
+      "Non, la France a quitté l'UE comme le Royaume-Uni",
+      "Oui, mais seulement depuis la création de l'euro en 2002"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est l'un des six pays fondateurs de la Communauté économique européenne, créée par le Traité de Rome en 1957. La construction européenne a fortement contribué à installer la paix en Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_020",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Depuis quand la France utilise-t-elle l'euro comme monnaie ?",
+    "options": [
+      "Depuis 1992, date du Traité de Maastricht",
+      "Depuis 1999 pour toutes les transactions",
+      "Depuis 2002, date de la mise en circulation des pièces et billets",
+      "Depuis 2005"
+    ],
+    "correct_index": 2,
+    "explanation": "Depuis 2002, la France partage avec 18 autres pays membres de l'Union européenne une monnaie unique : l'Euro. Les pièces et billets en euros ont été mis en circulation le 1er janvier 2002.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_021",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Où se trouvent les 10 plus grandes métropoles françaises ?",
+    "options": [
+      "Uniquement dans le nord de la France",
+      "Réparties sur l'ensemble du territoire : Paris, Lyon, Marseille, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes",
+      "Uniquement sur le littoral maritime",
+      "Uniquement dans le sud de la France"
+    ],
+    "correct_index": 1,
+    "explanation": "Les 10 plus importantes métropoles françaises sont : Paris, Lyon, Marseille, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg et Rennes. Réparties sur l'ensemble du territoire, ces métropoles ont une dimension internationale.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_sy_022",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quels sont les 5 départements et régions d'outre-mer français ?",
+    "options": [
+      "Tahiti, Nouvelle-Calédonie, Saint-Martin, Wallis, Mayotte",
+      "Guadeloupe, Guyane, Martinique, Mayotte et La Réunion",
+      "Guadeloupe, Martinique, Polynésie française, Guyane et Corse",
+      "La Réunion, Mayotte, Saint-Pierre-et-Miquelon, Polynésie et Nouvelle-Calédonie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France compte 5 départements et régions d'outre-mer (DROM) : la Guadeloupe, la Guyane, la Martinique, Mayotte et La Réunion. L'État y est représenté par les préfets.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_sy_023",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "La France est-elle membre permanent du Conseil de sécurité de l'ONU ?",
+    "options": [
+      "Non, la France n'est pas membre de l'ONU",
+      "Non, la France est membre mais pas permanent",
+      "Oui, la France est membre permanent du Conseil de sécurité de l'ONU",
+      "Oui, mais seulement depuis 2000"
+    ],
+    "correct_index": 2,
+    "explanation": "La France est membre de nombreuses organisations internationales. Elle est membre permanent du Conseil de sécurité de l'Organisation des Nations Unies (ONU), ce qui lui confère une influence importante sur la scène internationale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_024",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Quelles sont les principales chaînes de montagnes françaises ?",
+    "options": [
+      "Les Vosges et le Jura uniquement",
+      "Les Alpes, les Pyrénées, le Massif central, les Vosges et le Jura",
+      "Les Alpes uniquement",
+      "Les Pyrénées et les Alpes uniquement"
+    ],
+    "correct_index": 1,
+    "explanation": "La France possède plusieurs massifs montagneux : les Alpes (avec le Mont-Blanc, plus haute montagne d'Europe à 4 810 m), les Pyrénées (frontière avec l'Espagne), le Massif central, les Vosges et le Jura.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_sy_025",
+    "theme": "symboles",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la grotte de Lascaux et où se trouve-t-elle ?",
+    "options": [
+      "Un château médiéval en Normandie",
+      "L'une des plus importantes grottes préhistoriques en France, connue pour ses peintures rupestres",
+      "Un monument romain dans la vallée du Rhône",
+      "Une abbaye bénédictine en Bourgogne"
+    ],
+    "correct_index": 1,
+    "explanation": "La grotte de Lascaux est l'une des plus importantes grottes préhistoriques en France, datant de 18 000 à 15 000 ans avant J.-C. Elle est connue pour la qualité exceptionnelle de ses peintures rupestres, représentant notamment des animaux.",
+    "difficulty": "hard"
   }
 ]

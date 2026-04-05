@@ -1,0 +1,572 @@
+[
+  {
+    "id": "cr_dd_001",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "options": [
+      "La liberté de circulation",
+      "La liberté de disposer de son corps et d'accéder aux soins reproductifs",
+      "La liberté d'association",
+      "La liberté de conscience"
+    ],
+    "correct_index": 1,
+    "explanation": "La PMA (Procréation Médicalement Assistée) fait référence à la liberté de disposer de son corps et d'accéder aux soins reproductifs. En France, la loi bioéthique de 2021 a étendu la PMA à toutes les femmes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_dd_002",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "options": [
+      "Au nom de l'intérêt du gouvernement en place",
+      "Au nom de l'ordre public, de la sécurité nationale ou de la protection des droits des autres",
+      "Au nom de la religion majoritaire",
+      "Au nom des intérêts économiques du pays"
+    ],
+    "correct_index": 1,
+    "explanation": "L'État peut restreindre certains droits et libertés au nom de l'ordre public, de la sécurité nationale, de la santé publique ou de la protection des droits et libertés des autres. Ces restrictions doivent être prévues par la loi et proportionnées.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_003",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "options": [
+      "Le mariage est interdit avant 21 ans",
+      "Toute personne majeure peut se marier librement, avec le consentement des deux époux",
+      "Le mariage religieux est obligatoire avant le mariage civil",
+      "Les parents peuvent imposer un mariage à leurs enfants majeurs"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, toute personne majeure (18 ans) peut se marier librement, à condition que les deux époux consentent librement au mariage. Le mariage forcé est interdit et puni par la loi. Seul le mariage civil a une valeur juridique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_004",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Est-il toujours possible de divorcer ?",
+    "options": [
+      "Non, le divorce est interdit en France",
+      "Oui, le divorce est un droit en France",
+      "Non, seulement en cas de faute prouvée",
+      "Oui, mais uniquement après 10 ans de mariage"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui, le divorce est un droit en France. Il existe plusieurs formes de divorce : par consentement mutuel, pour faute, ou pour altération définitive du lien conjugal. Le juge aux affaires familiales prononce le divorce.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_005",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "La peine de mort est :",
+    "options": [
+      "Autorisée pour les crimes les plus graves",
+      "Suspendue mais toujours dans la loi française",
+      "Abolie en France depuis 1981",
+      "Autorisée uniquement en temps de guerre"
+    ],
+    "correct_index": 2,
+    "explanation": "La peine de mort a été abolie en France en 1981, sous la présidence de François Mitterrand, à l'initiative du garde des Sceaux Robert Badinter. Son abolition est inscrite dans la Constitution depuis 2007.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_006",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "options": [
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "Le gouvernement du peuple, par le peuple, pour le peuple",
+      "Liberté, Égalité, Fraternité"
+    ],
+    "correct_index": 1,
+    "explanation": "'Les hommes naissent et demeurent libres et égaux en droits' est l'article 1er de la Déclaration des Droits de l'Homme et du Citoyen de 1789. C'est l'un des textes fondateurs de la République française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_007",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "options": [
+      "Non, l'avortement est interdit en France",
+      "Oui, c'est un droit garanti par la loi, inscrit dans la Constitution depuis 2024",
+      "Oui, uniquement en cas de danger médical pour la mère",
+      "Oui, mais uniquement avec l'accord du père"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. L'interruption volontaire de grossesse (IVG) est un droit en France depuis la loi Veil de 1975. En mars 2024, ce droit a été inscrit dans la Constitution française, renforçant sa protection.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_008",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que contient la Constitution ?",
+    "options": [
+      "Uniquement les droits des citoyens",
+      "Les règles fondamentales d'organisation de l'État, la séparation des pouvoirs et les droits fondamentaux",
+      "Le code pénal et les sanctions applicables",
+      "Les traités internationaux signés par la France"
+    ],
+    "correct_index": 1,
+    "explanation": "La Constitution contient les règles fondamentales d'organisation de l'État, la séparation des pouvoirs exécutif, législatif et judiciaire, ainsi que les droits et libertés fondamentaux des citoyens.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_009",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que garantit la liberté de la presse ?",
+    "options": [
+      "Le droit pour les journalistes de publier sans aucune contrainte",
+      "Le droit d'informer librement, de publier des opinions et d'accéder à l'information",
+      "L'interdiction pour l'État de financer des médias",
+      "Le droit exclusif des journalistes professionnels à s'exprimer"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté de la presse garantit le droit d'informer librement, de publier des opinions et d'accéder à l'information. Elle est fondamentale en démocratie et est protégée par la loi du 29 juillet 1881 sur la liberté de la presse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_010",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "options": [
+      "L'interdiction de toute activité industrielle polluante",
+      "Le droit de chacun à vivre dans un environnement équilibré et respectueux de la santé, et le devoir de le préserver",
+      "L'obligation de recycler tous ses déchets sous peine d'amende",
+      "La nationalisation des ressources naturelles"
+    ],
+    "correct_index": 1,
+    "explanation": "La Charte de l'environnement, intégrée à la Constitution en 2005, prévoit le droit de chacun à vivre dans un environnement équilibré et respectueux de la santé, ainsi que le devoir de prendre part à la préservation de l'environnement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "cr_dd_011",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que signifie la dignité humaine ?",
+    "options": [
+      "Le droit à un niveau de vie élevé",
+      "Le droit fondamental de chaque personne à être respectée en tant qu'être humain, quelles que soient ses caractéristiques",
+      "Le droit à la propriété privée",
+      "Le droit de ne pas travailler"
+    ],
+    "correct_index": 1,
+    "explanation": "La dignité humaine est le droit fondamental de chaque personne à être respectée en tant qu'être humain, quelles que soient ses origines, sa condition sociale ou ses caractéristiques. Elle est inviolable et constitue le fondement de tous les droits de l'homme.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_012",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que signifie le droit de manifester ?",
+    "options": [
+      "Le droit de bloquer indéfiniment les routes et bâtiments publics",
+      "Le droit de se rassembler pacifiquement pour exprimer collectivement des opinions ou revendications",
+      "Le droit de renverser le gouvernement par la force",
+      "Le droit exclusif des syndicats à organiser des protestations"
+    ],
+    "correct_index": 1,
+    "explanation": "Le droit de manifester est le droit de se rassembler pacifiquement pour exprimer collectivement des opinions ou des revendications. Les manifestations doivent être déclarées aux autorités et se dérouler dans le respect de l'ordre public.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_013",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que signifie PMA ?",
+    "options": [
+      "Procédure Médicale Autorisée",
+      "Procréation Médicalement Assistée",
+      "Protection Maternelle et Anténatale",
+      "Programme de Médecine Avancée"
+    ],
+    "correct_index": 1,
+    "explanation": "PMA signifie Procréation Médicalement Assistée. Ce terme désigne l'ensemble des techniques médicales permettant d'aider à la conception d'un enfant. En France, la loi bioéthique de 2021 a étendu la PMA à toutes les femmes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_014",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quel texte est le plus difficile à modifier ?",
+    "options": [
+      "Le Code civil",
+      "La Constitution",
+      "Le Code pénal",
+      "Une loi ordinaire"
+    ],
+    "correct_index": 1,
+    "explanation": "La Constitution est le texte le plus difficile à modifier. Sa révision nécessite soit un référendum, soit une majorité des 3/5 des membres du Parlement réunis en Congrès. Elle est au sommet de la hiérarchie des normes juridiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_015",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "options": [
+      "La liberté d'expression",
+      "La liberté de conscience et de religion",
+      "La liberté d'association",
+      "La liberté de circulation"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté de conscience et de religion permet à chacun de croire ou de ne pas croire, de pratiquer la religion de son choix ou d'en changer. C'est l'un des fondements de la laïcité française.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_016",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Qu'est-ce que le droit de grève ?",
+    "options": [
+      "Le droit de refuser de payer ses impôts",
+      "Le droit pour les travailleurs de cesser collectivement le travail pour défendre leurs intérêts professionnels",
+      "Le droit de manifester dans la rue",
+      "Le droit de refuser d'obéir à son employeur"
+    ],
+    "correct_index": 1,
+    "explanation": "Le droit de grève est le droit pour les travailleurs de cesser collectivement le travail pour défendre leurs intérêts professionnels. C'est un droit fondamental reconnu par la Constitution française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_017",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Qu'est-ce que la Constitution ?",
+    "options": [
+      "Un ensemble de règles commerciales",
+      "La loi fondamentale qui définit l'organisation de l'État et garantit les droits fondamentaux",
+      "Un traité international entre pays européens",
+      "Le règlement intérieur du Parlement"
+    ],
+    "correct_index": 1,
+    "explanation": "La Constitution est la loi fondamentale de l'État. Elle définit l'organisation des pouvoirs publics, la séparation des pouvoirs et garantit les droits fondamentaux des citoyens. Toutes les autres lois doivent lui être conformes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_018",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Qui peut demander à avorter ?",
+    "options": [
+      "Uniquement les femmes mineures en danger",
+      "Toute femme enceinte qui en fait la demande, sans avoir à se justifier",
+      "Uniquement les femmes dont la grossesse résulte d'un viol",
+      "Toute femme, mais uniquement avec l'accord d'un médecin spécialiste"
+    ],
+    "correct_index": 1,
+    "explanation": "En France, toute femme enceinte peut demander une IVG sans avoir à se justifier. Le droit à l'avortement est garanti par la loi Veil de 1975 et inscrit dans la Constitution depuis 2024.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_019",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "options": [
+      "Non, le droit de vote des femmes n'existe pas en France",
+      "Oui, les femmes ont le droit de vote depuis 1944",
+      "Oui, mais uniquement depuis 2000",
+      "Non, sauf si elle est inscrite sur une liste spéciale"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. Le droit de vote a été accordé aux femmes françaises en 1944, sous le gouvernement provisoire du général de Gaulle. Elles ont voté pour la première fois aux élections municipales d'avril 1945.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_020",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "options": [
+      "On peut publier tout ce qu'on veut car internet est un espace de liberté totale",
+      "Les mêmes lois s'appliquent sur internet que dans la vie réelle : injures, diffamation et haine sont punies",
+      "Seuls les adultes sont responsables de leurs publications en ligne",
+      "Les publications anonymes ne peuvent pas être poursuivies"
+    ],
+    "correct_index": 1,
+    "explanation": "Les mêmes lois s'appliquent sur internet que dans la vie réelle. Les injures, la diffamation, les propos haineux et l'apologie de crimes sont punis par la loi, y compris sur les réseaux sociaux. L'anonymat ne protège pas des poursuites.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_021",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Jeter un mégot par terre est :",
+    "options": [
+      "Toléré dans les espaces extérieurs",
+      "Une infraction punie d'une amende",
+      "Sans conséquence légale",
+      "Interdit uniquement dans les parcs"
+    ],
+    "correct_index": 1,
+    "explanation": "Jeter un mégot par terre est une infraction punie d'une amende forfaitaire. C'est une forme de pollution et de dégradation de l'espace public. Chaque citoyen a le devoir de respecter l'environnement et les espaces publics.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_022",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "L'État peut-il limiter les droits et libertés ?",
+    "options": [
+      "Non, les droits et libertés sont absolus et ne peuvent jamais être limités",
+      "Oui, dans des cas précis prévus par la loi, pour protéger l'ordre public ou les droits des autres",
+      "Oui, le gouvernement peut limiter les libertés selon sa volonté",
+      "Non, seule une décision de justice peut limiter les libertés"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui, l'État peut limiter certains droits et libertés dans des cas précis prévus par la loi, notamment pour protéger l'ordre public, la sécurité nationale ou les droits des autres. Ces limitations doivent être proportionnées et nécessaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_023",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+    "options": [
+      "Brûler ses déchets dans le jardin",
+      "Trier ses déchets, utiliser les transports en commun et économiser l'énergie",
+      "Jeter les déchets dans la nature lors des pique-niques",
+      "Laisser couler l'eau du robinet inutilement"
+    ],
+    "correct_index": 1,
+    "explanation": "Adopter une attitude respectueuse de l'environnement inclut trier ses déchets pour le recyclage, utiliser les transports en commun pour réduire les émissions de CO2 et économiser l'eau et l'énergie. C'est un devoir civique.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_024",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle proposition constitue une obligation ?",
+    "options": [
+      "Voter aux élections",
+      "Déclarer ses revenus et payer ses impôts",
+      "Adhérer à une association",
+      "Avoir un médecin traitant"
+    ],
+    "correct_index": 1,
+    "explanation": "Déclarer ses revenus et payer ses impôts est une obligation légale pour tous les contribuables. 'Nul n'est censé ignorer la loi' : ne pas respecter cette obligation expose à des sanctions fiscales et pénales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_025",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "options": [
+      "Pour protéger les intérêts économiques d'une entreprise",
+      "Pour prévenir les discours haineux, la diffamation et les atteintes à la dignité humaine",
+      "Pour empêcher toute critique du gouvernement",
+      "Pour protéger les célébrités des commentaires négatifs"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté d'expression peut être limitée pour prévenir les discours haineux, la diffamation, les injures, les provocations à la discrimination et les atteintes à la dignité humaine. Ces limites sont fixées par la loi pour protéger les droits des autres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_026",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Pourquoi doit-on trier ses déchets ?",
+    "options": [
+      "Uniquement pour respecter les règles de la commune",
+      "Pour permettre le recyclage, réduire les déchets et préserver l'environnement",
+      "Pour éviter de payer la taxe d'enlèvement des ordures",
+      "Uniquement pour les emballages plastiques"
+    ],
+    "correct_index": 1,
+    "explanation": "Trier ses déchets permet le recyclage des matériaux, réduit la quantité de déchets à traiter et préserve l'environnement. C'est un geste citoyen qui contribue au bien commun et à la transition écologique.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_027",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que doit faire une victime de violences ?",
+    "options": [
+      "Ne rien faire pour ne pas aggraver la situation",
+      "Régler le problème uniquement en famille",
+      "Porter plainte auprès de la police ou de la gendarmerie et chercher de l'aide",
+      "Attendre que la situation s'arrange d'elle-même"
+    ],
+    "correct_index": 2,
+    "explanation": "Une victime de violences doit porter plainte auprès de la police ou de la gendarmerie. Des associations spécialisées peuvent également apporter soutien et assistance. Des numéros d'urgence comme le 3919 existent pour les victimes de violences conjugales.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_028",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "options": [
+      "Les ignorer si on pense avoir raison",
+      "Les suivre dans le cadre légal et contester devant la justice si nécessaire",
+      "Refuser d'obéir si on n'est pas d'accord",
+      "Filmer systématiquement sans coopérer"
+    ],
+    "correct_index": 1,
+    "explanation": "Face aux ordres légaux des policiers ou gendarmes, on doit les suivre. Si on estime ses droits violés, le recours est de porter plainte ou de saisir la justice a posteriori. Résister à des agents en exercice légal de leurs fonctions constitue une infraction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_029",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quel est le rôle de la police ?",
+    "options": [
+      "Voter les lois de sécurité",
+      "Assurer la sécurité des personnes et des biens, principalement dans les zones urbaines",
+      "Juger les infractions à la loi",
+      "Percevoir les amendes routières"
+    ],
+    "correct_index": 1,
+    "explanation": "La police nationale assure la sécurité des personnes et des biens, principalement dans les zones urbaines. Elle est chargée du maintien de l'ordre public et de la lutte contre la criminalité.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_030",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quel est un exemple d'assistance à personne en danger ?",
+    "options": [
+      "Appeler la police si on voit un crime à la télévision",
+      "Appeler le 15 et prodiguer les premiers secours à une personne victime d'un malaise",
+      "Signaler un voisin bruyant",
+      "Aider quelqu'un à retrouver son chemin"
+    ],
+    "correct_index": 1,
+    "explanation": "Appeler le 15 (SAMU) et prodiguer les premiers secours à une personne victime d'un malaise est un exemple d'assistance à personne en danger. Ne pas le faire est un délit : la non-assistance à personne en danger est punie par la loi.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_031",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "options": [
+      "Interdire à une personne de changer de travail",
+      "Imposer le port du casque à moto pour protéger la sécurité des conducteurs",
+      "Interdire à quelqu'un de voyager à l'étranger",
+      "Empêcher une personne de pratiquer sa religion"
+    ],
+    "correct_index": 1,
+    "explanation": "Le port du casque obligatoire à moto est un exemple de limitation de liberté individuelle pour protéger l'intérêt général (sécurité routière et coûts pour la société). Cette limitation est proportionnée et prévue par la loi.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_032",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle est l'attitude à avoir lorsqu'on est témoin de violences ?",
+    "options": [
+      "Ne pas intervenir pour ne pas se mettre en danger",
+      "Alerter les secours et la police, témoigner et soutenir la victime si possible",
+      "Filmer uniquement pour diffuser sur les réseaux sociaux",
+      "Intervenir physiquement immédiatement"
+    ],
+    "correct_index": 1,
+    "explanation": "Face à des violences, il faut alerter les secours et la police (17 ou 15), témoigner et soutenir la victime dans la mesure du possible. Ignorer une situation de danger peut constituer une non-assistance à personne en danger.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_033",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle est l'infraction la plus grave ?",
+    "options": [
+      "La contravention",
+      "Le délit",
+      "Le crime",
+      "L'amende administrative"
+    ],
+    "correct_index": 2,
+    "explanation": "Le crime est l'infraction la plus grave en droit français. Les infractions sont classées par ordre de gravité : contraventions, délits et crimes. Les crimes sont jugés par la Cour d'assises et peuvent être punis de la réclusion criminelle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_034",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "options": [
+      "Voter aux élections",
+      "Respecter les lois françaises",
+      "Faire le service militaire",
+      "Avoir la nationalité française"
+    ],
+    "correct_index": 1,
+    "explanation": "Respecter les lois françaises est une obligation qui s'applique à toutes les personnes résidant en France, quelle que soit leur nationalité. 'Nul n'est censé ignorer la loi' : elle s'applique à tous sans exception.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_035",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle proposition représente un exemple de crime ?",
+    "options": [
+      "Un excès de vitesse",
+      "Un vol à l'étalage",
+      "Un meurtre",
+      "Une insulte publique"
+    ],
+    "correct_index": 2,
+    "explanation": "Un meurtre est un crime — l'infraction la plus grave. Il est jugé par la Cour d'assises. Un excès de vitesse est une contravention, un vol à l'étalage est un délit et une insulte publique peut être une contravention ou un délit selon les circonstances.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_036",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Quelle proposition représente un exemple de délit ?",
+    "options": [
+      "Un stationnement interdit",
+      "Un meurtre",
+      "Un vol avec violence",
+      "Une légère infraction au code de la route"
+    ],
+    "correct_index": 2,
+    "explanation": "Un vol avec violence est un délit — infraction de gravité intermédiaire, jugée par le tribunal correctionnel. Un stationnement interdit est une contravention et un meurtre est un crime.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cr_dd_037",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "Qui veille au maintien de l'ordre public ?",
+    "options": [
+      "Les élus locaux",
+      "La police nationale et la gendarmerie nationale",
+      "Les tribunaux administratifs",
+      "Les associations de quartier"
+    ],
+    "correct_index": 1,
+    "explanation": "Le maintien de l'ordre public est assuré par la police nationale (en zones urbaines) et la gendarmerie nationale (en zones rurales et périurbaines). Ces forces de l'ordre agissent sous l'autorité du ministre de l'Intérieur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "cr_dd_038",
+    "theme": "droits_devoirs",
+    "level": "cr",
+    "question": "S'agissant des déchets, quelle proposition est correcte ?",
+    "options": [
+      "On peut jeter ses déchets où on veut dans la nature",
+      "Le tri sélectif est obligatoire et les dépôts sauvages sont sanctionnés par la loi",
+      "Seules les entreprises sont obligées de trier leurs déchets",
+      "Les déchets encombrants peuvent être déposés n'importe où sur la voie publique"
+    ],
+    "correct_index": 1,
+    "explanation": "Le tri sélectif est obligatoire pour les particuliers comme pour les entreprises. Les dépôts sauvages sont des infractions punies par des amendes. Chaque citoyen a la responsabilité de gérer ses déchets de manière respectueuse de l'environnement.",
+    "difficulty": "easy"
+  }
+]
