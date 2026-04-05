@@ -3,282 +3,472 @@
     "id": "nat_dd_001",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "À partir de quel âge les citoyens français ont-ils le droit de vote ?",
-    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
+    "question": "À quoi sert le droit de grève ?",
+    "options": [
+      "À permettre aux salariés de refuser tout ordre de leur employeur",
+      "À permettre aux travailleurs de cesser collectivement le travail pour défendre leurs intérêts professionnels",
+      "À permettre aux citoyens de ne pas payer leurs impôts en signe de protestation",
+      "À permettre aux fonctionnaires de manifester sans autorisation préalable"
+    ],
     "correct_index": 1,
-    "explanation": "Les citoyens bénéficient du droit de vote dès 18 ans. Le suffrage universel signifie que tous les citoyens, hommes et femmes, ayant au moins 18 ans et disposant de leurs droits civils et politiques, ont le droit de voter.",
-    "difficulty": "easy"
+    "explanation": "Le droit de grève permet aux travailleurs de cesser collectivement le travail pour défendre leurs intérêts professionnels (salaires, conditions de travail, emploi). C'est un droit constitutionnel en France, encadré par la loi.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_002",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Quel est le devoir de tout citoyen concernant les impôts ?",
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
     "options": [
-      "Les payer uniquement si ses revenus dépassent un certain seuil",
-      "Déclarer ses revenus et payer ses impôts, c'est obligatoire",
-      "Les payer uniquement s'il est propriétaire d'un logement",
-      "Les payer seulement s'il utilise régulièrement les services publics"
+      "Au nom des intérêts économiques du gouvernement en place",
+      "Au nom de l'ordre public, de la sécurité nationale ou de la protection des droits des autres",
+      "Au nom de la religion majoritaire dans le pays",
+      "Au nom de la volonté du Président de la République"
     ],
     "correct_index": 1,
-    "explanation": "Tous les citoyens doivent participer à la hauteur de leurs moyens au financement des services publics en payant des impôts. Déclarer ses revenus et payer ses impôts est obligatoire.",
-    "difficulty": "easy"
+    "explanation": "L'État peut restreindre certains droits et libertés au nom de l'ordre public, de la sécurité nationale, de la santé publique ou de la protection des droits et libertés des autres. Ces restrictions doivent être prévues par la loi et proportionnées.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_003",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Comment les citoyens participent-ils au financement de la protection sociale ?",
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
     "options": [
-      "Par des dons volontaires aux associations caritatives",
-      "Par les cotisations prélevées sur leur salaire et les impôts",
-      "Uniquement par les impôts sur le revenu",
-      "Par une taxe spéciale sur les achats quotidiens"
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "Le gouvernement du peuple, par le peuple, pour le peuple",
+      "Liberté, Égalité, Fraternité"
     ],
     "correct_index": 1,
-    "explanation": "Depuis 1945, le système de sécurité sociale, financé par les cotisations sociales versées en France par les employeurs, les salariés et les non-salariés, ainsi que les impôts, est une illustration du principe de fraternité.",
+    "explanation": "'Les hommes naissent et demeurent libres et égaux en droits' est l'article 1er de la Déclaration des Droits de l'Homme et du Citoyen de 1789. C'est l'un des textes fondateurs de la République française.",
     "difficulty": "medium"
   },
   {
     "id": "nat_dd_004",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "À partir de quel âge les jeunes Françaises et Français doivent-ils se faire recenser à la mairie ?",
-    "options": ["14 ans", "16 ans", "18 ans", "20 ans"],
+    "question": "L'article 4 de la DDHC affirme que 'la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui'. Qu'est-ce que cela signifie ?",
+    "options": [
+      "Qu'on peut tout faire tant qu'on ne se blesse pas soi-même",
+      "Que la liberté de chacun s'arrête là où commence celle des autres, et s'exerce dans le respect des lois",
+      "Que seuls les actes physiques qui blessent autrui sont interdits",
+      "Que la liberté est un droit absolu que l'État ne peut jamais restreindre"
+    ],
     "correct_index": 1,
-    "explanation": "À partir de 16 ans, les Françaises et les Français doivent se faire recenser à la mairie pour participer à la 'Journée défense et citoyenneté'. En cas de guerre, tout citoyen peut être appelé dans l'armée à participer à la défense du pays.",
+    "explanation": "L'article 4 de la DDHC signifie que la liberté de chacun s'arrête là où commence celle des autres. On ne peut pas exercer ses libertés au détriment d'autrui. Les limites de la liberté sont définies par la loi pour protéger les droits de tous.",
     "difficulty": "medium"
   },
   {
     "id": "nat_dd_005",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Sur quel principe repose l'accès aux emplois publics en France ?",
+    "question": "Que dit l'article 1er de la Constitution française ?",
     "options": [
-      "La priorité est donnée aux citoyens français de naissance",
-      "Tous les citoyens y ont accès de façon égale, sélectionnés selon leurs qualités et compétences",
-      "L'accès est réservé aux titulaires d'un diplôme d'État spécifique",
-      "La priorité est donnée aux résidents de la région concernée"
+      "La France est une monarchie constitutionnelle",
+      "La France est une République indivisible, laïque, démocratique et sociale",
+      "La souveraineté appartient au Président de la République",
+      "La France est un État fédéral composé de régions autonomes"
     ],
     "correct_index": 1,
-    "explanation": "Tous les citoyens ont accès, de façon égale, aux emplois dans l'administration. Ils sont sélectionnés exclusivement selon leurs qualités et leurs compétences, sans distinction d'origine ou de religion.",
-    "difficulty": "medium"
+    "explanation": "L'article 1er de la Constitution dispose que 'La France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion.'",
+    "difficulty": "hard"
   },
   {
     "id": "nat_dd_006",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Un employeur peut-il refuser d'embaucher un salarié en raison de sa religion ?",
+    "question": "Que garantit la liberté de la presse ?",
     "options": [
-      "Oui, si cela nuit à l'image de l'entreprise",
-      "Oui, dans certains secteurs d'activité particuliers",
-      "Non, c'est une discrimination interdite par la loi",
-      "Oui, mais seulement dans les petites entreprises"
+      "Le droit pour les journalistes de publier sans aucune contrainte légale",
+      "Le droit d'informer librement, de publier des opinions et d'accéder à l'information",
+      "L'interdiction pour l'État de financer des médias publics",
+      "Le droit exclusif des journalistes professionnels à s'exprimer publiquement"
     ],
-    "correct_index": 2,
-    "explanation": "Un employeur ne peut refuser d'embaucher un salarié en raison de ses origines, de son âge, de son handicap, de son appartenance à une ethnie ou à une religion, de son sexe ou de son orientation sexuelle. Toute décision doit être fondée sur des raisons professionnelles.",
-    "difficulty": "easy"
+    "correct_index": 1,
+    "explanation": "La liberté de la presse garantit le droit d'informer librement, de publier des opinions et d'accéder à l'information. Elle est fondamentale en démocratie et est protégée par la loi du 29 juillet 1881.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_007",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Que signifie le principe 'nul n'est censé ignorer la loi' ?",
+    "question": "Que permet la liberté de circulation ?",
     "options": [
-      "Que les citoyens doivent mémoriser toutes les lois",
-      "Que la loi s'applique à tous, sans exception, qu'on la connaisse ou non",
-      "Que les citoyens doivent consulter un avocat avant tout acte important",
-      "Que l'ignorance de la loi peut être invoquée comme excuse devant un tribunal"
+      "De se déplacer sans aucune contrainte dans le monde entier",
+      "De se déplacer librement sur le territoire français et dans l'espace Schengen",
+      "D'entrer dans n'importe quel pays sans visa",
+      "De conduire sans permis sur certaines voies du territoire français"
     ],
     "correct_index": 1,
-    "explanation": "Chacun doit respecter les lois et les règlements. 'Nul n'est censé ignorer la loi' signifie que la loi s'applique à tous les citoyens, qu'ils la connaissent ou non. Elle s'applique à tous.",
+    "explanation": "La liberté de circulation permet de se déplacer librement sur le territoire français et, pour les citoyens européens, dans l'espace Schengen. Elle peut être restreinte dans certaines circonstances légales (état d'urgence, condamnation judiciaire).",
     "difficulty": "medium"
   },
   {
     "id": "nat_dd_008",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Quel texte définit les règles essentielles applicables entre les personnes en France ?",
+    "question": "Que signifie être citoyen d'un État ?",
     "options": [
-      "La Constitution de 1958",
-      "Le Code civil",
-      "La Déclaration des Droits de l'Homme de 1789",
-      "Le Code du travail"
+      "Uniquement payer ses impôts et respecter les lois",
+      "Bénéficier de droits et avoir des devoirs envers la communauté nationale, et participer à la vie démocratique",
+      "Être né sur le territoire de cet État",
+      "Parler la langue officielle de cet État"
     ],
     "correct_index": 1,
-    "explanation": "Les règles essentielles applicables entre les personnes sont définies par le Code civil. Le Code pénal définit quant à lui les infractions et les peines qui correspondent à leur sanction.",
+    "explanation": "Être citoyen d'un État signifie bénéficier de droits (voter, accéder aux emplois publics, être protégé par l'État) et avoir des devoirs envers la communauté nationale (respecter les lois, payer les impôts, participer à la défense).",
     "difficulty": "medium"
   },
   {
     "id": "nat_dd_009",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Que proclame l'article 1er de la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+    "question": "Que sont les droits fondamentaux ?",
     "options": [
-      "Que la France est une République indivisible et laïque",
-      "Que les hommes naissent et demeurent libres et égaux en droits",
-      "Que le peuple est souverain et élit ses dirigeants",
-      "Que la liberté d'expression est un droit absolu"
+      "Des droits accordés uniquement aux citoyens français de naissance",
+      "Des droits inaliénables reconnus à toute personne humaine, garantis par la Constitution et les textes internationaux",
+      "Des droits que l'État peut supprimer en cas de crise",
+      "Des droits réservés aux adultes ayant la capacité juridique complète"
     ],
     "correct_index": 1,
-    "explanation": "L'article 1er de la Déclaration des Droits de l'Homme et du Citoyen de 1789 proclame : 'Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.'",
-    "difficulty": "hard"
+    "explanation": "Les droits fondamentaux sont des droits inaliénables reconnus à toute personne humaine, garantis par la Constitution, la Déclaration des Droits de l'Homme de 1789 et les textes internationaux comme la Convention européenne des droits de l'homme.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_010",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Que garantit l'article 9 de la Déclaration des Droits de l'Homme de 1789 ?",
+    "question": "Quel droit protège une personne contre une arrestation arbitraire ?",
     "options": [
-      "La liberté de la presse",
-      "La présomption d'innocence : tout homme est présumé innocent jusqu'à déclaration de culpabilité",
-      "Le droit de propriété inviolable",
-      "La liberté de conscience et de religion"
+      "Le droit de propriété",
+      "La liberté individuelle et la présomption d'innocence",
+      "Le droit de vote",
+      "La liberté de circulation"
     ],
     "correct_index": 1,
-    "explanation": "L'article 9 garantit la présomption d'innocence : tout homme est présumé innocent jusqu'à ce qu'il ait été déclaré coupable. C'est un pilier fondamental du droit français.",
-    "difficulty": "hard"
+    "explanation": "La liberté individuelle et la présomption d'innocence protègent contre les arrestations arbitraires. Nul ne peut être arrêté et détenu sans motif légal. Tout suspect est présumé innocent jusqu'à ce qu'il soit déclaré coupable par un tribunal.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_011",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Que garantit l'article 11 de la Déclaration des Droits de l'Homme de 1789 ?",
+    "question": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
     "options": [
-      "Le droit de vote pour tous les citoyens",
-      "La libre communication des pensées et des opinions, c'est-à-dire la liberté d'expression",
-      "L'égalité de tous devant la loi",
-      "Le droit à un procès équitable"
+      "La Constitution de la Ve République de 1958",
+      "La Déclaration des Droits de l'Homme et du Citoyen de 1789",
+      "Le Code civil de Napoléon de 1804",
+      "La Charte des droits fondamentaux de l'UE de 2000"
     ],
     "correct_index": 1,
-    "explanation": "L'article 11 garantit que 'La libre communication des pensées et des opinions est un des droits les plus précieux de l'Homme : tout citoyen peut donc parler, écrire, imprimer librement, sauf à répondre de l'abus de cette liberté.'",
-    "difficulty": "hard"
+    "explanation": "La Déclaration des Droits de l'Homme et du Citoyen de 1789 est le texte fondateur qui établit les droits et les devoirs de chaque citoyen. Elle proclame les libertés fondamentales et l'égalité de tous les citoyens devant la loi.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_012",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "La peine de mort existe-t-elle encore en France ?",
+    "question": "Quel texte affirme que tous les hommes naissent libres et égaux en droits ?",
     "options": [
-      "Oui, pour les crimes les plus graves",
-      "Oui, mais elle est suspendue depuis 1981",
-      "Non, elle a été abolie en France en 1981",
-      "Oui, mais uniquement en temps de guerre"
+      "La Constitution de 1958",
+      "La Déclaration des Droits de l'Homme et du Citoyen de 1789",
+      "Le Traité de Maastricht de 1992",
+      "La loi de séparation des Églises et de l'État de 1905"
     ],
-    "correct_index": 2,
-    "explanation": "La peine de mort a été abolie en France en 1981, sous la présidence de François Mitterrand, à l'initiative du garde des Sceaux Robert Badinter. Son abolition est inscrite dans la Constitution depuis 2007.",
-    "difficulty": "medium"
+    "correct_index": 1,
+    "explanation": "L'article 1er de la Déclaration des Droits de l'Homme et du Citoyen de 1789 affirme : 'Les hommes naissent et demeurent libres et égaux en droits.' Ce texte est le fondement des valeurs républicaines françaises.",
+    "difficulty": "easy"
   },
   {
     "id": "nat_dd_013",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Qu'est-ce que le droit de vote représente pour un citoyen français ?",
+    "question": "Quelle situation est une atteinte à la dignité humaine ?",
     "options": [
-      "Une obligation sous peine d'amende",
-      "Un droit civique fondamental permettant de participer à la vie démocratique",
-      "Un droit réservé aux hommes en France jusqu'en 1944",
-      "Un droit qui s'achète avec une contribution fiscale"
+      "Obliger quelqu'un à travailler le dimanche",
+      "Pratiquer la torture ou des traitements dégradants sur une personne",
+      "Refuser d'embaucher quelqu'un pour des raisons professionnelles",
+      "Critiquer un responsable politique dans la presse"
     ],
     "correct_index": 1,
-    "explanation": "Le droit de vote est un droit civique fondamental permettant à chaque citoyen de participer à la vie démocratique en élisant ses représentants. Ce n'est pas une obligation légale en France.",
-    "difficulty": "easy"
+    "explanation": "La torture ou des traitements inhumains et dégradants constituent une atteinte grave à la dignité humaine, protégée par la Constitution et les conventions internationales. La dignité humaine est inviolable et doit être respectée en toutes circonstances.",
+    "difficulty": "medium"
   },
   {
     "id": "nat_dd_014",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "L'instruction est-elle obligatoire pour tous les enfants en France ?",
+    "question": "Qu'est-ce que la liberté d'expression ?",
     "options": [
-      "Non, elle est facultative jusqu'à 10 ans",
-      "Oui, l'instruction est obligatoire de 3 à 16 ans pour tous les enfants résidant en France",
-      "Oui, mais uniquement pour les enfants de nationalité française",
-      "Non, les parents peuvent choisir de ne pas scolariser leurs enfants"
+      "Le droit absolu de dire et d'écrire tout ce qu'on pense sans aucune limite",
+      "Le droit d'exprimer librement ses opinions par la parole, l'écrit ou tout autre moyen, dans le respect des limites fixées par la loi",
+      "Un droit réservé aux journalistes et aux intellectuels",
+      "Le droit de critiquer les lois sans avoir à les respecter"
     ],
     "correct_index": 1,
-    "explanation": "L'instruction est obligatoire pour tous les enfants résidant en France, qu'ils soient français ou étrangers, de 3 à 16 ans. C'est à la fois un droit fondamental et un devoir des parents.",
+    "explanation": "La liberté d'expression est le droit d'exprimer librement ses opinions par la parole, l'écrit ou tout autre moyen. Elle est garantie par l'article 11 de la DDHC de 1789 mais s'exerce dans le respect des limites fixées par la loi : pas d'injures, de diffamation ni de propos haineux.",
     "difficulty": "easy"
   },
   {
     "id": "nat_dd_015",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Qu'est-ce que la liberté de conscience garantit en France ?",
+    "question": "Suite à une interpellation par la police, il est possible de :",
     "options": [
-      "Le droit de désobéir aux lois contraires à ses convictions",
-      "Le droit de chaque personne de croire ou de ne pas croire, sans contrainte ni discrimination",
-      "Le droit exclusif des religieux d'enseigner leur foi",
-      "L'obligation pour l'État de financer toutes les religions"
+      "Refuser de suivre les agents si on pense être innocent",
+      "Être placé en garde à vue et avoir le droit d'être assisté par un avocat",
+      "Exiger d'être immédiatement libéré après 30 minutes",
+      "Contacter directement le Président de la République"
     ],
     "correct_index": 1,
-    "explanation": "La liberté de conscience garantit le droit de chaque personne de croire ou de ne pas croire, de pratiquer la religion de son choix ou d'en changer, sans contrainte ni discrimination. C'est l'un des fondements de la laïcité.",
+    "explanation": "Suite à une interpellation, une personne peut être placée en garde à vue. Elle a le droit d'être informée de ses droits, d'être assistée par un avocat, de faire prévenir un proche et d'être examinée par un médecin. La garde à vue est encadrée par la loi.",
     "difficulty": "medium"
   },
   {
     "id": "nat_dd_016",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Qu'est-ce que la protection sociale en France ?",
+    "question": "Tous les citoyens français ont-ils une religion ?",
     "options": [
-      "Un système réservé aux fonctionnaires de l'État",
-      "Un système de sécurité sociale financé par les cotisations et les impôts, garantissant santé, retraite et chômage",
-      "Une aide uniquement pour les personnes sans emploi",
-      "Un système d'assurance privé facultatif"
+      "Oui, la France est un pays à tradition catholique et tous les citoyens ont une religion",
+      "Non, la liberté de conscience garantit le droit de ne pas avoir de religion",
+      "Oui, la loi impose de déclarer une appartenance religieuse",
+      "Non, mais ils doivent au moins se déclarer athées ou croyants"
     ],
     "correct_index": 1,
-    "explanation": "Depuis 1945, le système de sécurité sociale, financé par les cotisations sociales versées par les employeurs, les salariés et les non-salariés, ainsi que les impôts, garantit la protection en matière de santé, retraite, chômage et famille.",
-    "difficulty": "medium"
+    "explanation": "Non. La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire. Il n'existe aucune obligation d'appartenir à une religion en France. L'État ne recense pas les appartenances religieuses de ses citoyens.",
+    "difficulty": "easy"
   },
   {
     "id": "nat_dd_017",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Les femmes ont-elles obtenu le droit de vote en France et quand ?",
-    "options": [
-      "Oui, dès 1789 avec la Révolution française",
-      "Non, les femmes n'ont pas le droit de vote en France",
-      "Oui, en 1944 sous le gouvernement provisoire du général de Gaulle",
-      "Oui, seulement en 1974 avec l'abaissement de la majorité à 18 ans"
-    ],
+    "question": "À quel âge est la majorité numérique en France ?",
+    "options": ["13 ans", "15 ans", "16 ans", "18 ans"],
     "correct_index": 2,
-    "explanation": "Les femmes françaises ont obtenu le droit de vote en 1944, par ordonnance du gouvernement provisoire du général de Gaulle. Elles ont voté pour la première fois aux élections municipales d'avril 1945.",
-    "difficulty": "medium"
+    "explanation": "La majorité numérique est fixée à 15 ans en France depuis la loi de 2024. En dessous de 15 ans, les mineurs ont besoin de l'accord de leurs parents pour créer un compte sur les réseaux sociaux. Cependant, certains considèrent 15 ans comme l'âge légal.",
+    "difficulty": "hard"
   },
   {
     "id": "nat_dd_018",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Quel est le rôle de la police nationale en France ?",
+    "question": "Dans lequel de ces endroits est-on autorisé à fumer ?",
     "options": [
-      "Voter les lois de sécurité publique",
-      "Assurer la sécurité des personnes et des biens, principalement dans les zones urbaines",
-      "Juger les infractions à la loi",
-      "Percevoir les amendes et taxes routières"
+      "Dans un restaurant",
+      "Dans une école",
+      "Dans un bureau partagé",
+      "Chez soi ou dans un espace fumeur dédié et isolé"
     ],
-    "correct_index": 1,
-    "explanation": "La police nationale assure la sécurité des personnes et des biens, principalement dans les zones urbaines. La gendarmerie nationale assure le même rôle dans les zones rurales et périurbaines.",
+    "correct_index": 3,
+    "explanation": "Depuis 2008, il est interdit de fumer dans tous les lieux fermés et couverts accueillant du public ou constituant des lieux de travail. On peut fumer chez soi ou dans des espaces fumeurs dédiés, isolés et ventilés.",
     "difficulty": "easy"
   },
   {
     "id": "nat_dd_019",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Qu'est-ce qu'une infraction en droit français ?",
+    "question": "En France, la conduite sans permis d'une moto est :",
     "options": [
-      "Un désaccord entre deux personnes",
-      "Un acte interdit par la loi et passible d'une sanction pénale",
-      "Une erreur administrative sans conséquence pénale",
-      "Un manquement aux règles internes d'une entreprise"
+      "Tolérée pour les petites cylindrées",
+      "Un délit puni par la loi",
+      "Autorisée sur les voies privées",
+      "Permise pour les mineurs de plus de 16 ans"
     ],
     "correct_index": 1,
-    "explanation": "Une infraction est un acte interdit par la loi et passible d'une sanction. Il existe trois catégories d'infractions par ordre de gravité : les contraventions (les moins graves), les délits et les crimes (les plus graves).",
+    "explanation": "La conduite sans permis est un délit puni par la loi en France. Elle peut entraîner une amende pouvant aller jusqu'à 15 000 euros, une peine d'emprisonnement et la confiscation du véhicule, quelle que soit la cylindrée.",
     "difficulty": "easy"
   },
   {
     "id": "nat_dd_020",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Quelle est l'infraction la plus grave en droit français ?",
+    "question": "En quoi consiste le devoir de solidarité ?",
+    "options": [
+      "Donner de l'argent à des associations caritatives uniquement",
+      "Contribuer par les impôts et cotisations sociales au financement de la protection collective de tous",
+      "Aider uniquement les membres de sa propre famille",
+      "Participer obligatoirement au bénévolat associatif"
+    ],
+    "correct_index": 1,
+    "explanation": "Le devoir de solidarité consiste à contribuer par les impôts et cotisations sociales au financement de la protection collective : santé, retraite, chômage, aide aux plus démunis. C'est l'expression concrète du principe de fraternité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_dd_021",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Est-ce légal d'être marié à plusieurs personnes en même temps en France ?",
+    "options": [
+      "Oui, si toutes les personnes concernées sont d'accord",
+      "Non, la polygamie est interdite par la loi française",
+      "Oui, pour des raisons religieuses ou culturelles",
+      "Oui, si le mariage a été célébré à l'étranger"
+    ],
+    "correct_index": 1,
+    "explanation": "Non. La polygamie est interdite par la loi française. En France, le mariage ne peut unir que deux personnes. La bigamie (être marié à deux personnes simultanément) est un délit puni par le Code pénal.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_022",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?",
+    "options": [
+      "Non, uniquement si on a changé de situation professionnelle",
+      "Oui, c'est une obligation légale pour tous les contribuables",
+      "Non, seulement pour les revenus supérieurs à 10 000 euros",
+      "Oui, mais uniquement pour les propriétaires immobiliers"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. Déclarer ses revenus chaque année est une obligation légale pour tous les contribuables en France. Ne pas le faire expose à des pénalités fiscales. La déclaration peut se faire en ligne sur impots.gouv.fr ou sur papier.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_023",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Est-il obligatoire de porter secours à une personne en danger ?",
+    "options": [
+      "Non, c'est un acte volontaire et courageux mais pas obligatoire",
+      "Oui, ne pas le faire constitue un délit de non-assistance à personne en danger",
+      "Oui, mais uniquement pour les professionnels de santé",
+      "Non, sauf si on est directement responsable de la situation de danger"
+    ],
+    "correct_index": 1,
+    "explanation": "Oui. Ne pas porter secours à une personne en danger quand on peut le faire sans risque pour soi constitue le délit de non-assistance à personne en danger, puni par le Code pénal. On peut appeler les secours (15, 18 ou 112) sans intervenir physiquement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_dd_024",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Être juré d'assises est :",
+    "options": [
+      "Un droit optionnel que tout citoyen peut exercer s'il le souhaite",
+      "Un devoir civique obligatoire pour tout citoyen français tiré au sort",
+      "Une fonction réservée aux juristes et professions juridiques",
+      "Une mission réservée aux citoyens ayant plus de 30 ans"
+    ],
+    "correct_index": 1,
+    "explanation": "Être juré d'assises est un devoir civique obligatoire. Tout citoyen français majeur peut être tiré au sort pour siéger comme juré à la Cour d'assises. Refuser sans motif légitime expose à une amende.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_dd_025",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "La vente d'alcool en France est interdite aux personnes de moins de :",
+    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
+    "correct_index": 1,
+    "explanation": "La vente d'alcool est interdite aux personnes de moins de 18 ans en France. Cette règle s'applique dans tous les commerces, bars, restaurants et lors de manifestations. La vente d'alcool à un mineur est un délit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_026",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Le non-respect du code de la route est :",
+    "options": [
+      "Une simple recommandation sans conséquence légale",
+      "Une infraction pouvant entraîner une amende, une perte de points ou une suspension du permis",
+      "Toléré en dehors des grandes agglomérations",
+      "Uniquement sanctionné pour les conducteurs professionnels"
+    ],
+    "correct_index": 1,
+    "explanation": "Le non-respect du code de la route est une infraction (contravention, délit selon la gravité) pouvant entraîner une amende, une perte de points sur le permis, une suspension ou annulation du permis, voire une peine d'emprisonnement pour les fautes graves.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_027",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Lequel de ces crimes ou délits peut entraîner la privation des droits civils et politiques par un juge ?",
+    "options": [
+      "Un excès de vitesse répété",
+      "Une fraude fiscale grave ou un crime de droit commun",
+      "Un défaut de paiement d'une amende",
+      "Une absence injustifiée au jury d'assises"
+    ],
+    "correct_index": 1,
+    "explanation": "Un juge peut prononcer la privation des droits civils et politiques (dont le droit de vote) comme peine complémentaire lors d'une condamnation pour une fraude fiscale grave ou un crime de droit commun. Cette peine est limitée dans le temps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_dd_028",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Pour obtenir une carte d'identité, il faut :",
+    "options": [
+      "Être propriétaire d'un logement en France",
+      "Être de nationalité française et fournir les documents justificatifs requis",
+      "Avoir au moins 18 ans",
+      "Avoir un casier judiciaire vierge"
+    ],
+    "correct_index": 1,
+    "explanation": "Pour obtenir une carte nationale d'identité, il faut être de nationalité française et fournir les documents justificatifs requis (justificatif d'identité, de domicile, photo). Elle est gratuite et délivrée par la mairie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_029",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "options": [
+      "Pour protéger les intérêts économiques d'une entreprise",
+      "Pour prévenir les discours haineux, la diffamation et les atteintes à la dignité humaine",
+      "Pour empêcher toute critique du gouvernement en place",
+      "Pour protéger les célébrités des commentaires négatifs"
+    ],
+    "correct_index": 1,
+    "explanation": "La liberté d'expression peut être limitée pour prévenir les discours haineux, la diffamation, les injures, les provocations à la discrimination et les atteintes à la dignité humaine. Ces limites sont fixées par la loi pour protéger les droits des autres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_dd_030",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Que doit faire un citoyen s'il est appelé à être juré dans un procès d'assises ?",
+    "options": [
+      "Il peut refuser sans justification s'il ne se sent pas à l'aise",
+      "Il doit répondre à la convocation, c'est un devoir civique obligatoire",
+      "Il doit payer une caution pour être dispensé",
+      "Il peut déléguer cette mission à un proche"
+    ],
+    "correct_index": 1,
+    "explanation": "Être juré d'assises est un devoir civique. Tout citoyen convoqué doit répondre à la convocation. Il ne peut être dispensé que pour des motifs légitimes (maladie, déplacement professionnel impératif). Refuser sans motif expose à une amende.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_dd_031",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Quel est l'âge de la majorité civile en France ?",
+    "options": ["16 ans", "17 ans", "18 ans", "21 ans"],
+    "correct_index": 2,
+    "explanation": "La majorité civile est fixée à 18 ans en France depuis 1974. À partir de cet âge, une personne peut voter, passer des contrats, se marier sans autorisation parentale et est pleinement responsable de ses actes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_032",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Quel est l'un des devoirs principaux d'un citoyen français ?",
+    "options": [
+      "Adhérer à un parti politique",
+      "Respecter les lois et contribuer au financement des services publics par l'impôt",
+      "Participer obligatoirement à toutes les élections",
+      "Parler uniquement le français dans l'espace public"
+    ],
+    "correct_index": 1,
+    "explanation": "Respecter les lois et contribuer au financement des services publics par l'impôt font partie des devoirs principaux d'un citoyen français. Ces devoirs sont inscrits dans la Constitution et dans les textes fondateurs de la République.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_dd_033",
+    "theme": "droits_devoirs",
+    "level": "naturalisation",
+    "question": "Quelle est l'infraction la plus grave ?",
     "options": [
       "La contravention",
       "Le délit",
@@ -286,82 +476,67 @@
       "L'amende administrative"
     ],
     "correct_index": 2,
-    "explanation": "Le crime est l'infraction la plus grave en droit français. Les infractions sont classées par ordre de gravité croissante : contraventions, délits et crimes. Les crimes sont jugés par la Cour d'assises.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "nat_dd_021",
-    "theme": "droits_devoirs",
-    "level": "naturalisation",
-    "question": "Que doit faire une victime de violences en France ?",
-    "options": [
-      "Ne rien faire pour ne pas aggraver la situation",
-      "Régler le problème uniquement au sein de la famille",
-      "Porter plainte auprès de la police ou de la gendarmerie et chercher de l'aide",
-      "Attendre que la situation s'arrange d'elle-même"
-    ],
-    "correct_index": 2,
-    "explanation": "Une victime de violences doit porter plainte auprès de la police ou de la gendarmerie et chercher de l'aide. Des associations spécialisées et des numéros d'urgence comme le 3919 existent pour les victimes de violences conjugales.",
+    "explanation": "Le crime est l'infraction la plus grave en droit français. Les infractions sont classées par ordre croissant de gravité : contraventions (ex. excès de vitesse), délits (ex. vol) et crimes (ex. meurtre). Les crimes sont jugés par la Cour d'assises.",
     "difficulty": "easy"
   },
   {
-    "id": "nat_dd_022",
+    "id": "nat_dd_034",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Tout citoyen peut-il accéder aux emplois publics en France ?",
+    "question": "Qu'est-ce que la citoyenneté numérique ?",
     "options": [
-      "Non, uniquement les citoyens français de naissance",
-      "Oui, tous les citoyens y ont accès de façon égale selon leurs qualités et compétences",
-      "Non, certains emplois sont réservés selon l'origine",
-      "Oui, mais uniquement pour les emplois non qualifiés"
+      "Le droit de voter par internet",
+      "L'ensemble des droits et devoirs liés à l'usage d'internet et des outils numériques",
+      "L'obligation d'avoir une identité numérique officielle",
+      "Le droit exclusif des citoyens à accéder aux services publics en ligne"
     ],
     "correct_index": 1,
-    "explanation": "Tous les citoyens ont accès, de façon égale, aux emplois dans l'administration. Ils sont sélectionnés exclusivement selon leurs qualités et leurs compétences, sans autre distinction.",
+    "explanation": "La citoyenneté numérique désigne l'ensemble des droits et des devoirs liés à l'usage d'internet et des outils numériques. Les mêmes règles qu'en dehors d'internet s'appliquent en ligne : respect des autres, interdiction des propos haineux, protection de la vie privée.",
     "difficulty": "medium"
   },
   {
-    "id": "nat_dd_023",
+    "id": "nat_dd_035",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Qu'est-ce que la non-assistance à personne en danger ?",
+    "question": "Qu'est-ce que le devoir de mémoire ?",
     "options": [
-      "Un acte courageux qui expose à des risques",
-      "Un délit puni par la loi : ne pas porter secours à une personne en danger quand on le peut",
-      "Une simple faute morale sans conséquence légale",
-      "Un délit uniquement applicable aux professionnels de santé"
+      "L'obligation légale d'apprendre l'histoire de France par cœur",
+      "Le devoir moral de ne pas oublier les événements tragiques du passé pour prévenir leur répétition",
+      "L'obligation de célébrer toutes les fêtes nationales",
+      "Le droit de connaître l'histoire de ses ancêtres"
     ],
     "correct_index": 1,
-    "explanation": "La non-assistance à personne en danger est un délit puni par la loi. Tout citoyen a l'obligation de porter secours à une personne en danger lorsqu'il peut le faire sans risque pour lui-même.",
+    "explanation": "Le devoir de mémoire est le devoir moral de ne pas oublier les événements tragiques du passé (Shoah, esclavage, guerres mondiales) pour prévenir leur répétition. Il se concrétise par des commémorations, l'enseignement de l'histoire et la préservation des témoignages.",
     "difficulty": "medium"
   },
   {
-    "id": "nat_dd_024",
+    "id": "nat_dd_036",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Les lois françaises s'appliquent-elles à toutes les personnes présentes sur le territoire ?",
+    "question": "Qui peut être appelé à faire partie d'un jury d'assises en France ?",
     "options": [
-      "Non, uniquement aux citoyens français",
-      "Oui, à toutes les personnes présentes sur le territoire français, quelle que soit leur nationalité",
-      "Non, les diplomates étrangers en sont exemptés totalement",
-      "Oui, mais avec des exceptions pour les ressortissants de l'UE"
+      "Uniquement les personnes ayant des connaissances juridiques",
+      "Tout citoyen français majeur inscrit sur les listes électorales, tiré au sort",
+      "Uniquement les fonctionnaires de l'État",
+      "Les personnes ayant déjà été victimes d'un crime"
     ],
     "correct_index": 1,
-    "explanation": "Les lois françaises s'appliquent à toutes les personnes présentes sur le territoire français, sans exception de nationalité. 'Nul n'est censé ignorer la loi' s'applique à tous.",
+    "explanation": "Tout citoyen français majeur inscrit sur les listes électorales peut être tiré au sort pour participer à un jury d'assises. Certaines professions (magistrats, avocats, policiers) en sont exclues. C'est un devoir civique.",
     "difficulty": "medium"
   },
   {
-    "id": "nat_dd_025",
+    "id": "nat_dd_037",
     "theme": "droits_devoirs",
     "level": "naturalisation",
-    "question": "Quels sont les devoirs fondamentaux des citoyens français selon le livret du citoyen ?",
+    "question": "Une personne est privée de ses droits civils et politiques pendant 5 ans suite à une condamnation. Parmi ces propositions, laquelle est correcte ? Pendant 5 ans...",
     "options": [
-      "Voter et servir dans l'armée obligatoirement",
-      "Respecter la loi, contribuer au financement des services publics par les impôts et contribuer à la défense nationale",
-      "Adhérer à un parti politique et participer aux manifestations",
-      "Parler uniquement français et renoncer à toute autre langue"
+      "Elle ne peut pas travailler ni exercer une activité professionnelle",
+      "Elle ne peut pas voter ni se présenter à des élections",
+      "Elle ne peut pas circuler librement sur le territoire français",
+      "Elle ne peut pas ouvrir de compte bancaire ni accéder aux services publics"
     ],
     "correct_index": 1,
-    "explanation": "Les devoirs fondamentaux des citoyens incluent : respecter la loi, contribuer au financement des services publics en payant les impôts, participer au financement de la protection sociale et contribuer à la défense nationale.",
-    "difficulty": "medium"
+    "explanation": "Une personne privée de ses droits civils et politiques pendant 5 ans ne peut pas voter ni se présenter à des élections pendant cette période. Elle conserve cependant ses autres droits (travailler, circuler, accéder aux services publics).",
+    "difficulty": "hard"
   }
 ]

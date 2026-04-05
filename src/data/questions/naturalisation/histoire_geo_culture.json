@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "nat_hg_001",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+    "options": [
+      "La Déclaration des Droits de l'Homme et du Citoyen",
+      "Le Code civil",
+      "La Constitution de la Ve République",
+      "La loi de séparation des Églises et de l'État"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Code civil a été adopté en 1804 sous Napoléon Ier. Il régit encore aujourd'hui une grande partie du droit privé français (famille, propriété, contrats). La DDHC date de 1789, la loi de 1905 et la Constitution de 1958.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_002",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui a été président de la Ve République ?",
+    "options": [
+      "Napoléon Bonaparte",
+      "Charles de Gaulle",
+      "Louis XVI",
+      "Jules Ferry"
+    ],
+    "correct_index": 1,
+    "explanation": "Charles de Gaulle a été le premier président de la Ve République, de 1959 à 1969. Il en est le fondateur. Les présidents suivants furent Pompidou, Giscard d'Estaing, Mitterrand, Chirac, Sarkozy, Hollande et Macron.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_003",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est l'objectif des lois scolaires de la IIIe République ?",
+    "options": [
+      "Privatiser l'enseignement et le confier aux congrégations religieuses",
+      "Rendre l'école publique gratuite, laïque et obligatoire pour tous les enfants",
+      "Créer des universités réservées aux élites",
+      "Supprimer l'enseignement des langues régionales"
+    ],
+    "correct_index": 1,
+    "explanation": "Les lois scolaires de Jules Ferry dans les années 1880 ont rendu l'école publique gratuite (1881), laïque et obligatoire (1882) pour tous les enfants de 6 à 13 ans. C'est l'un des fondements de la République française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_004",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Que signifie la date du 14 juillet pour les Français ?",
+    "options": [
+      "La fin de la Première Guerre mondiale",
+      "La fête nationale commémorant la prise de la Bastille en 1789 et la fête de la Fédération en 1790",
+      "L'anniversaire de la proclamation de la Ve République",
+      "La commémoration de la libération de Paris en 1944"
+    ],
+    "correct_index": 1,
+    "explanation": "Le 14 juillet est la fête nationale française. Il commémore la prise de la Bastille le 14 juillet 1789, symbole de la liberté conquise par le peuple, et la fête de la Fédération du 14 juillet 1790, symbole de l'unité nationale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_005",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Pourquoi l'année 1958 est-elle importante pour la France ?",
+    "options": [
+      "C'est l'année de la fin de la Seconde Guerre mondiale",
+      "C'est l'année de l'adoption de la Constitution de la Ve République, fondée par Charles de Gaulle",
+      "C'est l'année de l'abolition de la peine de mort",
+      "C'est l'année de l'introduction de l'euro"
+    ],
+    "correct_index": 1,
+    "explanation": "En 1958, Charles de Gaulle fonde la Ve République en adoptant une nouvelle Constitution. Ce régime politique est toujours celui de la France aujourd'hui. Il renforce les pouvoirs du Président de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_006",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Lequel de ces pays est un pays fondateur de l'Union européenne ?",
+    "options": [
+      "La Pologne",
+      "La France",
+      "La Suède",
+      "La Roumanie"
+    ],
+    "correct_index": 1,
+    "explanation": "La France est l'un des six pays fondateurs de la Communauté économique européenne, créée par le Traité de Rome en 1957. Les autres fondateurs sont l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_007",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Simone Veil est une figure importante de l'histoire française. Elle a notamment :",
+    "options": [
+      "Composé La Marseillaise en 1792",
+      "Fait adopter la loi sur l'IVG en 1975 et présidé le Parlement européen",
+      "Dirigé la Résistance française depuis Londres pendant la guerre",
+      "Fondé la Ve République avec Charles de Gaulle en 1958"
+    ],
+    "correct_index": 1,
+    "explanation": "Simone Veil (1927-2017), rescapée de la Shoah, a fait adopter la loi sur l'IVG en 1975 en tant que ministre de la Santé et a présidé le Parlement européen. Elle est entrée au Panthéon en 2018.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_008",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Dans quelle région est située une partie des plages du débarquement ayant permis d'engager la libération de la France ?",
+    "options": [
+      "En Bretagne",
+      "En Normandie",
+      "En Provence",
+      "Dans le Pas-de-Calais"
+    ],
+    "correct_index": 1,
+    "explanation": "Le débarquement allié du 6 juin 1944 (Jour J) a eu lieu sur les plages de Normandie. C'est une étape décisive dans la libération de la France occupée par l'Allemagne nazie. Un débarquement complémentaire eut aussi lieu en Provence en août 1944.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_009",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Dans quelle ville les rois de France étaient-ils couronnés ?",
+    "options": [
+      "Paris",
+      "Versailles",
+      "Reims",
+      "Orléans"
+    ],
+    "correct_index": 2,
+    "explanation": "Les rois de France étaient traditionnellement couronnés dans la cathédrale Notre-Dame de Reims. Cette tradition remonte au couronnement de Clovis et a perduré jusqu'à Charles X en 1825.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_010",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel roi de France a été guillotiné pendant la Révolution française ?",
+    "options": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVI",
+      "Louis XVIII"
+    ],
+    "correct_index": 2,
+    "explanation": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française. Son arrestation et son procès ont marqué la fin de la monarchie absolue et la proclamation de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_011",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "En quelle année a débuté la Révolution française ?",
+    "options": ["1776", "1789", "1792", "1804"],
+    "correct_index": 1,
+    "explanation": "La Révolution française a débuté en 1789, avec notamment la prise de la Bastille le 14 juillet 1789 et l'adoption de la Déclaration des Droits de l'Homme et du Citoyen. Elle a profondément transformé la société française.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_012",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "options": ["1799", "1802", "1804", "1815"],
+    "correct_index": 2,
+    "explanation": "Napoléon Ier est devenu empereur des Français le 2 décembre 1804, lors d'une cérémonie à Notre-Dame de Paris en présence du pape Pie VII. Il s'est couronné lui-même, symbole de son pouvoir absolu.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_013",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "options": [
+      "Winston Churchill",
+      "Simone Veil",
+      "Nelson Mandela",
+      "Martin Luther King"
+    ],
+    "correct_index": 1,
+    "explanation": "Simone Veil est une figure majeure de la République française. Rescapée de la Shoah, elle fut ministre de la Santé, présidente du Parlement européen et membre du Conseil constitutionnel. Elle est entrée au Panthéon en 2018.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_014",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "options": [
+      "Du 8 mai 1945",
+      "Du 18 juin 1940",
+      "Du 6 juin 1944",
+      "Du 11 novembre 1918"
+    ],
+    "correct_index": 1,
+    "explanation": "Le 18 juin 1940, le général de Gaulle lance depuis Londres son célèbre appel à la résistance contre l'occupation allemande, diffusé par la BBC. Cet appel est considéré comme l'acte fondateur de la Résistance française.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_015",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la Shoah ?",
+    "options": [
+      "La bataille décisive de la Seconde Guerre mondiale",
+      "L'extermination systématique de six millions de Juifs par les nazis pendant la Seconde Guerre mondiale",
+      "Le nom donné au régime de Vichy en France",
+      "Le bombardement de Dresde en 1945"
+    ],
+    "correct_index": 1,
+    "explanation": "La Shoah est le génocide de six millions de Juifs organisé et perpétré par les nazis pendant la Seconde Guerre mondiale. Le régime de Vichy en France a collaboré à cette extermination. La Shoah est étudiée à l'école pour transmettre la mémoire de ce crime contre l'humanité.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_016",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel pays a été une colonie française ?",
+    "options": [
+      "Le Brésil",
+      "L'Algérie",
+      "L'Inde",
+      "La Chine"
+    ],
+    "correct_index": 1,
+    "explanation": "L'Algérie a été colonisée par la France à partir de 1830 jusqu'à son indépendance en 1962. La guerre d'Algérie (1954-1962) fut un conflit majeur de la décolonisation française.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_017",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
+    "options": [
+      "Napoléon Bonaparte",
+      "Charles de Gaulle",
+      "Jules Ferry",
+      "Victor Hugo"
+    ],
+    "correct_index": 2,
+    "explanation": "Jules Ferry, ministre de l'Instruction publique puis Président du Conseil dans les années 1880, a rendu l'école publique gratuite (1881), laïque et obligatoire (1882). Ces lois scolaires sont l'un des fondements de la République.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_018",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "options": ["1848", "1875", "1962", "1981"],
+    "correct_index": 2,
+    "explanation": "Les Français élisent le Président de la République au suffrage universel direct depuis 1962, suite à un référendum initié par le général de Gaulle. Avant cette date, le Président était élu par le Parlement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_019",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "En quelle année l'Union européenne a-t-elle été fondée ?",
+    "options": ["1957", "1986", "1992", "2000"],
+    "correct_index": 2,
+    "explanation": "L'Union européenne a été fondée en 1992 par le Traité de Maastricht, entré en vigueur en 1993. Avant cela, la Communauté économique européenne (CEE) avait été créée par le Traité de Rome en 1957.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_020",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+    "options": [
+      "De 1914 à 1918",
+      "De 1939 à 1945",
+      "De 1936 à 1944",
+      "De 1940 à 1946"
+    ],
+    "correct_index": 1,
+    "explanation": "La Seconde Guerre mondiale s'est déroulée de 1939 à 1945. Déclenchée par l'Allemagne nazie d'Adolf Hitler, elle a fait plus de 50 millions de morts dont une majorité de civils. Elle s'est terminée par la capitulation de l'Allemagne le 8 mai 1945.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_021",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quand a eu lieu la Première Guerre mondiale ?",
+    "options": [
+      "De 1904 à 1910",
+      "De 1914 à 1918",
+      "De 1910 à 1916",
+      "De 1916 à 1920"
+    ],
+    "correct_index": 1,
+    "explanation": "La Première Guerre mondiale s'est déroulée de 1914 à 1918. Ce conflit mondial a fait plus de 9 millions de morts militaires et des millions de civils. Elle s'est terminée par l'armistice du 11 novembre 1918.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_022",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Sous quel président a été abolie la peine de mort en France ?",
+    "options": [
+      "Charles de Gaulle",
+      "Georges Pompidou",
+      "Valéry Giscard d'Estaing",
+      "François Mitterrand"
+    ],
+    "correct_index": 3,
+    "explanation": "La peine de mort a été abolie en France en 1981, sous la présidence de François Mitterrand, à l'initiative du garde des Sceaux Robert Badinter. Son abolition est inscrite dans la Constitution depuis 2007.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_023",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Que célèbre-t-on le 8 mai ?",
+    "options": [
+      "La fin de la Première Guerre mondiale",
+      "La libération de Paris",
+      "La fin de la Seconde Guerre mondiale en Europe",
+      "La proclamation de la Ve République"
+    ],
+    "correct_index": 2,
+    "explanation": "Le 8 mai est un jour férié qui commémore la capitulation de l'Allemagne nazie et la fin de la Seconde Guerre mondiale en Europe, le 8 mai 1945. C'est la Victoire en Europe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_024",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "options": [
+      "La création de l'Union européenne",
+      "La création de la Communauté européenne du charbon et de l'acier (CECA)",
+      "La signature du Traité de Rome",
+      "L'introduction de l'euro"
+    ],
+    "correct_index": 1,
+    "explanation": "La première étape de la construction européenne est la création de la Communauté européenne du charbon et de l'acier (CECA) en 1951, par le Traité de Paris. Six pays, dont la France et l'Allemagne, ont mis en commun leur production de charbon et d'acier pour rendre impossible une nouvelle guerre.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_025",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Philippe Pétain",
+      "Jean Moulin",
+      "Pierre Laval",
+      "Joseph Darnand"
+    ],
+    "correct_index": 1,
+    "explanation": "Jean Moulin (1899-1943) est l'une des figures emblématiques de la Résistance française. Préfet révoqué par Vichy, il rejoignit de Gaulle à Londres et unifia les mouvements de résistance intérieure. Il mourut sous la torture de la Gestapo.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_026",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "options": [
+      "La fin de la Seconde Guerre mondiale",
+      "La prise de la Bastille",
+      "L'armistice de la Première Guerre mondiale en 1918",
+      "La proclamation de la République"
+    ],
+    "correct_index": 2,
+    "explanation": "Le 11 novembre commémore l'armistice signé le 11 novembre 1918 à 11h, qui a mis fin aux combats de la Première Guerre mondiale (1914-1918). Ce conflit a fait plus de 9 millions de morts militaires.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_027",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Depuis quand l'esclavage a-t-il été aboli définitivement en France ?",
+    "options": ["1789", "1794", "1815", "1848"],
+    "correct_index": 3,
+    "explanation": "L'esclavage a été aboli définitivement en France et dans ses colonies en 1848, sous la IIe République, à l'initiative de Victor Schoelcher. Une première abolition avait eu lieu en 1794 mais Napoléon l'avait rétabli en 1802.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_028",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui a aboli l'esclavage en France en 1848 ?",
+    "options": [
+      "Napoléon Bonaparte",
+      "Victor Hugo",
+      "Victor Schoelcher",
+      "Jules Ferry"
+    ],
+    "correct_index": 2,
+    "explanation": "Victor Schoelcher (1804-1893) est à l'initiative de l'abolition définitive de l'esclavage en France en 1848. Sous-secrétaire d'État aux Colonies, il rédigea le décret d'abolition de l'esclavage dans toutes les colonies françaises.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_029",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Depuis quelle année l'école publique est-elle gratuite en France ?",
+    "options": ["1789", "1848", "1881", "1905"],
+    "correct_index": 2,
+    "explanation": "L'école publique primaire est devenue gratuite en France en 1881, grâce à la loi Jules Ferry. L'année suivante (1882), elle est devenue également laïque et obligatoire pour les enfants de 6 à 13 ans.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_030",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "options": [
+      "Elles ont obtenu le droit de travailler",
+      "Elles ont obtenu le droit de vote",
+      "Elles ont obtenu le droit à l'éducation",
+      "Elles ont obtenu le droit de divorcer"
+    ],
+    "correct_index": 1,
+    "explanation": "En 1944, les femmes françaises ont obtenu le droit de vote par ordonnance du gouvernement provisoire du général de Gaulle. Elles ont exercé ce droit pour la première fois lors des élections municipales d'avril 1945.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_031",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle organisation a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "options": [
+      "L'Union européenne",
+      "L'Organisation des Nations Unies (ONU)",
+      "L'OTAN",
+      "Le G7"
+    ],
+    "correct_index": 1,
+    "explanation": "L'Organisation des Nations Unies (ONU) a été créée en 1945 après la Seconde Guerre mondiale pour maintenir la paix internationale et promouvoir la coopération entre les nations. La France est membre permanent du Conseil de sécurité de l'ONU.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_032",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
+    "options": ["1992", "1999", "2002", "2005"],
+    "correct_index": 2,
+    "explanation": "L'euro est devenu la monnaie officielle de la France le 1er janvier 2002, avec la mise en circulation des pièces et billets. Il avait été introduit comme monnaie scripturale en 1999.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_033",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Lors de la Seconde Guerre mondiale, à quelle date la ville de Paris a-t-elle été libérée ?",
+    "options": [
+      "Le 6 juin 1944",
+      "Le 25 août 1944",
+      "Le 8 mai 1945",
+      "Le 11 novembre 1944"
+    ],
+    "correct_index": 1,
+    "explanation": "Paris a été libérée le 25 août 1944, après quatre ans d'occupation allemande. La libération de Paris fut le fruit de l'insurrection des Parisiens, de la 2e Division blindée du général Leclerc et des forces alliées.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_034",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+    "options": [
+      "Marseille",
+      "Le Havre",
+      "Nantes",
+      "Bordeaux"
+    ],
+    "correct_index": 2,
+    "explanation": "Nantes était le principal port français impliqué dans la traite négrière au XVIIIe siècle. Des centaines de navires négriers partaient de Nantes pour acheter des esclaves en Afrique et les vendre dans les colonies des Antilles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_035",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel célèbre philosophe des Lumières a dénoncé l'esclavage ?",
+    "options": [
+      "René Descartes",
+      "Blaise Pascal",
+      "Voltaire",
+      "Molière"
+    ],
+    "correct_index": 2,
+    "explanation": "Voltaire (1694-1778) est l'un des philosophes des Lumières qui a dénoncé l'esclavage, notamment dans son roman Candide. Les philosophes des Lumières ont joué un rôle important dans la remise en cause de l'esclavage et des inégalités sociales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_036",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle œuvre a été écrite par Victor Hugo ?",
+    "options": [
+      "Madame Bovary",
+      "Les Misérables",
+      "Le Rouge et le Noir",
+      "Germinal"
+    ],
+    "correct_index": 1,
+    "explanation": "Les Misérables (1862) est l'une des œuvres majeures de Victor Hugo (1802-1885). Il a également écrit Notre-Dame de Paris, Hernani et de nombreux poèmes. Victor Hugo est l'un des plus grands écrivains français.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_037",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel peintre est français ?",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ],
+    "correct_index": 2,
+    "explanation": "Claude Monet (1840-1926) est un peintre français, l'un des fondateurs du mouvement impressionniste. Son tableau Impression, soleil levant a donné son nom à ce courant. Picasso est espagnol, Da Vinci italien et Van Gogh néerlandais.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_038",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel plat est une spécialité de la cuisine française ?",
+    "options": [
+      "La paella",
+      "Le couscous royal",
+      "La bouillabaisse",
+      "La pizza margherita"
+    ],
+    "correct_index": 2,
+    "explanation": "La bouillabaisse est une spécialité de la cuisine française, originaire de Marseille. C'est une soupe de poissons et crustacés. La gastronomie française est inscrite au patrimoine culturel immatériel de l'humanité par l'UNESCO depuis 2010.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_039",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Marie Curie ?",
+    "options": [
+      "Une femme politique française du XXe siècle",
+      "Une physicienne et chimiste d'origine polonaise, naturalisée française, prix Nobel, découvreuse de la radioactivité",
+      "Une romancière française prix Nobel de littérature",
+      "Une résistante française fusillée pendant la Seconde Guerre mondiale"
+    ],
+    "correct_index": 1,
+    "explanation": "Marie Curie (1867-1934) est une physicienne et chimiste d'origine polonaise naturalisée française. Elle a découvert la radioactivité et fut la première femme à recevoir le prix Nobel, qu'elle reçut deux fois (physique 1903, chimie 1911). Elle est inhumée au Panthéon.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_040",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui a peint 'La liberté guidant le peuple' ?",
+    "options": [
+      "Claude Monet",
+      "Auguste Renoir",
+      "Eugène Delacroix",
+      "Paul Cézanne"
+    ],
+    "correct_index": 2,
+    "explanation": "Eugène Delacroix (1798-1863) a peint La Liberté guidant le peuple en 1830, en référence aux Trois Glorieuses. Ce tableau est l'un des plus célèbres de la peinture française et est exposé au musée du Louvre à Paris.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_041",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Dans quel grand musée parisien est exposée la Joconde ?",
+    "options": [
+      "Le musée d'Orsay",
+      "Le Centre Pompidou",
+      "Le musée du Louvre",
+      "Le musée de l'Orangerie"
+    ],
+    "correct_index": 2,
+    "explanation": "La Joconde de Léonard de Vinci est exposée au musée du Louvre à Paris. C'est le tableau le plus visité au monde. Le Louvre est le plus grand musée du monde avec plus de 9 millions de visiteurs par an.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_042",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel château célèbre se trouve près de Paris et symbolise le pouvoir royal de Louis XIV ?",
+    "options": [
+      "Le château de Fontainebleau",
+      "Le château de Versailles",
+      "Le château de Chambord",
+      "Le château de Vaux-le-Vicomte"
+    ],
+    "correct_index": 1,
+    "explanation": "Le château de Versailles, construit par Louis XIV (le Roi Soleil), symbolise le pouvoir royal absolu. Situé à 20 km de Paris, il fut la résidence officielle des rois de France de 1682 à 1789. Il est classé au patrimoine mondial de l'UNESCO.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_043",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Où peut-on voir des peintures préhistoriques en France ?",
+    "options": [
+      "Dans les catacombes de Paris",
+      "Dans la grotte de Lascaux en Dordogne",
+      "Dans les carrières de Carrare",
+      "Dans les ruines romaines de Nîmes"
+    ],
+    "correct_index": 1,
+    "explanation": "La grotte de Lascaux, en Dordogne, est l'un des sites préhistoriques les plus importants au monde, datant d'environ 17 000 ans. Elle est connue pour la qualité exceptionnelle de ses peintures rupestres représentant des animaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_044",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel peintre célèbre a peint les Nymphéas ?",
+    "options": [
+      "Auguste Renoir",
+      "Paul Cézanne",
+      "Claude Monet",
+      "Edgar Degas"
+    ],
+    "correct_index": 2,
+    "explanation": "Claude Monet (1840-1926) a peint les célèbres Nymphéas, une série de tableaux représentant son jardin aquatique à Giverny. Ces œuvres sont exposées au musée de l'Orangerie à Paris.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_045",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Pendant quelles journées peut-on visiter gratuitement des lieux culturels en France ?",
+    "options": [
+      "Pendant les vacances scolaires d'été uniquement",
+      "Lors des Journées européennes du Patrimoine en septembre et le premier dimanche du mois pour les musées nationaux",
+      "Tous les dimanches de l'année pour tous les musées",
+      "Uniquement le 14 juillet, fête nationale"
+    ],
+    "correct_index": 1,
+    "explanation": "Les Journées européennes du Patrimoine, organisées chaque année en septembre, permettent de visiter gratuitement de nombreux monuments et sites. Les musées nationaux sont également gratuits le premier dimanche de chaque mois.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_046",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Que symbolise le 1er mai en France ?",
+    "options": [
+      "La fête nationale française",
+      "La fête du Travail et des travailleurs",
+      "La commémoration de la fin de la Seconde Guerre mondiale",
+      "La fête de la musique"
+    ],
+    "correct_index": 1,
+    "explanation": "Le 1er mai est la fête du Travail, jour férié en France. Il commémore la lutte des travailleurs pour leurs droits, notamment la journée de 8 heures de travail. C'est traditionnellement le jour de l'offre de muguets.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_047",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Monsieur Rouget de Lisle ?",
+    "options": [
+      "Un général de la Révolution française",
+      "L'auteur et compositeur de La Marseillaise en 1792",
+      "Le premier Président de la IIIe République",
+      "Un peintre romantique du XIXe siècle"
+    ],
+    "correct_index": 1,
+    "explanation": "Claude Joseph Rouget de Lisle (1760-1836) est l'auteur et compositeur de La Marseillaise, composée en 1792 à Strasbourg. Cet hymne révolutionnaire est devenu l'hymne national français.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_048",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "À quelle occasion a été construite la Tour Eiffel ?",
+    "options": [
+      "Pour commémorer la Révolution française en 1789",
+      "Comme siège du Parlement français",
+      "Pour l'Exposition universelle de 1889, par l'ingénieur Gustave Eiffel",
+      "Comme tour de guet militaire"
+    ],
+    "correct_index": 2,
+    "explanation": "La Tour Eiffel a été construite par l'ingénieur Gustave Eiffel pour l'Exposition universelle de Paris de 1889, qui célébrait le centenaire de la Révolution française. Elle est aujourd'hui le monument le plus visité au monde.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_049",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "options": [
+      "Les Pyrénées",
+      "Les Vosges",
+      "Les Alpes",
+      "Le Massif central"
+    ],
+    "correct_index": 2,
+    "explanation": "Les Alpes sont la chaîne de montagnes qui forme la frontière naturelle entre la France et l'Italie. Elles abritent le Mont-Blanc (4 810 m), la plus haute montagne d'Europe. Les Pyrénées séparent quant à elles la France de l'Espagne.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_050",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Molière ?",
+    "options": [
+      "Un peintre classique du XVIIe siècle",
+      "Un dramaturge français du XVIIe siècle, auteur de comédies comme L'Avare et Le Misanthrope",
+      "Un philosophe des Lumières du XVIIIe siècle",
+      "Un compositeur de l'époque de Louis XIV"
+    ],
+    "correct_index": 1,
+    "explanation": "Molière (1622-1673), de son vrai nom Jean-Baptiste Poquelin, est l'un des plus grands dramaturges français. Il a écrit des comédies célèbres comme L'Avare, Le Misanthrope, Tartuffe et Le Bourgeois Gentilhomme.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_051",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Charles Baudelaire ?",
+    "options": [
+      "Un peintre impressionniste du XIXe siècle",
+      "Un poète français du XIXe siècle, auteur des Fleurs du mal",
+      "Un romancier naturaliste contemporain de Zola",
+      "Un philosophe existentialiste du XXe siècle"
+    ],
+    "correct_index": 1,
+    "explanation": "Charles Baudelaire (1821-1867) est l'un des plus grands poètes français, auteur des Fleurs du mal (1857). Précurseur du symbolisme, il a profondément influencé la poésie moderne française et mondiale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_052",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était George Sand ?",
+    "options": [
+      "Un peintre romantique du XIXe siècle",
+      "Une romancière française du XIXe siècle, pionnière du féminisme, auteure d'Indiana et de La Mare au diable",
+      "Une compositrice de musique classique",
+      "Une actrice célèbre du cinéma muet"
+    ],
+    "correct_index": 1,
+    "explanation": "George Sand (1804-1876), de son vrai nom Aurore Dupin, est l'une des grandes romancières françaises du XIXe siècle. Pionnière du féminisme, elle a publié sous un pseudonyme masculin et a défendu les droits des femmes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_053",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Simone de Beauvoir ?",
+    "options": [
+      "Une femme politique française du XXe siècle",
+      "Une philosophe et écrivaine française, figure du féminisme, auteure du Deuxième Sexe",
+      "Une scientifique française prix Nobel",
+      "Une résistante française de la Seconde Guerre mondiale"
+    ],
+    "correct_index": 1,
+    "explanation": "Simone de Beauvoir (1908-1986) était une philosophe et écrivaine française, figure majeure du féminisme et de l'existentialisme. Son œuvre Le Deuxième Sexe (1949) est un texte fondateur du féminisme moderne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_054",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Albert Camus ?",
+    "options": [
+      "Un peintre surréaliste français du XXe siècle",
+      "Un écrivain et philosophe français, prix Nobel de littérature, auteur de L'Étranger et La Peste",
+      "Un compositeur de musique contemporaine",
+      "Un homme politique qui fut Président de la République"
+    ],
+    "correct_index": 1,
+    "explanation": "Albert Camus (1913-1960) était un écrivain et philosophe français, figure de l'absurde et de l'humanisme. Auteur de L'Étranger, La Peste et Le Mythe de Sisyphe, il a reçu le prix Nobel de littérature en 1957.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_055",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Marguerite Yourcenar ?",
+    "options": [
+      "Une femme politique française du XXe siècle",
+      "La première femme élue à l'Académie française, romancière auteure des Mémoires d'Hadrien",
+      "Une peintre impressionniste française",
+      "Une résistante française pendant la Seconde Guerre mondiale"
+    ],
+    "correct_index": 1,
+    "explanation": "Marguerite Yourcenar (1903-1987) est la première femme élue à l'Académie française en 1980. Romancière franco-américaine, elle est notamment l'auteure des Mémoires d'Hadrien et de L'Œuvre au Noir.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_056",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Paul Cézanne ?",
+    "options": [
+      "Un sculpteur français du XIXe siècle",
+      "Un peintre français post-impressionniste, précurseur du cubisme, auteur des Grandes Baigneuses et de La Montagne Sainte-Victoire",
+      "Un architecte qui construisit des bâtiments à Paris",
+      "Un poète symboliste du XIXe siècle"
+    ],
+    "correct_index": 1,
+    "explanation": "Paul Cézanne (1839-1906) était un peintre français post-impressionniste considéré comme le père de l'art moderne. Il est connu pour ses séries sur La Montagne Sainte-Victoire et Les Grandes Baigneuses. Il a influencé le cubisme et Picasso.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_057",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Auguste Rodin ?",
+    "options": [
+      "Un peintre impressionniste français du XIXe siècle",
+      "Un sculpteur français considéré comme l'un des plus grands, auteur du Penseur et du Baiser",
+      "Un architecte français du XIXe siècle",
+      "Un compositeur de musique classique française"
+    ],
+    "correct_index": 1,
+    "explanation": "Auguste Rodin (1840-1917) était un sculpteur français considéré comme l'un des plus grands sculpteurs de tous les temps. Il est notamment l'auteur du Penseur, du Baiser et des Bourgeois de Calais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_058",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était un célèbre compositeur français ?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Claude Debussy",
+      "Frédéric Chopin"
+    ],
+    "correct_index": 2,
+    "explanation": "Claude Debussy (1862-1918) était un compositeur français, figure majeure de la musique impressionniste. Il est notamment connu pour Clair de lune, La Mer et Prélude à l'après-midi d'un faune. Beethoven est allemand, Mozart autrichien et Chopin polonais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_059",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qui était Auguste Renoir ?",
+    "options": [
+      "Un sculpteur français du XIXe siècle",
+      "Un peintre français impressionniste, auteur du Moulin de la Galette et des Grandes Baigneuses",
+      "Un architecte du château de Versailles",
+      "Un poète symboliste du XIXe siècle"
+    ],
+    "correct_index": 1,
+    "explanation": "Auguste Renoir (1841-1919) était un peintre français impressionniste, connu pour ses scènes de la vie quotidienne pleine de lumière et de joie. Le Moulin de la Galette et Les Grandes Baigneuses sont parmi ses œuvres les plus célèbres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_060",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel musée est situé à Paris ?",
+    "options": [
+      "Le musée du Prado",
+      "La Tate Modern",
+      "Le musée du Louvre",
+      "Les Offices"
+    ],
+    "correct_index": 2,
+    "explanation": "Le musée du Louvre est situé à Paris. C'est le plus grand musée du monde et l'un des plus visités avec plus de 9 millions de visiteurs par an. Il abrite notamment la Joconde de Léonard de Vinci.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_061",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel monument historique se trouve sur une île en Normandie ?",
+    "options": [
+      "Le château de Versailles",
+      "Le Mont-Saint-Michel",
+      "La cathédrale de Chartres",
+      "Le château de Chambord"
+    ],
+    "correct_index": 1,
+    "explanation": "Le Mont-Saint-Michel est un îlot rocheux situé en Normandie dans une baie, sur lequel s'élève une abbaye médiévale. Il est classé au patrimoine mondial de l'humanité par l'UNESCO et accueille plus de 3 millions de visiteurs par an.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_062",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "options": [
+      "Brest",
+      "Perpignan",
+      "Lyon",
+      "Limoges"
+    ],
+    "correct_index": 2,
+    "explanation": "Lyon est la deuxième plus grande métropole française après Paris. Les 10 plus grandes métropoles françaises sont : Paris, Lyon, Marseille, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg et Rennes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_063",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle île fait partie des Antilles françaises ?",
+    "options": [
+      "La Réunion",
+      "Mayotte",
+      "La Martinique",
+      "La Corse"
+    ],
+    "correct_index": 2,
+    "explanation": "La Martinique est une île française située dans les Antilles, dans la mer des Caraïbes. C'est un département et région d'outre-mer français. La Guadeloupe est également une île française des Antilles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_064",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle île est française ?",
+    "options": [
+      "La Sardaigne",
+      "La Corse",
+      "La Sicile",
+      "Malte"
+    ],
+    "correct_index": 1,
+    "explanation": "La Corse est une île française, région et collectivité territoriale unique, située en mer Méditerranée. C'est la plus grande île française métropolitaine. Elle est surnommée l'île de Beauté.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_065",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle est la plus haute montagne de France ?",
+    "options": [
+      "Le Mont Ventoux (1 912 m)",
+      "Le Puy de Dôme (1 465 m)",
+      "Le Mont-Blanc (4 810 m)",
+      "Le Grand Ballon (1 424 m)"
+    ],
+    "correct_index": 2,
+    "explanation": "Le Mont-Blanc (4 810 m) est la plus haute montagne de France et d'Europe. Il se situe dans les Alpes, à la frontière entre la France et l'Italie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_066",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle île française est située dans l'océan Indien ?",
+    "options": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Réunion",
+      "Saint-Martin"
+    ],
+    "correct_index": 2,
+    "explanation": "La Réunion est un département et région d'outre-mer français situé dans l'océan Indien, à l'est de Madagascar. La Martinique et la Guadeloupe sont situées dans les Caraïbes (océan Atlantique).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_067",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel département français a une frontière avec le Brésil ?",
+    "options": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Guyane",
+      "Mayotte"
+    ],
+    "correct_index": 2,
+    "explanation": "La Guyane est un département et région d'outre-mer français situé en Amérique du Sud. Elle partage ses frontières avec le Brésil au sud et à l'est, et avec le Suriname à l'ouest. C'est le seul territoire français continental en Amérique du Sud.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_068",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "De quelle ville française décolle la fusée Ariane ?",
+    "options": [
+      "De Toulouse",
+      "De Kourou, en Guyane française",
+      "De Bordeaux",
+      "De Brest"
+    ],
+    "correct_index": 1,
+    "explanation": "La fusée Ariane décolle du Centre spatial guyanais (CSG) de Kourou, en Guyane française. Sa position géographique près de l'équateur est idéale pour les lancements spatiaux. C'est le principal port spatial européen.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_069",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "options": [
+      "La mer du Nord et l'océan Pacifique",
+      "La Manche, l'océan Atlantique et la mer Méditerranée",
+      "La mer Baltique et la mer du Nord",
+      "L'océan Atlantique uniquement"
+    ],
+    "correct_index": 1,
+    "explanation": "La France métropolitaine est bordée par la Manche au nord-ouest, l'océan Atlantique à l'ouest et la mer Méditerranée au sud. Cette façade maritime exceptionnelle de plus de 5 500 km lui confère une position géographique stratégique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_070",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "options": [
+      "La mer du Nord",
+      "La mer Baltique",
+      "La Manche",
+      "La mer Méditerranée"
+    ],
+    "correct_index": 2,
+    "explanation": "La Manche est la mer qui sépare la France de l'Angleterre. Elle relie l'océan Atlantique à la mer du Nord. Le tunnel sous la Manche (Eurotunnel) relie la France au Royaume-Uni depuis 1994.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_071",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "options": [
+      "La Sardaigne",
+      "La Corse",
+      "La Réunion",
+      "Les Canaries"
+    ],
+    "correct_index": 2,
+    "explanation": "La Réunion est un département et région d'outre-mer (DROM) français situé dans l'océan Indien. La Corse est une collectivité territoriale unique mais pas un DROM. La Sardaigne est italienne et les Canaries espagnoles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_072",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Qu'est-ce que la France d'outre-mer ?",
+    "options": [
+      "Les ambassades françaises dans le monde",
+      "Les territoires français situés en dehors de l'Europe continentale, répartis sur plusieurs océans",
+      "Les pays francophones d'Afrique",
+      "Les anciennes colonies françaises devenues indépendantes"
+    ],
+    "correct_index": 1,
+    "explanation": "La France d'outre-mer désigne les territoires français situés en dehors de l'Europe continentale : les 5 départements et régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion) et les collectivités d'outre-mer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_073",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "options": [
+      "Environ 55 millions",
+      "Environ 60 millions",
+      "Environ 68 millions",
+      "Environ 80 millions"
+    ],
+    "correct_index": 2,
+    "explanation": "La France compte environ 68 millions d'habitants en 2025. Elle est l'un des pays les plus peuplés d'Europe, après l'Allemagne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_074",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est le principal port maritime de France ?",
+    "options": [
+      "Bordeaux",
+      "Nantes",
+      "Marseille",
+      "Brest"
+    ],
+    "correct_index": 2,
+    "explanation": "Marseille est le principal port maritime de France et l'un des plus importants de la Méditerranée. Le Havre est également un grand port maritime, premier port français pour le commerce de conteneurs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_075",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "options": ["10", "12", "13", "18"],
+    "correct_index": 2,
+    "explanation": "La France métropolitaine compte 13 régions depuis la réforme territoriale de 2016, dont la Corse. En ajoutant les 5 régions d'outre-mer, la France compte 18 régions au total.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_076",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+    "options": [
+      "Les Alpes",
+      "Les Vosges",
+      "Les Pyrénées",
+      "Le Massif central"
+    ],
+    "correct_index": 2,
+    "explanation": "Les Pyrénées sont la chaîne de montagnes qui forme la frontière naturelle entre la France et l'Espagne, s'étendant de l'Atlantique à la Méditerranée sur environ 430 km.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_077",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle île française se trouve au sud-est du continent africain ?",
+    "options": [
+      "La Martinique",
+      "La Guadeloupe",
+      "Mayotte",
+      "La Réunion"
+    ],
+    "correct_index": 3,
+    "explanation": "La Réunion est une île française située dans l'océan Indien, à l'est de Madagascar, au sud-est du continent africain. C'est un département et région d'outre-mer français.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_078",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+    "options": [
+      "Grenoble",
+      "Clermont-Ferrand",
+      "Lyon",
+      "Saint-Étienne"
+    ],
+    "correct_index": 2,
+    "explanation": "Lyon est le chef-lieu de la région Auvergne-Rhône-Alpes, la deuxième plus grande région française en termes de population. Lyon est également la deuxième métropole française après Paris.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_079",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est le chef-lieu de la région Bretagne ?",
+    "options": [
+      "Brest",
+      "Saint-Malo",
+      "Vannes",
+      "Rennes"
+    ],
+    "correct_index": 3,
+    "explanation": "Rennes est le chef-lieu de la région Bretagne, située dans le nord-ouest de la France. Rennes est également l'une des dix plus grandes métropoles françaises.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_080",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+    "options": [
+      "Nice",
+      "Toulon",
+      "Marseille",
+      "Aix-en-Provence"
+    ],
+    "correct_index": 2,
+    "explanation": "Marseille est le chef-lieu de la région Provence-Alpes-Côte d'Azur (PACA). C'est la deuxième plus grande ville française et le principal port maritime de France.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "nat_hg_081",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel est le 101e département français depuis 2011 ?",
+    "options": [
+      "La Polynésie française",
+      "La Nouvelle-Calédonie",
+      "Mayotte",
+      "Saint-Pierre-et-Miquelon"
+    ],
+    "correct_index": 2,
+    "explanation": "Mayotte est devenue le 101e département français le 31 mars 2011, après un référendum d'autodétermination en 2009. C'est le département et région d'outre-mer le plus récent de France, situé dans l'océan Indien.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "nat_hg_082",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quelle région française est réputée pour ses stations de ski ?",
+    "options": [
+      "La Bretagne",
+      "La Normandie",
+      "Auvergne-Rhône-Alpes",
+      "L'Occitanie"
+    ],
+    "correct_index": 2,
+    "explanation": "La région Auvergne-Rhône-Alpes est réputée pour ses stations de ski grâce aux Alpes françaises. Elle abrite des stations renommées comme Chamonix, Courchevel, Megève et Val d'Isère. C'est l'une des premières destinations de ski au monde.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "nat_hg_083",
+    "theme": "histoire_geo_culture",
+    "level": "naturalisation",
+    "question": "Quel fleuve traverse Paris ?",
+    "options": [
+      "La Loire",
+      "Le Rhône",
+      "La Seine",
+      "La Garonne"
+    ],
+    "correct_index": 2,
+    "explanation": "La Seine traverse Paris. C'est l'un des fleuves les plus emblématiques de France. Elle prend sa source en Bourgogne et se jette dans la Manche au Havre, après avoir traversé Paris sur environ 13 km.",
+    "difficulty": "easy"
+  }
+]

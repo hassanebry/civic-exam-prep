@@ -52,10 +52,10 @@ const CR_THEMES: ThemeInfo[] = [
 
 const NATURALISATION_THEMES: ThemeInfo[] = [
   { value: "valeurs_republicaines", label: "Valeurs républicaines", emoji: "🏛️" },
-  { value: "symboles", label: "Symboles de la République", emoji: "🇫🇷" },
-  { value: "institutions", label: "Les institutions", emoji: "🏗️" },
-  { value: "droits_devoirs", label: "Droits et devoirs", emoji: "⚖️" },
-  { value: "vie_en_france", label: "Vie en France", emoji: "🗼" },
+  { value: "institutions", label: "Institutions", emoji: "⚖️" },
+  { value: "droits_devoirs", label: "Droits et devoirs", emoji: "📜" },
+  { value: "histoire_geo_culture", label: "Histoire, géographie et culture", emoji: "🗺️" },
+  { value: "vie_en_france", label: "Vie en France", emoji: "🇫🇷" },
 ];
 
 export function getThemesForLevel(level: Level): ThemeInfo[] {

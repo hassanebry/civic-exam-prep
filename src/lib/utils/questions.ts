@@ -2,9 +2,9 @@ import { Level, Question, Theme } from "@/types";
 
 const NATURALISATION_THEMES: Theme[] = [
   "valeurs_republicaines",
-  "symboles",
   "institutions",
   "droits_devoirs",
+  "histoire_geo_culture",
   "vie_en_france",
 ];
 
