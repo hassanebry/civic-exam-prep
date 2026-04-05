@@ -29,20 +29,25 @@ export async function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
 
+  const isAuthRoute = pathname.startsWith("/login") || pathname.startsWith("/register");
+
+  // Never redirect if already on an auth route — prevents redirect loops
+  if (isAuthRoute) {
+    if (user) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/dashboard";
+      return NextResponse.redirect(url);
+    }
+    return supabaseResponse;
+  }
+
   const protectedRoutes = ["/dashboard", "/exam", "/review", "/results"];
   const isProtected = protectedRoutes.some((r) => pathname.startsWith(r));
-  const isAuthRoute = pathname === "/login" || pathname === "/register";
 
   if (!user && isProtected) {
     const url = request.nextUrl.clone();
     url.pathname = "/login";
     url.searchParams.set("redirectTo", pathname);
-    return NextResponse.redirect(url);
-  }
-
-  if (user && isAuthRoute) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/dashboard";
     return NextResponse.redirect(url);
   }
 

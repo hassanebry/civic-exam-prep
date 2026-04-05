@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
 
@@ -14,7 +14,6 @@ const NAV_LINKS = [
 
 export function Header() {
   const pathname = usePathname();
-  const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -36,7 +35,7 @@ export function Header() {
 
   async function handleSignOut() {
     await supabase.auth.signOut();
-    router.push("/");
+    window.location.href = "/";
   }
 
   return (
