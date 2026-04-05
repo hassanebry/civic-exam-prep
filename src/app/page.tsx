@@ -34,9 +34,9 @@ const FEATURES = [
 ] as const;
 
 const STATS = [
-  { value: "191+", label: "questions officielles" },
+  { value: "650+", label: "questions officielles" },
+  { value: "3", label: "niveaux d\u2019examen" },
   { value: "5", label: "thèmes couverts" },
-  { value: "80%", label: "seuil de réussite" },
 ] as const;
 
 export default function LandingPage() {
@@ -45,7 +45,7 @@ export default function LandingPage() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center px-6 pb-16 pt-20 text-center sm:pt-28">
         <h1 className="max-w-3xl font-serif text-4xl leading-tight text-foreground sm:text-5xl md:text-6xl">
-          Préparez votre naturalisation française
+          Réussissez votre examen civique
         </h1>
 
         {/* Tricolor accent line */}
@@ -56,8 +56,8 @@ export default function LandingPage() {
         </div>
 
         <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted">
-          Entraînez-vous avec des QCM basés sur les questions officielles du
-          livret du citoyen. Gratuit et accessible.
+          Entraînez-vous avec les questions officielles du Ministère de
+          l&apos;Intérieur — CSP, Carte de résident ou Naturalisation.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
