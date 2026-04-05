@@ -53,7 +53,7 @@ export function Header() {
             <span className="w-full bg-[#ED2939]" />
           </div>
           <span className="font-serif text-xl text-foreground">
-            CitoyenPrep
+            MonPassCivique
           </span>
         </Link>
 

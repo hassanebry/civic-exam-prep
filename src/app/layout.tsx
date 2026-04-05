@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -16,9 +17,10 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "CitoyenPrep — Préparation au test de naturalisation",
+  metadataBase: new URL("https://monpasscivique.fr"),
+  title: "MonPassCivique — Préparez votre examen civique",
   description:
-    "Préparez votre examen civique de naturalisation française avec des QCM officiels.",
+    "Entraînez-vous au QCM de votre examen civique",
 };
 
 export default function RootLayout({
@@ -34,6 +36,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans antialiased">
         <Header />
         <div className="flex flex-1 flex-col">{children}</div>
+        <Footer />
       </body>
     </html>
   );
