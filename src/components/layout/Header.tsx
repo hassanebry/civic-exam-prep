@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: "/dashboard", label: "Tableau de bord" },
   { href: "/exam", label: "Examen blanc" },
   { href: "/review", label: "Révision" },
+  { href: "/history", label: "Historique" },
 ] as const;
 
 export function Header() {

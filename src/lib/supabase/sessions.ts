@@ -1,5 +1,7 @@
 import { supabase } from "./client";
 
+import type { Question } from "@/types";
+
 interface SaveExamSessionParams {
   userId: string;
   mode: string;
@@ -8,6 +10,18 @@ interface SaveExamSessionParams {
   totalQuestions: number;
   correctAnswers: number;
   answers: (number | null)[];
+  questions: Question[];
+}
+
+interface ExamHistoryRow {
+  id: string;
+  score: number;
+  total_questions: number;
+  correct_answers: number;
+  mode: string;
+  theme: string | null;
+  started_at: string;
+  finished_at: string | null;
 }
 
 export async function saveExamSession(
@@ -23,6 +37,7 @@ export async function saveExamSession(
       total_questions: params.totalQuestions,
       correct_answers: params.correctAnswers,
       answers: params.answers,
+      questions: params.questions,
       finished_at: new Date().toISOString(),
     })
     .select("id")
@@ -69,4 +84,24 @@ export async function updateUserProgress(
       last_attempt: new Date().toISOString(),
     });
   }
+}
+
+export async function getExamHistory(
+  userId: string,
+): Promise<ExamHistoryRow[]> {
+  const { data, error } = await supabase
+    .from("exam_sessions")
+    .select(
+      "id, score, total_questions, correct_answers, mode, theme, started_at, finished_at",
+    )
+    .eq("user_id", userId)
+    .eq("mode", "blanc")
+    .order("started_at", { ascending: false });
+
+  if (error) {
+    console.error("Failed to fetch exam history:", error.message);
+    return [];
+  }
+
+  return (data ?? []) as ExamHistoryRow[];
 }

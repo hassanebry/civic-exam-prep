@@ -41,7 +41,7 @@ export async function proxy(request: NextRequest) {
     return supabaseResponse;
   }
 
-  const protectedRoutes = ["/dashboard", "/exam", "/review", "/results"];
+  const protectedRoutes = ["/dashboard", "/exam", "/review", "/results", "/history"];
   const isProtected = protectedRoutes.some((r) => pathname.startsWith(r));
 
   if (!user && isProtected) {

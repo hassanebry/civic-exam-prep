@@ -152,6 +152,7 @@ export function useExam({ mode, theme, level = "naturalisation", maxQuestions }:
       totalQuestions: questions.length,
       correctAnswers: finalCorrect,
       answers,
+      questions,
     });
 
     if (id) setSessionId(id);
