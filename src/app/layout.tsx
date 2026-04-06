@@ -19,9 +19,19 @@ const dmSerif = DM_Serif_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://monpasscivique.fr"),
-  title: "MonPassCivique — Préparez votre examen civique",
+  title:
+    "MonPassCivique — Préparez l'examen civique CSP, CR et Naturalisation",
   description:
-    "Entraînez-vous au QCM de votre examen civique",
+    "Entraînez-vous avec les 656 questions officielles du Ministère de l'Intérieur. Examens blancs chronométrés, corrigés détaillés. CSP, Carte de résident, Naturalisation.",
+  keywords:
+    "examen civique, naturalisation française, CSP, carte de résident, questions officielles, examen blanc, livret du citoyen",
+  openGraph: {
+    title:
+      "MonPassCivique — Préparez l'examen civique CSP, CR et Naturalisation",
+    description:
+      "Entraînez-vous avec les 656 questions officielles du Ministère de l'Intérieur. Examens blancs chronométrés, corrigés détaillés. CSP, Carte de résident, Naturalisation.",
+    url: "https://www.monpasscivique.fr",
+  },
   icons: {
     icon: "/favicon.svg",
   },
