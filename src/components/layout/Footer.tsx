@@ -26,6 +26,13 @@ export function Footer() {
           >
             CGV
           </Link>
+          <span className="text-border">|</span>
+          <Link
+            href="/contact"
+            className="transition-colors hover:text-primary"
+          >
+            Contact
+          </Link>
         </nav>
       </div>
     </footer>
