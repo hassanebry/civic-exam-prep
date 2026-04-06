@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "MonPassCivique — Préparez votre examen civique",
   description:
     "Entraînez-vous au QCM de votre examen civique",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
