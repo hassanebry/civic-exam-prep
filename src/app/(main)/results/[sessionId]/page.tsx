@@ -37,7 +37,7 @@ interface SessionData {
 
 export default function ResultsPage() {
   const { sessionId } = useParams<{ sessionId: string }>();
-  const { isPremium } = useProfile();
+  const { isPremium, isLoading: profileLoading } = useProfile();
   const [session, setSession] = useState<SessionData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
@@ -78,7 +78,7 @@ export default function ResultsPage() {
     </div>
   );
 
-  if (isLoading) {
+  if (isLoading || profileLoading) {
     return (
       <main className="flex flex-1 flex-col px-6 py-6">
         {backLink}
@@ -109,8 +109,14 @@ export default function ResultsPage() {
 
   const themeLabel =
     session.theme ?? (session.mode === "blanc" ? "Examen blanc" : "Entraînement");
-  const hasCorrige =
-    session.questions && session.answers && session.questions.length > 0;
+  const hasCorrigeData =
+    !!session.questions &&
+    !!session.answers &&
+    session.questions.length > 0;
+  // Always render the corrigé section for blanc exams so premium users see
+  // either the corrigé (when data is available) or a clear message when it
+  // is not (legacy sessions saved before questions were persisted).
+  const showCorrigeSection = session.mode === "blanc" || hasCorrigeData;
 
   return (
     <main className="flex flex-1 flex-col px-6 py-6">
@@ -130,32 +136,40 @@ export default function ResultsPage() {
       </div>
 
       {/* Corrigé — premium only */}
-      {hasCorrige && (
+      {showCorrigeSection && (
         <div className="mx-auto w-full max-w-2xl">
           {isPremium ? (
-            <>
-              <button
-                type="button"
-                onClick={() => setShowCorrige((prev) => !prev)}
-                className="inline-flex h-10 w-full items-center justify-center rounded-lg border border-primary text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
-              >
-                {showCorrige
-                  ? "Masquer le corrigé"
-                  : "Voir le corrigé détaillé"}
-              </button>
+            hasCorrigeData ? (
+              <>
+                <button
+                  type="button"
+                  onClick={() => setShowCorrige((prev) => !prev)}
+                  className="inline-flex h-10 w-full items-center justify-center rounded-lg border border-primary text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
+                >
+                  {showCorrige
+                    ? "Masquer le corrigé"
+                    : "Voir le corrigé détaillé"}
+                </button>
 
-              {showCorrige && (
-                <div className="mt-8">
-                  <h2 className="mb-6 font-serif text-xl text-foreground">
-                    Corrigé détaillé
-                  </h2>
-                  <CorrigeReview
-                    questions={session.questions!}
-                    answers={session.answers!}
-                  />
-                </div>
-              )}
-            </>
+                {showCorrige && (
+                  <div className="mt-8">
+                    <h2 className="mb-6 font-serif text-xl text-foreground">
+                      Corrigé détaillé
+                    </h2>
+                    <CorrigeReview
+                      questions={session.questions!}
+                      answers={session.answers!}
+                    />
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="rounded-xl border border-border bg-card p-6 text-center text-sm text-muted shadow-[var(--shadow-sm)]">
+                Le corrigé détaillé n&apos;est pas disponible pour cette
+                session (ancienne session enregistrée avant l&apos;ajout du
+                corrigé).
+              </div>
+            )
           ) : (
             <div className="flex flex-col items-center gap-4 rounded-xl border border-border bg-card p-8 text-center shadow-[var(--shadow-sm)]">
               <span className="text-4xl">🔒</span>

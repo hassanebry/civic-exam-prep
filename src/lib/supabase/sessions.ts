@@ -27,28 +27,52 @@ interface ExamHistoryRow {
 export async function saveExamSession(
   params: SaveExamSessionParams,
 ): Promise<string | null> {
-  const { data, error } = await supabase
+  const now = new Date().toISOString();
+
+  const basePayload = {
+    user_id: params.userId,
+    mode: params.mode,
+    theme: params.theme ?? null,
+    score: params.score,
+    total_questions: params.totalQuestions,
+    correct_answers: params.correctAnswers,
+    answers: params.answers,
+    started_at: now,
+    finished_at: now,
+  };
+
+  // Try inserting with the questions column (needed for corrigé view).
+  const full = await supabase
     .from("exam_sessions")
-    .insert({
-      user_id: params.userId,
-      mode: params.mode,
-      theme: params.theme ?? null,
-      score: params.score,
-      total_questions: params.totalQuestions,
-      correct_answers: params.correctAnswers,
-      answers: params.answers,
-      questions: params.questions,
-      finished_at: new Date().toISOString(),
-    })
+    .insert({ ...basePayload, questions: params.questions })
     .select("id")
     .single();
 
-  if (error) {
-    console.error("Failed to save exam session:", error.message);
+  if (!full.error && full.data) {
+    return full.data.id as string;
+  }
+
+  console.error(
+    "[saveExamSession] insert with questions failed, retrying without:",
+    full.error?.message,
+  );
+
+  // Fallback: insert without the questions column (older schema).
+  const fallback = await supabase
+    .from("exam_sessions")
+    .insert(basePayload)
+    .select("id")
+    .single();
+
+  if (fallback.error || !fallback.data) {
+    console.error(
+      "[saveExamSession] fallback insert failed:",
+      fallback.error?.message,
+    );
     return null;
   }
 
-  return data.id as string;
+  return fallback.data.id as string;
 }
 
 export async function updateUserProgress(
@@ -96,7 +120,7 @@ export async function getExamHistory(
     )
     .eq("user_id", userId)
     .eq("mode", "blanc")
-    .order("started_at", { ascending: false });
+    .order("finished_at", { ascending: false, nullsFirst: false });
 
   if (error) {
     console.error("Failed to fetch exam history:", error.message);
