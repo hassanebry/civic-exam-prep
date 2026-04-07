@@ -4,6 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase/client";
 import { getExamHistory } from "@/lib/supabase/sessions";
+import { useProfile } from "@/hooks/useProfile";
+import { PremiumGate } from "@/components/ui/PremiumGate";
 
 interface HistoryItem {
   id: string;
@@ -17,6 +19,7 @@ interface HistoryItem {
 const PASS_THRESHOLD = 80;
 
 export default function HistoryPage() {
+  const { isPremium, isLoading: profileLoading } = useProfile();
   const [sessions, setSessions] = useState<HistoryItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -39,10 +42,24 @@ export default function HistoryPage() {
   }, []);
 
   useEffect(() => {
-    fetchHistory();
-  }, [fetchHistory]);
+    if (isPremium) {
+      fetchHistory();
+    } else {
+      setIsLoading(false);
+    }
+  }, [fetchHistory, isPremium]);
+
+  if (profileLoading) {
+    return (
+      <main className="flex flex-1 flex-col items-center justify-center gap-4 px-6">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-border border-t-primary" />
+        <p className="text-sm text-muted">Chargement...</p>
+      </main>
+    );
+  }
 
   return (
+    <PremiumGate isPremium={isPremium} feature="Historique des examens blancs">
     <main className="flex flex-1 flex-col px-6 py-10">
       <div className="mx-auto w-full max-w-3xl">
         <Link
@@ -129,5 +146,6 @@ export default function HistoryPage() {
         </div>
       </div>
     </main>
+    </PremiumGate>
   );
 }

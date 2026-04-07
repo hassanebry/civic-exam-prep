@@ -6,7 +6,24 @@ import { useParams } from "next/navigation";
 import { supabase } from "@/lib/supabase/client";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
 import { CorrigeReview } from "@/components/exam/CorrigeReview";
+import { useProfile } from "@/hooks/useProfile";
 import type { Question } from "@/types";
+
+async function startCheckout(): Promise<void> {
+  try {
+    const res = await fetch("/api/checkout", { method: "POST" });
+    if (!res.ok) {
+      alert("Une erreur est survenue, veuillez réessayer.");
+      return;
+    }
+    const data = (await res.json()) as { url?: string };
+    if (data.url) {
+      window.location.href = data.url;
+    }
+  } catch {
+    alert("Une erreur est survenue, veuillez réessayer.");
+  }
+}
 
 interface SessionData {
   score: number;
@@ -20,6 +37,7 @@ interface SessionData {
 
 export default function ResultsPage() {
   const { sessionId } = useParams<{ sessionId: string }>();
+  const { isPremium } = useProfile();
   const [session, setSession] = useState<SessionData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
@@ -111,26 +129,49 @@ export default function ResultsPage() {
         />
       </div>
 
-      {/* Corrigé toggle */}
+      {/* Corrigé — premium only */}
       {hasCorrige && (
         <div className="mx-auto w-full max-w-2xl">
-          <button
-            type="button"
-            onClick={() => setShowCorrige((prev) => !prev)}
-            className="inline-flex h-10 w-full items-center justify-center rounded-lg border border-primary text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
-          >
-            {showCorrige ? "Masquer le corrigé" : "Voir le corrigé détaillé"}
-          </button>
+          {isPremium ? (
+            <>
+              <button
+                type="button"
+                onClick={() => setShowCorrige((prev) => !prev)}
+                className="inline-flex h-10 w-full items-center justify-center rounded-lg border border-primary text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
+              >
+                {showCorrige
+                  ? "Masquer le corrigé"
+                  : "Voir le corrigé détaillé"}
+              </button>
 
-          {showCorrige && (
-            <div className="mt-8">
-              <h2 className="mb-6 font-serif text-xl text-foreground">
+              {showCorrige && (
+                <div className="mt-8">
+                  <h2 className="mb-6 font-serif text-xl text-foreground">
+                    Corrigé détaillé
+                  </h2>
+                  <CorrigeReview
+                    questions={session.questions!}
+                    answers={session.answers!}
+                  />
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="flex flex-col items-center gap-4 rounded-xl border border-border bg-card p-8 text-center shadow-[var(--shadow-sm)]">
+              <span className="text-4xl">🔒</span>
+              <h2 className="font-serif text-xl text-foreground">
                 Corrigé détaillé
               </h2>
-              <CorrigeReview
-                questions={session.questions!}
-                answers={session.answers!}
-              />
+              <p className="max-w-sm text-sm text-muted">
+                Le corrigé détaillé est réservé aux membres premium.
+              </p>
+              <button
+                type="button"
+                onClick={startCheckout}
+                className="mt-2 inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+              >
+                Débloquer l&apos;accès — 9,99&nbsp;€
+              </button>
             </div>
           )}
         </div>
