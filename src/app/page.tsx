@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Faq } from "@/components/landing/Faq";
 
 const FEATURES = [
   {
@@ -112,6 +113,9 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <Faq />
     </main>
   );
 }
