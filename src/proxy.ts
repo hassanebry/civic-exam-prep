@@ -29,6 +29,11 @@ export async function proxy(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
 
+  // The landing page is always public — never redirect away from "/".
+  if (pathname === "/") {
+    return supabaseResponse;
+  }
+
   const isAuthRoute = pathname.startsWith("/login") || pathname.startsWith("/register");
 
   // Never redirect if already on an auth route — prevents redirect loops

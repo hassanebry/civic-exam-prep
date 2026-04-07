@@ -16,19 +16,27 @@ const NAV_LINKS = [
 export function Header() {
   const pathname = usePathname();
   const [user, setUser] = useState<User | null>(null);
+  const [authChecked, setAuthChecked] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => setUser(data.user));
+    supabase.auth.getUser().then(({ data }) => {
+      setUser(data.user);
+      setAuthChecked(true);
+    });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
       setUser(session?.user ?? null);
+      setAuthChecked(true);
     });
 
     return () => subscription.unsubscribe();
   }, []);
+
+  const logoHref = user ? "/dashboard" : "/";
+  const showNavLinks = authChecked && user !== null;
 
   useEffect(() => {
     setMenuOpen(false);
@@ -43,7 +51,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur-sm">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-5">
         {/* Logo */}
-        <Link href="/dashboard" className="flex items-center gap-2.5">
+        <Link href={logoHref} className="flex items-center gap-2.5">
           <div className="flex h-5 w-1 overflow-hidden rounded-full">
             <span className="w-full bg-[#002395]" />
           </div>
@@ -58,27 +66,31 @@ export function Header() {
           </span>
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 md:flex">
-          {NAV_LINKS.map(({ href, label }) => {
-            const isActive =
-              pathname === href || pathname.startsWith(href + "/");
-            return (
-              <Link
-                key={href}
-                href={href}
-                className={`relative text-sm font-medium transition-colors ${
-                  isActive ? "text-primary" : "text-foreground hover:text-primary"
-                }`}
-              >
-                {label}
-                {isActive && (
-                  <span className="absolute -bottom-[21px] left-0 right-0 h-0.5 bg-primary" />
-                )}
-              </Link>
-            );
-          })}
-        </nav>
+        {/* Desktop nav — only for authenticated users */}
+        {showNavLinks && (
+          <nav className="hidden items-center gap-6 md:flex">
+            {NAV_LINKS.map(({ href, label }) => {
+              const isActive =
+                pathname === href || pathname.startsWith(href + "/");
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  className={`relative text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-primary"
+                      : "text-foreground hover:text-primary"
+                  }`}
+                >
+                  {label}
+                  {isActive && (
+                    <span className="absolute -bottom-[21px] left-0 right-0 h-0.5 bg-primary" />
+                  )}
+                </Link>
+              );
+            })}
+          </nav>
+        )}
 
         {/* Auth + mobile toggle */}
         <div className="flex items-center gap-3">
@@ -140,24 +152,28 @@ export function Header() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="border-t border-border bg-card px-5 py-4 md:hidden">
-          <nav className="flex flex-col gap-3">
-            {NAV_LINKS.map(({ href, label }) => {
-              const isActive =
-                pathname === href || pathname.startsWith(href + "/");
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  className={`text-sm font-medium ${
-                    isActive ? "text-primary" : "text-foreground"
-                  }`}
-                >
-                  {label}
-                </Link>
-              );
-            })}
-          </nav>
-          <div className="mt-4 border-t border-border pt-4">
+          {showNavLinks && (
+            <nav className="flex flex-col gap-3">
+              {NAV_LINKS.map(({ href, label }) => {
+                const isActive =
+                  pathname === href || pathname.startsWith(href + "/");
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={`text-sm font-medium ${
+                      isActive ? "text-primary" : "text-foreground"
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
+            </nav>
+          )}
+          <div
+            className={`${showNavLinks ? "mt-4 border-t border-border pt-4" : ""}`}
+          >
             {user ? (
               <div className="flex flex-col gap-2">
                 <span className="text-xs text-muted">{user.email}</span>
