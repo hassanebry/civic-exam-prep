@@ -53,6 +53,7 @@ export function useExam({ mode, theme, level = "naturalisation", maxQuestions }:
   const [sessionId, setSessionId] = useState<string | null>(null);
 
   const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const finishExamRef = useRef<() => void>(() => {});
 
   const loadQuestions = useCallback(async () => {
     setIsLoading(true);
@@ -111,12 +112,15 @@ export function useExam({ mode, theme, level = "naturalisation", maxQuestions }:
         clearTimeout(autoAdvanceTimer.current);
       }
 
+      const isLastQuestion = currentIndex >= questions.length - 1;
+
       autoAdvanceTimer.current = setTimeout(() => {
-        setCurrentIndex((prev) => {
-          if (prev < questions.length - 1) return prev + 1;
-          setIsFinished(true);
-          return prev;
-        });
+        if (isLastQuestion) {
+          // Trigger the full finish flow (save + redirect), not just the flag
+          finishExamRef.current();
+        } else {
+          setCurrentIndex((prev) => prev + 1);
+        }
       }, AUTO_ADVANCE_DELAY_MS);
     },
     [isFinished, currentIndex, questions.length, mode],
@@ -178,6 +182,12 @@ export function useExam({ mode, theme, level = "naturalisation", maxQuestions }:
       router.push(`/results/${id}`);
     }
   }, [questions, answers, mode, theme, router]);
+
+  // Keep the ref pointing at the latest finishExam closure so the
+  // auto-advance timer can call it with up-to-date answers/questions.
+  useEffect(() => {
+    finishExamRef.current = finishExam;
+  }, [finishExam]);
 
   const restartExam = useCallback(() => {
     if (autoAdvanceTimer.current) {
