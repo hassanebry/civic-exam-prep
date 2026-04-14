@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Faq } from "@/components/landing/Faq";
+import { QuestionDemo } from "@/components/landing/QuestionDemo";
 
 const FEATURES = [
   {
@@ -46,7 +46,7 @@ export default function LandingPage() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center px-6 pb-16 pt-20 text-center sm:pt-28">
         <h1 className="max-w-3xl font-serif text-4xl leading-tight text-foreground sm:text-5xl md:text-6xl">
-          Réussissez votre examen civique
+          Réussissez votre examen civique du premier coup.
         </h1>
 
         {/* Tricolor accent line */}
@@ -57,25 +57,24 @@ export default function LandingPage() {
         </div>
 
         <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted">
-          Entraînez-vous avec les questions officielles du Ministère de
-          l&apos;Intérieur — CSP, Carte de résident ou Naturalisation.
+          40% des candidats échouent faute de préparation. 656 questions
+          officielles. Résultats immédiats.
         </p>
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <Link
-            href="/dashboard"
-            className="inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-          >
-            Commencer gratuitement
-          </Link>
-          <a
-            href="#features"
-            className="inline-flex h-12 items-center justify-center rounded-lg border border-border px-8 text-sm font-semibold text-foreground transition-colors hover:bg-card"
-          >
-            En savoir plus
-          </a>
-        </div>
+        <a
+          href="#demo-question"
+          className="mt-8 inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+        >
+          Testez votre niveau — sans inscription
+        </a>
+
+        <p className="mt-4 text-sm text-gray-500">
+          Rejoint par plus de 200 candidats
+        </p>
       </section>
+
+      {/* Interactive demo question */}
+      <QuestionDemo />
 
       {/* Stats bar */}
       <section className="border-y border-border bg-card px-6 py-8">
