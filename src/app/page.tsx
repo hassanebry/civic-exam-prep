@@ -43,37 +43,33 @@ const STATS = [
 export default function LandingPage() {
   return (
     <main className="flex flex-1 flex-col">
-      {/* Hero */}
-      <section className="flex flex-col items-center justify-center px-6 pb-16 pt-20 text-center sm:pt-28">
-        <h1 className="max-w-3xl font-serif text-4xl leading-tight text-foreground sm:text-5xl md:text-6xl">
+      {/* Hero — compressed for mobile above-the-fold */}
+      <section className="flex flex-col items-center px-5 pb-4 pt-8 text-center sm:pb-10 sm:pt-20">
+        <h1 className="max-w-3xl font-serif text-3xl leading-snug text-foreground sm:text-5xl md:text-6xl">
           Réussissez votre examen civique du premier coup.
         </h1>
 
-        {/* Tricolor accent line */}
-        <div className="mt-5 flex h-[3px] w-24 overflow-hidden rounded-full">
+        {/* Tricolor accent line — hidden on smallest screens */}
+        <div className="mt-3 hidden h-[3px] w-20 overflow-hidden rounded-full sm:flex">
           <span className="w-1/3 bg-[#002395]" />
           <span className="w-1/3 bg-white" />
           <span className="w-1/3 bg-[#ED2939]" />
         </div>
 
-        <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted">
+        <p className="mt-3 max-w-md text-base leading-relaxed text-muted sm:mt-5 sm:text-lg">
           40% des candidats échouent faute de préparation. 656 questions
           officielles. Résultats immédiats.
         </p>
 
         <a
           href="#demo-question"
-          className="mt-8 inline-flex h-12 items-center justify-center rounded-lg bg-primary px-8 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+          className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-7 text-sm font-semibold text-white transition-opacity hover:opacity-90 sm:mt-6 sm:h-12 sm:px-8"
         >
           Testez votre niveau — sans inscription
         </a>
-
-        <p className="mt-4 text-sm text-gray-500">
-          Rejoint par plus de 200 candidats
-        </p>
       </section>
 
-      {/* Interactive demo question */}
+      {/* Interactive demo question — tight to hero */}
       <QuestionDemo />
 
       {/* Stats bar */}
