@@ -1,5 +1,6 @@
 import { Faq } from "@/components/landing/Faq";
 import { QuestionDemo } from "@/components/landing/QuestionDemo";
+import { RefCapture } from "@/components/landing/RefCapture";
 
 const FEATURES = [
   {
@@ -43,6 +44,7 @@ const STATS = [
 export default function LandingPage() {
   return (
     <main className="flex flex-1 flex-col">
+      <RefCapture />
       {/* Hero — compressed for mobile above-the-fold */}
       <section className="flex flex-col items-center px-5 pb-4 pt-8 text-center sm:pb-10 sm:pt-20">
         <h1 className="max-w-3xl font-serif text-3xl leading-snug text-foreground sm:text-5xl md:text-6xl">

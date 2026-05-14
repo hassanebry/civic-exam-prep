@@ -1,6 +1,7 @@
 "use client";
 
 import { type ReactNode, useState } from "react";
+import { getStoredReferrer } from "@/lib/utils/referrer";
 
 interface PremiumGateProps {
   isPremium: boolean;
@@ -19,7 +20,12 @@ export function PremiumGate({ isPremium, feature, children }: PremiumGateProps) 
     setIsRedirecting(true);
 
     try {
-      const res = await fetch("/api/checkout", { method: "POST" });
+      const referrer = getStoredReferrer();
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ referrer }),
+      });
 
       if (!res.ok) {
         const body = await res.text();

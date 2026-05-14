@@ -6,6 +6,7 @@ import type { Level } from "@/types";
 import { useProfile } from "@/hooks/useProfile";
 import { useStats } from "@/hooks/useStats";
 import { LEVELS, getThemesForLevel } from "@/lib/utils/levels";
+import { getStoredReferrer } from "@/lib/utils/referrer";
 
 const STAT_COLORS = [
   "border-t-primary",
@@ -20,7 +21,12 @@ function UpgradeBanner() {
   async function handleCheckout() {
     setIsRedirecting(true);
     try {
-      const res = await fetch("/api/checkout", { method: "POST" });
+      const referrer = getStoredReferrer();
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ referrer }),
+      });
       if (!res.ok) {
         setIsRedirecting(false);
         return;

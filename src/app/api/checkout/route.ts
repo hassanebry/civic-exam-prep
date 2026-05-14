@@ -33,12 +33,22 @@ export async function POST(request: NextRequest) {
 
     const origin = request.headers.get("origin") ?? "http://localhost:3000";
 
+    // Parse optional referrer from body
+    let referrer: string | null = null;
+    try {
+      const body = (await request.json()) as { referrer?: string };
+      referrer = body.referrer ?? null;
+    } catch {
+      // No body or invalid JSON — that's fine
+    }
+
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
+      allow_promotion_codes: true,
       line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
       success_url: `${origin}/dashboard?success=true`,
       cancel_url: `${origin}/dashboard?canceled=true`,
-      metadata: { user_id: user.id },
+      metadata: { user_id: user.id, referrer: referrer ?? "" },
       customer_email: user.email,
     });
 

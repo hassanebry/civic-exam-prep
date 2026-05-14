@@ -7,11 +7,17 @@ import { supabase } from "@/lib/supabase/client";
 import { ScoreBoard } from "@/components/exam/ScoreBoard";
 import { CorrigeReview } from "@/components/exam/CorrigeReview";
 import { useProfile } from "@/hooks/useProfile";
+import { getStoredReferrer } from "@/lib/utils/referrer";
 import type { Question } from "@/types";
 
 async function startCheckout(): Promise<void> {
   try {
-    const res = await fetch("/api/checkout", { method: "POST" });
+    const referrer = getStoredReferrer();
+    const res = await fetch("/api/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ referrer }),
+    });
     if (!res.ok) {
       alert("Une erreur est survenue, veuillez réessayer.");
       return;
