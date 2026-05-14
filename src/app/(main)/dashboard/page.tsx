@@ -1,12 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import type { Level } from "@/types";
 import { useProfile } from "@/hooks/useProfile";
 import { useStats } from "@/hooks/useStats";
 import { LEVELS, getThemesForLevel } from "@/lib/utils/levels";
 import { getStoredReferrer } from "@/lib/utils/referrer";
+import { event as pixelEvent } from "@/lib/analytics/pixel";
 
 const STAT_COLORS = [
   "border-t-primary",
@@ -64,10 +66,22 @@ function UpgradeBanner() {
   );
 }
 
-export default function DashboardPage() {
+function DashboardContent() {
+  const searchParams = useSearchParams();
   const { isPremium, isLoading: profileLoading } = useProfile();
   const { stats, isLoading: statsLoading } = useStats();
   const [selectedLevel, setSelectedLevel] = useState<Level>("csp");
+
+  // Fire Purchase event when returning from Stripe checkout
+  useEffect(() => {
+    if (searchParams.get("success") === "true") {
+      pixelEvent("Purchase", {
+        value: 9.99,
+        currency: "EUR",
+        content_name: "premium_subscription",
+      });
+    }
+  }, [searchParams]);
 
   const themes = getThemesForLevel(selectedLevel);
 
@@ -219,5 +233,13 @@ export default function DashboardPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function DashboardPage() {
+  return (
+    <Suspense>
+      <DashboardContent />
+    </Suspense>
   );
 }

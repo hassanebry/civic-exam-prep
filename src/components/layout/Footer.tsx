@@ -33,6 +33,13 @@ export function Footer() {
           >
             Contact
           </Link>
+          <span className="text-border">|</span>
+          <Link
+            href="/politique-cookies"
+            className="transition-colors hover:text-primary"
+          >
+            Cookies
+          </Link>
         </nav>
       </div>
     </footer>

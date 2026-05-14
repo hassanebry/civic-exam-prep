@@ -3,6 +3,9 @@ import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import { Suspense } from "react";
+import { MetaPixel } from "@/components/analytics/MetaPixel";
+import { CookieConsent } from "@/components/analytics/CookieConsent";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -48,6 +51,10 @@ export default function RootLayout({
       className={`${dmSans.variable} ${dmSerif.variable} h-full`}
     >
       <body className="min-h-full flex flex-col font-sans antialiased">
+        <Suspense fallback={null}>
+          <MetaPixel />
+        </Suspense>
+        <CookieConsent />
         <Header />
         <div className="flex flex-1 flex-col">{children}</div>
         <Footer />

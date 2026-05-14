@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase/client";
+import { event as pixelEvent } from "@/lib/analytics/pixel";
 
 export default function RegisterPage() {
   const [email, setEmail] = useState("");
@@ -40,6 +41,7 @@ export default function RegisterPage() {
       return;
     }
 
+    pixelEvent("Lead", { content_name: "registration" });
     setSuccess(true);
   }
 
