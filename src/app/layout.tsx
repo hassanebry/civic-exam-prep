@@ -20,6 +20,29 @@ const dmSerif = DM_Serif_Display({
   weight: "400",
 });
 
+const organizationLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "MonPassCivique",
+  url: "https://www.monpasscivique.fr",
+  logo: "https://www.monpasscivique.fr/favicon.svg",
+  description:
+    "Plateforme de préparation aux examens civiques français (CSP, carte de résident, naturalisation).",
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "contact@monpasscivique.fr",
+    contactType: "customer support",
+  },
+};
+
+const websiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "MonPassCivique",
+  url: "https://www.monpasscivique.fr",
+  inLanguage: "fr-FR",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://monpasscivique.fr"),
   title:
@@ -51,6 +74,18 @@ export default function RootLayout({
       className={`${dmSans.variable} ${dmSerif.variable} h-full`}
     >
       <body className="min-h-full flex flex-col font-sans antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationLd).replace(/</g, "\\u003c"),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteLd).replace(/</g, "\\u003c"),
+          }}
+        />
         <Suspense fallback={null}>
           <MetaPixel />
         </Suspense>

@@ -28,11 +28,21 @@ export default function PolitiqueCookiesPage() {
               Cookies utilisés
             </h2>
             <p className="mt-2">
-              MonPassCivique utilise le Meta Pixel (Facebook) à des fins de
-              mesure d&apos;audience publicitaire. Ce cookie permet de mesurer
-              l&apos;efficacité de nos campagnes et d&apos;améliorer votre
-              expérience sur le site.
+              MonPassCivique utilise le Meta Pixel (Meta Platforms Ireland
+              Ltd.) à des fins de mesure d&apos;audience publicitaire. Ce
+              cookie permet de mesurer l&apos;efficacité de nos campagnes et
+              d&apos;améliorer votre expérience sur le site.
             </p>
+            <ul className="mt-2 list-inside list-disc space-y-1">
+              <li>
+                Catégorie : cookie de mesure d&apos;audience et de publicité
+              </li>
+              <li>
+                Base légale : consentement de l&apos;utilisateur (article 6.1.a
+                du RGPD)
+              </li>
+              <li>Durée de conservation : 90 jours</li>
+            </ul>
             <p className="mt-2">
               Aucun cookie publicitaire n&apos;est chargé tant que vous
               n&apos;avez pas cliqué sur « Accepter » dans le bandeau de

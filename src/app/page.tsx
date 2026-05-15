@@ -1,6 +1,89 @@
+import Link from "next/link";
 import { Faq } from "@/components/landing/Faq";
 import { QuestionDemo } from "@/components/landing/QuestionDemo";
 import { RefCapture } from "@/components/landing/RefCapture";
+
+const softwareApplicationLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "MonPassCivique",
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "Web Browser",
+  description:
+    "Plateforme de préparation aux examens civiques français (CSP, carte de résident, naturalisation) avec les 656 questions officielles du Ministère de l'Intérieur.",
+  offers: [
+    {
+      "@type": "Offer",
+      name: "Gratuit",
+      price: "0",
+      priceCurrency: "EUR",
+      description: "Niveau CSP, sans limite de temps.",
+    },
+    {
+      "@type": "Offer",
+      name: "Premium",
+      price: "9.99",
+      priceCurrency: "EUR",
+      description:
+        "Carte de résident + naturalisation + examen blanc, paiement unique.",
+    },
+  ],
+};
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Combien de questions comporte l'examen civique français ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "L'examen civique comporte 40 questions à choix multiples (QCM), à traiter en français en 45 minutes. Source : service-public.gouv.fr.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quelle note faut-il obtenir pour réussir l'examen civique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Il faut obtenir au moins 32 bonnes réponses sur 40, soit un seuil de réussite de 80%.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quels thèmes sont abordés à l'examen civique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "L'examen porte sur quatre grands domaines : les grands repères de l'histoire de France ; les principes, symboles et institutions de la République ; l'exercice de la citoyenneté française ; et la place de la France dans l'Europe et dans le monde.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quel niveau de français faut-il pour passer l'examen ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "L'examen est rédigé en français et exige la compréhension de phrases simples. Il s'agit d'un test de connaissances civiques, pas d'un test de langue à proprement parler : un niveau A2 à B1 suffit généralement pour comprendre les énoncés.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Combien coûte la préparation sur MonPassCivique ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "L'accès gratuit permet de s'entraîner au niveau CSP sans limite de temps. L'accès complet (carte de résident, naturalisation, examen blanc) est proposé à 9,99 € en paiement unique, sans abonnement.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Les questions sont-elles officielles ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui. Les 656 questions proviennent des listes officielles publiées par le Ministère de l'Intérieur français pour les examens civiques (CSP, carte de résident, naturalisation), diffusées sous licence Etalab 2.0.",
+      },
+    },
+  ],
+};
 
 const FEATURES = [
   {
@@ -44,35 +127,86 @@ const STATS = [
 export default function LandingPage() {
   return (
     <main className="flex flex-1 flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(softwareApplicationLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqLd).replace(/</g, "\\u003c"),
+        }}
+      />
       <RefCapture />
-      {/* Hero — compressed for mobile above-the-fold */}
-      <section className="flex flex-col items-center px-5 pb-4 pt-8 text-center sm:pb-10 sm:pt-20">
-        <h1 className="max-w-3xl font-serif text-3xl leading-snug text-foreground sm:text-5xl md:text-6xl">
-          Réussissez votre examen civique du premier coup.
-        </h1>
+      {/* Hero with embedded interactive quiz — quiz visible above the fold */}
+      <section className="px-5 pb-6 pt-4 sm:px-6 sm:pb-10 sm:pt-10 lg:px-8 lg:pb-16 lg:pt-16">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-5 sm:gap-6 lg:grid-cols-2 lg:items-start lg:gap-12">
 
-        {/* Tricolor accent line — hidden on smallest screens */}
-        <div className="mt-3 hidden h-[3px] w-20 overflow-hidden rounded-full sm:flex">
-          <span className="w-1/3 bg-[#002395]" />
-          <span className="w-1/3 bg-white" />
-          <span className="w-1/3 bg-[#ED2939]" />
+          {/* Header — mobile row 1 / desktop top-left */}
+          <div className="flex flex-col items-center text-center lg:col-start-1 lg:row-start-1 lg:items-start lg:text-left">
+            <h1 className="max-w-xl font-serif text-2xl leading-tight text-foreground sm:text-4xl md:text-5xl">
+              Réussissez votre examen civique du premier coup.
+            </h1>
+
+            {/* Tricolor accent — desktop-only to preserve mobile above-the-fold */}
+            <div className="mt-3 hidden h-[3px] w-20 overflow-hidden rounded-full lg:flex">
+              <span className="w-1/3 bg-[#002395]" />
+              <span className="w-1/3 bg-white" />
+              <span className="w-1/3 bg-[#ED2939]" />
+            </div>
+
+            <p className="mt-2 max-w-md text-sm leading-relaxed text-muted sm:mt-4 sm:text-base lg:text-lg">
+              Une préparation sérieuse fait toute la différence pour réussir l’
+              <a
+                href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39426"
+                target="_blank"
+                rel="noopener"
+                className="underline underline-offset-2 hover:text-foreground"
+              >
+                examen civique officiel
+              </a>
+              . 656 questions officielles. Résultats immédiats.
+            </p>
+          </div>
+
+          {/* Interactive quiz — mobile row 2 / desktop spans right column */}
+          <div className="lg:col-start-2 lg:row-span-2 lg:row-start-1">
+            <QuestionDemo />
+          </div>
+
+          {/* CTA + exam-format stats — mobile row 3 / desktop bottom-left */}
+          <div className="flex flex-col items-center lg:col-start-1 lg:row-start-2 lg:items-start">
+            <Link
+              href="/register"
+              className="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-7 text-sm font-semibold text-white transition-opacity hover:opacity-90 sm:h-12 sm:px-8"
+            >
+              Commencer l’examen
+            </Link>
+
+            <dl className="mt-4 grid w-full max-w-md grid-cols-4 gap-2 sm:mt-6 sm:gap-3">
+              {[
+                { v: "40", l: "questions" },
+                { v: "45 min", l: "durée" },
+                { v: "80%", l: "requis" },
+                { v: "5", l: "thèmes" },
+              ].map(({ v, l }) => (
+                <div
+                  key={l}
+                  className="rounded-lg border border-border bg-card px-2 py-2 text-center"
+                >
+                  <dt className="font-serif text-base text-primary sm:text-lg">
+                    {v}
+                  </dt>
+                  <dd className="text-[11px] text-muted sm:text-xs">{l}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+
         </div>
-
-        <p className="mt-3 max-w-md text-base leading-relaxed text-muted sm:mt-5 sm:text-lg">
-          40% des candidats échouent faute de préparation. 656 questions
-          officielles. Résultats immédiats.
-        </p>
-
-        <a
-          href="#demo-question"
-          className="mt-4 inline-flex h-11 items-center justify-center rounded-lg bg-primary px-7 text-sm font-semibold text-white transition-opacity hover:opacity-90 sm:mt-6 sm:h-12 sm:px-8"
-        >
-          Testez votre niveau — sans inscription
-        </a>
       </section>
-
-      {/* Interactive demo question — tight to hero */}
-      <QuestionDemo />
 
       {/* Stats bar */}
       <section className="border-y border-border bg-card px-6 py-8">

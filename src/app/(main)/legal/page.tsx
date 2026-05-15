@@ -119,9 +119,13 @@ export default function LegalPage() {
             <div>
               <h3 className="font-semibold text-foreground">Base légale</h3>
               <p>
-                Le traitement des données est fondé sur l&apos;exécution du
-                contrat entre l&apos;utilisateur et l&apos;éditeur (article 6.1.b
-                du RGPD).
+                Le traitement des données de compte et de résultats
+                d&apos;examen est fondé sur l&apos;exécution du contrat entre
+                l&apos;utilisateur et l&apos;éditeur (article 6.1.b du RGPD).
+                Le traitement lié au Meta Pixel (mesure d&apos;audience
+                publicitaire) est fondé sur le consentement de
+                l&apos;utilisateur (article 6.1.a du RGPD), recueilli via le
+                bandeau de consentement.
               </p>
             </div>
 
@@ -179,19 +183,48 @@ export default function LegalPage() {
                 Partage des données
               </h3>
               <p>
-                Vos données ne sont ni vendues ni transmises à des tiers à des
-                fins publicitaires ou commerciales.
+                Vos données ne sont jamais vendues. Sous réserve de votre
+                consentement préalable, des données d&apos;événements (visites,
+                conversions) peuvent être transmises à Meta Platforms Ireland
+                Ltd. via le Meta Pixel, à des fins exclusives de mesure
+                d&apos;audience publicitaire. Aucun autre transfert à des tiers
+                à des fins commerciales n&apos;est effectué.
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold text-foreground">Cookies</h3>
-              <p>
-                Le site utilise uniquement des cookies de session nécessaires au
-                fonctionnement de l&apos;authentification (Supabase). Aucun
-                cookie publicitaire ou de suivi n&apos;est utilisé. Aucun
-                transfert de données n&apos;est effectué à des fins
-                publicitaires.
+              <p>Le site utilise deux catégories de cookies :</p>
+              <ul className="mt-1 list-inside list-disc space-y-1">
+                <li>
+                  <strong>Cookies strictement nécessaires</strong> — cookies de
+                  session Supabase utilisés pour le fonctionnement de
+                  l&apos;authentification. Exemptés de consentement (article 82
+                  de la loi Informatique et Libertés).
+                </li>
+                <li>
+                  <strong>
+                    Cookies de mesure d&apos;audience et de publicité
+                  </strong>{" "}
+                  — Meta Pixel (Meta Platforms Ireland Ltd.), utilisé pour
+                  mesurer l&apos;efficacité des campagnes publicitaires.
+                  <br />
+                  Base légale : consentement de l&apos;utilisateur (article
+                  6.1.a du RGPD).
+                  <br />
+                  Durée de conservation : 90 jours.
+                </li>
+              </ul>
+              <p className="mt-2">
+                Pour le détail et la modification de vos préférences, consultez
+                notre{" "}
+                <Link
+                  href="/politique-cookies"
+                  className="text-primary hover:underline"
+                >
+                  politique de cookies
+                </Link>
+                .
               </p>
             </div>
           </div>
