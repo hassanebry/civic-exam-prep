@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Faq } from "@/components/landing/Faq";
 import { QuestionDemo } from "@/components/landing/QuestionDemo";
 import { RefCapture } from "@/components/landing/RefCapture";
+import { FAQ_ITEMS } from "@/lib/faq-items";
 
 const softwareApplicationLd = {
   "@context": "https://schema.org",
@@ -33,56 +34,11 @@ const softwareApplicationLd = {
 const faqLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Combien de questions comporte l'examen civique français ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "L'examen civique comporte 40 questions à choix multiples (QCM), à traiter en français en 45 minutes. Source : service-public.gouv.fr.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Quelle note faut-il obtenir pour réussir l'examen civique ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Il faut obtenir au moins 32 bonnes réponses sur 40, soit un seuil de réussite de 80%.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Quels thèmes sont abordés à l'examen civique ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "L'examen porte sur quatre grands domaines : les grands repères de l'histoire de France ; les principes, symboles et institutions de la République ; l'exercice de la citoyenneté française ; et la place de la France dans l'Europe et dans le monde.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Quel niveau de français faut-il pour passer l'examen ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "L'examen est rédigé en français et exige la compréhension de phrases simples. Il s'agit d'un test de connaissances civiques, pas d'un test de langue à proprement parler : un niveau A2 à B1 suffit généralement pour comprendre les énoncés.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Combien coûte la préparation sur MonPassCivique ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "L'accès gratuit permet de s'entraîner au niveau CSP sans limite de temps. L'accès complet (carte de résident, naturalisation, examen blanc) est proposé à 9,99 € en paiement unique, sans abonnement.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Les questions sont-elles officielles ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Oui. Les 656 questions proviennent des listes officielles publiées par le Ministère de l'Intérieur français pour les examens civiques (CSP, carte de résident, naturalisation), diffusées sous licence Etalab 2.0.",
-      },
-    },
-  ],
+  mainEntity: FAQ_ITEMS.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: { "@type": "Answer", text: item.answer },
+  })),
 };
 
 const FEATURES = [
